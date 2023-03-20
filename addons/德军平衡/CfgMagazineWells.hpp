@@ -41,7 +41,7 @@ class CfgMagazineWells {
             "BWA3_30Rnd_556x45_G36_Tracer",
             "BWA3_30Rnd_556x45_G36_Tracer_Dim",
             "BWA3_30Rnd_556x45_G36_SD",
-            "BWA3_30Rnd_556x45_G36_AP",
+            "BWA3_30Rnd_556x45_G36_AP"
         };
     };
 
