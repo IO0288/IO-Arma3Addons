@@ -1,0 +1,20 @@
+name = "AceAX - IO"
+author = "IO0288"
+# mainprefix = "z"
+prefix = "io-aceax"
+# git_hash = 0 # Default: 8
+[files]
+include = [
+    "mod.cpp",      # These files are copied to the build directory by default
+    "meta.cpp",     # They do not need to be added to your list
+    "LICENSE",
+    "logo_ca.paa",
+    "logo_co.paa",
+]
+exclude = [
+    "*.psd",        # By default this list is empty
+    "addons/main/README.md",
+]
+[properties]
+author = "IO0288"
+url = "https://github.com/IO0288"

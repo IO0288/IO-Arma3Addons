@@ -1,0 +1,12 @@
+name = "@IO0288_Addons";
+picture = "logo.paa";
+actionName = "IO0288";
+action = "https://git.io0288.cn/IO0288/IO-Arma3Addons";
+description = "Test. *shrug*";
+logo = "logo.paa";
+logoOver = "logo.paa";
+tooltip = "IO0288_Addons_Test";
+tooltipOwned = "IO0288_Addons_Test";
+overview = "IO的测试模组们";
+author = "IO0288";
+overviewPicture = "logo.paa";
