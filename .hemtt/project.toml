@@ -1,7 +1,7 @@
 name = "IO - Arma3Addons"
 author = "IO0288"
 # mainprefix = "z"
-prefix = "io-"
+prefix = "IO"
 # git_hash = 0 # Default: 8
 [files]
 include = [
@@ -9,7 +9,8 @@ include = [
     "meta.cpp",     # They do not need to be added to your list
     "LICENSE",
     "logo.paa",
-    "README-IO.md"
+    "keys/*",
+    "README.md"
 ]
 exclude = [
     "*.psd"         # By default this list is empty
