@@ -1,17 +1,20 @@
 name: HEMTT Build
 run-name: HEMTT Build
-on: [push]
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - release
 jobs:
-  Explore-GitHub-Actions:
+  hemtt-build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-
-    - uses: gruppe-adler/action-release-with-hemtt@v3
-      id: build
-    - run: echo 'Release ${{ steps.build.outputs.zip_name }} is ready.'
-
-    - uses: actions/upload-artifact@v3
+    
+    - name: Release with HEMTT
+      uses: gruppe-adler/action-release-with-hemtt@3.0.0
       with:
-        name: 'packed-mod'
-        path: ${{ steps.build.outputs.zip_path }}
+        # Zip the build
+        zip_build: true
+        # Working directory
+        cwd: .
