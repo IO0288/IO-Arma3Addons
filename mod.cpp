@@ -1,4 +1,4 @@
-name = "@IO0288_Addons";
+name = "@IO-Arma3Addons";
 picture = "logo.paa";
 actionName = "IO0288";
 action = "https://git.io0288.cn/IO0288/IO-Arma3Addons";
