@@ -23,7 +23,7 @@ class CfgPatches
 				"johnb43",
 				"kus",
 				"IO0288"};
-		url = "https://git.io0288.cn/IO0288/IO-Arma3Addons/src/branch/master/%E5%BE%B7%E5%86%9B%E5%B9%B3%E8%A1%A1";
+		url = "https://git.io0288.cn/IO0288/IO-Arma3Addons/src/branch/main/addons/bw-balance";
 		version = "1.0.0.7";
 		versionStr = "1.0.0.7";
 		versionAr[] = {1, 0, 0, 7};
