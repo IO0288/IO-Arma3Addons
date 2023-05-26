@@ -30,6 +30,7 @@ class CfgPatches
 	};
 };
 
+#include "CfgFactionClasses.hpp"
 #include "CfgAcc.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgMagazineWells.hpp"
