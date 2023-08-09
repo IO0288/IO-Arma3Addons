@@ -127,4 +127,13 @@ class CfgMagazines {
         picture = "\bwa3_pzf3\ui\bwa3_pzf3_dm32_x_ca.paa";
         ammo = "BWA3_R_PzF3_DM32";
     };
+    class BWA3_PzF3_IT: BWA3_PzF3_Tandem {
+        author = "$STR_BWA3_Author";
+        displayName = "$STR_BWA3_BunkerfaustMagName";
+        displayNameShort = "MP";
+        descriptionShort = "$STR_BWA3_BunkerfaustMagDescription";
+        model = "\bwa3_pzf3\bwa3_pzf3_it.p3d";
+        picture = "\bwa3_pzf3\ui\bwa3_pzf3_it_x_ca.paa";
+        ammo = "BWA3_R_PzF3_IT";
+    };
 };
