@@ -2001,7 +2001,7 @@
 			</Key>
 			<Key ID="STR_DynamicGroups_ModuleDescription">
 				<Chinesesimp>Use: 不得与任何对象同步.&lt;br/&gt;
-					Function: 这将允许您使用（默认）“U”键访问 Arma 3 组管理器。.
+					Function: 这将允许您使用(默认)“U”键访问Arma3组管理器。.
 				</Chinesesimp>
 				<Original>Use: Must not be synchronized with any object.&lt;br/&gt;
 					Function: Allows you to access the Arma 3 group manager using the (default) "U" key.
@@ -2053,21 +2053,21 @@
 			</Key>
 
 			<Key ID="STR_M00">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>您尚未选择任务.</Chinesesimp>
 				<Original>You have not selected a mission.</Original>
 				<English>You have not selected a mission.</English>
 				<Spanish>No has seleccionado una misión.</Spanish>
 			</Key>
 
 			<Key ID="STR_VerfModConv">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>接地模块错误：车队的大小必须小于可用的重生数量.</Chinesesimp>
 				<Original>GROUND MODULE ERROR: The size of the Convoy must be smaller than the number of spawns available.</Original>
 				<English>GROUND MODULE ERROR: The size of the Convoy must be smaller than the number of spawns available.</English>
 				<Spanish>GROUND MODULE ERROR: El tamaño del Convoy debe ser más pequeño que el número de spawns disponibles.</Spanish>
 			</Key>
 
 			<Key ID="STR_VerfNoHayMisionCancelar">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>没有创建任务.</Chinesesimp>
 				<Original>There is no mission created.</Original>
 				<English>There is no mission created.</English>
 				<Spanish>No hay ningúna misión creada.</Spanish>
@@ -2075,21 +2075,21 @@
 
 
 			<Key ID="STR_VerfSeEstaGenerandoMision_Espera">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>另一个任务正在生成，稍后再试...</Chinesesimp>
 				<Original>Another mission is being generated, wait ...</Original>
 				<English>Another mission is being generated, wait ...</English>
 				<Spanish>Se esta generando otra misión, espera ...</Spanish>
 			</Key>
 
 			<Key ID="STR_VerfM02NoMasDeUna">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>您不能生成多个此类任务.</Chinesesimp>
 				<Original>You can not generate more than one mission of this type.</Original>
 				<English>You can not generate more than one mission of this type.</English>
 				<Spanish>No se puede generar más de una mision de este tipo.</Spanish>
 			</Key>
 
 			<Key ID="STR_VerfAleatoryPosError">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>在寻找随机位置时发生错误，您必须使用地图选择任务位置.</Chinesesimp>
 				<Original>ERROR when looking for the random position, you will have to select the mission position with the map.</Original>
 				<English>ERROR when looking for the random position, you will have to select the mission position with the map.</English>
 				<Spanish>ERROR al buscar la posición aleatoria, tendras de seleccionar la posición de la misión con el mapa.</Spanish>
