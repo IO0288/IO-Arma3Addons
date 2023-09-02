@@ -1994,13 +1994,15 @@
 	<Package name="DynamicGroups">
 		<Container name="DynamicGroups_EdenModule">
 			<Key ID="STR_DynamicGroups_displayName">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>动态小组</Chinesesimp>
 				<Original>Dynamic Groups</Original>
 				<English>Dynamic Groups</English>
 				<Spanish>Dynamic Groups</Spanish>
 			</Key>
 			<Key ID="STR_DynamicGroups_ModuleDescription">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>Use: 不得与任何对象同步.&lt;br/&gt;
+					Function: 这将允许您使用（默认）“U”键访问 Arma 3 组管理器。.
+				</Chinesesimp>
 				<Original>Use: Must not be synchronized with any object.&lt;br/&gt;
 					Function: Allows you to access the Arma 3 group manager using the (default) "U" key.
 				</Original>
@@ -2017,21 +2019,21 @@
 	<Package name="Generic">
 		<Container name="Generic_Full">
 			<Key ID="STR_Generic_BLOQ">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>已锁定</Chinesesimp>
 				<Original>LOCKED</Original>
 				<English>LOCKED</English>
 				<Spanish>BLOQUEADO</Spanish>
 			</Key>
 
 			<Key ID="STR_Generic_mes">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>by 管理员</Chinesesimp>
 				<Original>by the administrator</Original>
 				<English>by the administrator</English>
 				<Spanish>por el administrador</Spanish>
 			</Key>
 
 			<Key ID="STR_Generic_DMG_Lock">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>WARNING: DMG锁定，DMG生成缺失.</Chinesesimp>
 				<Original>WARNING: DMG LOCKED, DMG spawns are missing.</Original>
 				<English>WARNING: DMG LOCKED, DMG spawns are missing.</English>
 				<Spanish>ATENCIÓN: DMG BLOQUEADO, faltan los spawns del DMG.</Spanish>
@@ -2044,7 +2046,7 @@
 	<Package name="InternalMesages">
 		<Container name="Internal_Full">
 			<Key ID="STR_M03Cancel">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>通信小队不产生任务，因此无法消除。</Chinesesimp>
 				<Original>The communications squad does not generate a mission and therefore can not be eliminated.</Original>
 				<English>The communications squad does not generate a mission and therefore can not be eliminated.</English>
 				<Spanish>El pelotón de comunicaciones no genera una mision y por lo tanto no se puede eliminar.</Spanish>
