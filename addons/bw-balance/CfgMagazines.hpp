@@ -105,6 +105,7 @@ class CfgMagazines {
         ammo = "BWA3_R_CarlGustav_Illum";
         mass = 20;
     };
+
     class RPG32_F;
     class BWA3_PzF3_Tandem: RPG32_F {
         author = "$STR_BWA3_Author";
@@ -115,8 +116,8 @@ class CfgMagazines {
         modelSpecial = ""; // Model used when the weapon is loaded. This is typically only used for rocket launchers. No idea how to use this in launcher model.
         picture = "\bwa3_pzf3\ui\bwa3_pzf3_it_x_ca.paa";
         ammo = "BWA3_R_PzF3_Tandem";
-        mass = 25;
-        initSpeed = 165;
+        mass = 0;
+        initSpeed = 250;
     };
     class BWA3_PzF3_DM32: BWA3_PzF3_Tandem {
         author = "$STR_BWA3_Author";

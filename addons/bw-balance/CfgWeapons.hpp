@@ -149,33 +149,7 @@ class CfgWeapons {
     class BWA3_P2A1: Pistol_Base_F {
         magazineWell[] += {"CBA_FLARE_265"};
     };
-
-    class Launcher_Base_F;
-    class BWA3_CarlGustav: Launcher_Base_F {
-        magazineWell[] += {"CBA_Carl_Gustaf"};
-    };
-    class BWA3_Fliegerfaust: Launcher_Base_F {
-        magazineWell[] += {"CBA_FIM"};
-    };
-    class BWA3_PzF3;
-    class BWA3_PzF3_Tandem_Loaded : BWA3_PzF3
-    {
-        author="$STR_BWA3_Author";
-        baseWeapon="BWA3_PzF3_Tandem_Loaded";
-        scope=2;
-        scopeArsenal=2;
-        magazines[]={"CBA_FakeLauncherMagazine"};
-        class WeaponSlotsInfo : WeaponSlotsInfo
-        {
-            mass=30;
-        };
-    };
-    class BWA3_PzF3_Used {
-        class WeaponSlotsInfo : WeaponSlotsInfo{
-            mass=30;
-        };
-    };
-
+    
     class V_PlateCarrier1_rgr;
     class V_PlateCarrier2_rgr: V_PlateCarrier1_rgr {
         class ItemInfo;
@@ -197,5 +171,13 @@ class CfgWeapons {
         class ItemInfo: UniformItem {
             mass = 40;
         };
+    };
+
+    class Launcher_Base_F;
+    class BWA3_CarlGustav: Launcher_Base_F {
+        magazineWell[] += {"CBA_Carl_Gustaf"};
+    };
+    class BWA3_Fliegerfaust: Launcher_Base_F {
+        magazineWell[] += {"CBA_FIM"};
     };
 };
