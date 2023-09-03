@@ -283,7 +283,7 @@
 				<Spanish>Loadout predefinido</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_ModuleDescription">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>Use: 与要访问其负载的单元同步.&lt;br/&gt; Function: 如果它与单个单元同步，你可以通过AddAction来装备它的负载，它将出现在第一个同步单元中(在你只与一个对象同步的情况下)，或者在第二个同步对象中(在你首先同步了单元，然后与对象同步的情况下)。. </Chinesesimp>
 				<Original>Use: Synchronize with the unit to which you want to access its
 					loadout.&lt;br/&gt; Function: If it is synchronized with a single unit, you can
 					equip its loadout by means of an AddAction that will appear in the first
@@ -304,13 +304,13 @@
 					unidad y después con un objeto). </Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_displayNameUI">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>预定义装备UI</Chinesesimp>
 				<Original>Predefined loadout UI</Original>
 				<English>Predefined loadout UI</English>
 				<Spanish>Loadout predefinido (UI)</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_ModuleDescriptionUI">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>Use: Synchronize with an object.&lt;br/&gt; Function: When synchronized with an object, it allows access to an interface (UI) where you can select any of the loadouts that have been entered with the "Predefined Loadout" module. </Chinesesimp>
 				<Original>Use: Synchronize with an object.&lt;br/&gt; Function: When synchronized
 					with an object, it allows access to an interface (UI) where you can select any
 					of the loadouts that have been entered with the "Predefined Loadout" module. </Original>
@@ -335,19 +335,19 @@
 				<Spanish>Titulo del loadout</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_colorTitle">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>标题颜色</Chinesesimp>
 				<Original>Title color</Original>
 				<English>Title color</English>
 				<Spanish>Color del titulo</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_Type">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>类型</Chinesesimp>
 				<Original>Type</Original>
 				<English>Type</English>
 				<Spanish>Tipo</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_AddAddAction">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>添加 AddAction</Chinesesimp>
 				<Original>Add AddAction</Original>
 				<English>Add AddAction</English>
 				<Spanish>A?adir AddAction</Spanish>
@@ -691,7 +691,7 @@
 				<Spanish>CERRAR</Spanish>
 			</Key>
 			<Key ID="STR_generic_Warning">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>警告</Chinesesimp>
 				<Original>WARNING</Original>
 				<English>WARNING</English>
 				<Spanish>ATENCI?N</Spanish>
@@ -701,67 +701,67 @@
 	<Package name="TAW">
 		<Container name="taw">
 			<Key ID="STR_taw_UiA3uSettings">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>A3U设置</Chinesesimp>
 				<Original>A3U Settings</Original>
 				<English>A3U Settings</English>
 				<Spanish>Configuración A3U</Spanish>
 			</Key>
 			<Key ID="STR_taw_UimaxViewDistance">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>Max. 视距:</Chinesesimp>
 				<Original>Max. View Distance:</Original>
 				<English>Max. View Distance:</English>
 				<Spanish>Max. Distancia de Visón:</Spanish>
 			</Key>
 			<Key ID="STR_taw_UiallowNoGrass">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>允许除草:</Chinesesimp>
 				<Original>Allow No Grass:</Original>
 				<English>Allow No Grass:</English>
 				<Spanish>Permitir sin hierba:</Spanish>
 			</Key>
 			<Key ID="STR_taw_infantry">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>步兵</Chinesesimp>
 				<Original>Infantry:</Original>
 				<English>Infantry:</English>
 				<Spanish>Infantería:</Spanish>
 			</Key>
 			<Key ID="STR_taw_ground">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>地面:</Chinesesimp>
 				<Original>Ground:</Original>
 				<English>Ground:</English>
 				<Spanish>Tierra:</Spanish>
 			</Key>
 			<Key ID="STR_taw_air">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>空中:</Chinesesimp>
 				<Original>Air:</Original>
 				<English>Air:</English>
 				<Spanish>Aire:</Spanish>
 			</Key>
 			<Key ID="STR_taw_object">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>对象</Chinesesimp>
 				<Original>Object:</Original>
 				<English>Object:</English>
 				<Spanish>Objeto:</Spanish>
 			</Key>
 			<Key ID="STR_taw_drone">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>无人机</Chinesesimp>
 				<Original>Drone:</Original>
 				<English>Drone:</English>
 				<Spanish>Dron:</Spanish>
 			</Key>
 			<Key ID="STR_taw_grassSettings">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>草地设置</Chinesesimp>
 				<Original>Grass Settings</Original>
 				<English>Grass Settings</English>
 				<Spanish>Configuración Hierba</Spanish>
 			</Key>
 			<Key ID="STR_taw_objectSettings">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>对象设置</Chinesesimp>
 				<Original>Object Settings</Original>
 				<English>Object Settings</English>
 				<Spanish>Configuración Objetos</Spanish>
 			</Key>
 			<Key ID="STR_generic_Saves">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>保存</Chinesesimp>
 				<Original>SAVES</Original>
 				<English>SAVES</English>
 				<Spanish>GUARDAR</Spanish>
@@ -769,7 +769,7 @@
 		</Container>
 		<Container name="genericZeus">
 			<Key ID="STR_generic_A3uGeneric">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>A3U - 通用</Chinesesimp>
 				<Original>A3U - Generic</Original>
 				<English>A3U - Generic</English>
 				<Spanish>A3U - Generico</Spanish>
@@ -777,25 +777,25 @@
 		</Container>
 		<Container name="moduelEden">
 			<Key ID="STR_TAW_displayName">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>视距</Chinesesimp>
 				<Original>TAW</Original>
 				<English>TAW</English>
 				<Spanish>TAW</Spanish>
 			</Key>
 			<Key ID="STR_TAW_maximumViewDistance">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>最大视距 (m)</Chinesesimp>
 				<Original>Maximum View Distance (m)</Original>
 				<English>Maximum View Distance (m)</English>
 				<Spanish>Distancia de visión (m)</Spanish>
 			</Key>
 			<Key ID="STR_TAW_allowNoGrass">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>允许除草:</Chinesesimp>
 				<Original>Allow no grass</Original>
 				<English>Allow no grass</English>
 				<Spanish>Permitir quitar hierba</Spanish>
 			</Key>
 			<Key ID="STR_TAW_moduleDescription">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>Use: 不需要同步.:&lt;br/&gt; Function: 允许用户访问TAW的界面通过ACE交互菜单和更改视图距离设置.</Chinesesimp>
 				<Original>Use: Not needs to be synced.:&lt;br/&gt; Function: Allows you to acces the
 					TAW's interface through ACE interaction menu and change view distance settings.</Original>
 				<English>Use: Not needs to be synced.:&lt;br/&gt; Function: Allows you to acces the
@@ -1454,7 +1454,7 @@
 				<Spanish>Teleport (player)</Spanish>
 			</Key>
 			<Key ID="STR_PlayerTP_ModuleDescription">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>Use: 与对象同步,以通过AddAction访问传送接口。</Chinesesimp>
 				<Original>Use: Synchronize with an object to get acces to the teleport interface
 					throgh AddAction. </Original>
 				<English>Use: Synchronize with an object to get acces to the teleport interface
@@ -1470,31 +1470,31 @@
 				<Spanish>SALIR</Spanish>
 			</Key>
 			<Key ID="STR_PlayerTP_Title">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>A3U - 玩家传送</Chinesesimp>
 				<Original>A3U - PLAYERS TP</Original>
 				<English>A3U - PLAYERS TP</English>
 				<Spanish>A3U - JUGADORES TP</Spanish>
 			</Key>
 			<Key ID="STR_PlayerTP_Conf">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>配置</Chinesesimp>
 				<Original>CONFIGURATION</Original>
 				<English>CONFIGURATION</English>
 				<Spanish>CONFIGURACI?N</Spanish>
 			</Key>
 			<Key ID="STR_PlayerTP_TP">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>传送</Chinesesimp>
 				<Original>TELEPORT</Original>
 				<English>TELEPORT</English>
 				<Spanish>TELEPORT</Spanish>
 			</Key>
 			<Key ID="STR_PlayerTP_players">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>玩家:</Chinesesimp>
 				<Original>Players:</Original>
 				<English>Players:</English>
 				<Spanish>Jugadores:</Spanish>
 			</Key>
 			<Key ID="STR_PlayerTP_AddActionTitle">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>- - 玩家传送 - -</Chinesesimp>
 				<Original>- - PLAYER TP - -</Original>
 				<English>- - PLAYER TP - -</English>
 				<Spanish>- - PLAYER TP - -</Spanish>
@@ -1504,13 +1504,13 @@
 	<Package name="CopyEquipment">
 		<Container name="CopyEquipment_EdenModule">
 			<Key ID="STR_CopyEquipment_displayName">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>复制选中装备</Chinesesimp>
 				<Original>Copy Equipment</Original>
 				<English>Copy Equipment</English>
 				<Spanish>Copiar Equipación</Spanish>
 			</Key>
 			<Key ID="STR_CopyEquipment_ModuleDescription">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>Use: 与对象同步.&lt;br/&gt; Function: 它允许你复制其他玩家的装备.&lt;br/&gt; TFAR模组兼容. </Chinesesimp>
 				<Original>Use: Synchronize with an object.&lt;br/&gt; Function: It allows you to
 					copy the equipment of other players.&lt;br/&gt; TFAR mod compatible. </Original>
 				<English>Use: Synchronize with an object.&lt;br/&gt; Function: It allows you to copy
@@ -1521,7 +1521,7 @@
 		</Container>
 		<Container name="CopyEquipment_Full">
 			<Key ID="STR_CopyEquipment_AddActionTitle">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>- - 复制装备. - -</Chinesesimp>
 				<Original>- - COPY EQUIP. - -</Original>
 				<English>- - COPY EQUIP. - -</English>
 				<Spanish>- - COPY EQUIP. - -</Spanish>
@@ -1533,25 +1533,25 @@
 				<Spanish>CERRAR</Spanish>
 			</Key>
 			<Key ID="STR_CopyEquipment_Title">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>A3U - 复制装备.</Chinesesimp>
 				<Original>A3U - Copy Equip.</Original>
 				<English>A3U - Copy Equip.</English>
 				<Spanish>A3U - Copi. Equip.</Spanish>
 			</Key>
 			<Key ID="STR_CopyEquipment_Conf">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>配置</Chinesesimp>
 				<Original>CONFIGURATION</Original>
 				<English>CONFIGURATION</English>
 				<Spanish>CONFIGURACI?N</Spanish>
 			</Key>
 			<Key ID="STR_CopyEquipment_Equip">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>装备</Chinesesimp>
 				<Original>EQUIP</Original>
 				<English>EQUIP</English>
 				<Spanish>EQUIPAR</Spanish>
 			</Key>
 			<Key ID="STR_CopyEquipment_players">
-				<Chinesesimp></Chinesesimp>
+				<Chinesesimp>玩家:</Chinesesimp>
 				<Original>Players:</Original>
 				<English>Players:</English>
 				<Spanish>Jugadores:</Spanish>
