@@ -2,19 +2,19 @@
 	<Package name="ACE Role">
 		<Container name="Ace Role Module Name">
 			<Key ID="STR_AceRoleModuleName">
-				<Chinesesimp>ACE½ÇÉ«Ñ¡ÔñÆ÷</Chinesesimp>
+				<Chinesesimp>ACEè§’è‰²é€‰æ‹©å™¨</Chinesesimp>
 				<Original>ACE role selector</Original>
 				<English>ACE role selector</English>
 				<Spanish>Selector de rol de ACE</Spanish>
 			</Key>
 			<Key ID="STR_AceRole_ModuleDescription">
-				<Chinesesimp>Use: Óë¶ÔÏóÍ¬²½.</Chinesesimp>
+				<Chinesesimp>Use: ä¸å¯¹è±¡åŒæ­¥.</Chinesesimp>
 				<Original>Use: Synchronize with an object.</Original>
 				<English>Use: Synchronize with an object.</English>
 				<Spanish>Uso: Sincronizar con un objeto.</Spanish>
 			</Key>
 			<Key ID="STR_AceHealZone_ShowMessage">
-				<Chinesesimp>ÏÔÊ¾ÏûÏ¢</Chinesesimp>
+				<Chinesesimp>æ˜¾ç¤ºæ¶ˆæ¯</Chinesesimp>
 				<Original>Show Message</Original>
 				<English>Show Message</English>
 				<Spanish>Mostrar mensaje</Spanish>
@@ -22,15 +22,15 @@
 		</Container>
 		<Container name="Medico Regular">
 			<Key ID="STR_RegularMedic">
-				<Chinesesimp>ÈøÄáÌúËş(Ò½ÁÆÈËÔ±)</Chinesesimp>
+				<Chinesesimp>è¨å°¼é“å¡”(åŒ»ç–—äººå‘˜)</Chinesesimp>
 				<Original>Regular medic</Original>
 				<English>Regular medic</English>
-				<Spanish>M¨¦dico regular</Spanish>
+				<Spanish>MÃ©dico regular</Spanish>
 			</Key>
 		</Container>
 		<Container name="Doctor">
 			<Key ID="STR_Doctor">
-				<Chinesesimp>ÈøÄáÌúËş£¡£¡(¸ß¼¶Ò½ÁÆÈËÔ±)</Chinesesimp>
+				<Chinesesimp>è¨å°¼é“å¡”ï¼ï¼(é«˜çº§åŒ»ç–—äººå‘˜)</Chinesesimp>
 				<Original>Doctor</Original>
 				<English>Doctor</English>
 				<Spanish>Doctor</Spanish>
@@ -38,7 +38,7 @@
 		</Container>
 		<Container name="Enginieer">
 			<Key ID="STR_Enginieer">
-				<Chinesesimp>Î¬ĞŞÈËÔ±</Chinesesimp>
+				<Chinesesimp>ç»´ä¿®äººå‘˜</Chinesesimp>
 				<Original>Enginieer</Original>
 				<English>Enginieer</English>
 				<Spanish>Ingeniero</Spanish>
@@ -46,7 +46,7 @@
 		</Container>
 		<Container name="Advanced Enginieer">
 			<Key ID="STR_AdvancedEnginieer">
-				<Chinesesimp>¸ß¼¶Î¬ĞŞÈËÔ±</Chinesesimp>
+				<Chinesesimp>é«˜çº§ç»´ä¿®äººå‘˜</Chinesesimp>
 				<Original>Advanced Enginieer</Original>
 				<English>Advanced Enginieer</English>
 				<Spanish>Ingeniero Avanzado</Spanish>
@@ -54,7 +54,7 @@
 		</Container>
 		<Container name="Normal Role">
 			<Key ID="STR_NormalRole">
-				<Chinesesimp>Ã»ÓĞACE½ÇÉ«</Chinesesimp>
+				<Chinesesimp>æ²¡æœ‰ACEè§’è‰²</Chinesesimp>
 				<Original>Without ACE Role</Original>
 				<English>Without ACE Role</English>
 				<Spanish>Sin ACE Role</Spanish>
@@ -62,7 +62,7 @@
 		</Container>
 		<Container name="Exit">
 			<Key ID="STR_ACEROleExit">
-				<Chinesesimp>¹Ø±Õ</Chinesesimp>
+				<Chinesesimp>å…³é—­</Chinesesimp>
 				<Original>CLOSE</Original>
 				<English>CLOSE</English>
 				<Spanish>CERRAR</Spanish>
@@ -70,49 +70,49 @@
 		</Container>
 		<Container name="TitleAceRole">
 			<Key ID="STR_TItleAceRole">
-				<Chinesesimp>ACE½ÇÉ«Ñ¡ÔñÆ÷</Chinesesimp>
+				<Chinesesimp>ACEè§’è‰²é€‰æ‹©å™¨</Chinesesimp>
 				<Original>ACE role selector</Original>
 				<English>ACE role selector</English>
 				<Spanish>Selector de rol del ACE</Spanish>
 			</Key>
 			<Key ID="STR_AceRole_AddActionTitle">
-				<Chinesesimp>- - ACE½ÇÉ« - -</Chinesesimp>
+				<Chinesesimp>- - ACEè§’è‰² - -</Chinesesimp>
 				<Original>- - ACE ROLE - -</Original>
 				<English>- - ACE ROLE - -</English>
 				<Spanish>- - ACE ROLE - -</Spanish>
 			</Key>
 			<Key ID="STR_AceRole_ViewMissionMedicConf">
-				<Chinesesimp>ÏÔÊ¾µ±Ç°ÈÎÎñÒ½ÁÆÅäÖÃ</Chinesesimp>
+				<Chinesesimp>æ˜¾ç¤ºå½“å‰ä»»åŠ¡åŒ»ç–—é…ç½®</Chinesesimp>
 				<Original>View Mision Medic Config</Original>
 				<English>View Mision Medic Config</English>
-				<Spanish>Ver Conf. M¨¦dica de la misi¨®n</Spanish>
+				<Spanish>Ver Conf. MÃ©dica de la misiÃ³n</Spanish>
 			</Key>
 			<Key ID="STR_AceRole_EodSpecialist">
-				<Chinesesimp>EOD×¨¼Ò</Chinesesimp>
+				<Chinesesimp>EODä¸“å®¶</Chinesesimp>
 				<Original>EOD Specialist</Original>
 				<English>EOD Specialist</English>
 				<Spanish>Especialista EOD</Spanish>
 			</Key>
 			<Key ID="STR_AceRole_AceMedicConfigView">
-				<Chinesesimp>ACEÒ½ÁÆÅäÖÃÊÓÍ¼</Chinesesimp>
+				<Chinesesimp>ACEåŒ»ç–—é…ç½®è§†å›¾</Chinesesimp>
 				<Original>ACE Medic Config View</Original>
 				<English>ACE Medic Config View</English>
-				<Spanish>Visor de configuraci¨®n M¨¦dica del ACE</Spanish>
+				<Spanish>Visor de configuraciÃ³n MÃ©dica del ACE</Spanish>
 			</Key>
 			<Key ID="STR_AceRole_Basic">
-				<Chinesesimp>»ù´¡</Chinesesimp>
+				<Chinesesimp>åŸºç¡€</Chinesesimp>
 				<Original>BASIC</Original>
 				<English>BASIC</English>
 				<Spanish>B?SICA</Spanish>
 			</Key>
 			<Key ID="STR_AceRole_Advanced">
-				<Chinesesimp>½ø½×</Chinesesimp>
+				<Chinesesimp>è¿›é˜¶</Chinesesimp>
 				<Original>ADVANCED</Original>
 				<English>ADVANCED</English>
 				<Spanish>AVANZADO</Spanish>
 			</Key>
 			<Key ID="STR_AceRole_BandagesInfo">
-				<Chinesesimp>±Á´øĞÅÏ¢</Chinesesimp>
+				<Chinesesimp>ç»·å¸¦ä¿¡æ¯</Chinesesimp>
 				<Original>BANDAGES INFO.</Original>
 				<English>BANDAGES INFO.</English>
 				<Spanish>INFO. VENDAJES</Spanish>
@@ -122,31 +122,31 @@
 	<Package name="Change Side">
 		<Container name="changeSide">
 			<Key ID="STR_ChangeSide_AddActionTitle">
-				<Chinesesimp>- - ÇĞ»»ÕóÓª - -</Chinesesimp>
+				<Chinesesimp>- - åˆ‡æ¢é˜µè¥ - -</Chinesesimp>
 				<Original>- - CHANGE SIDE - -</Original>
 				<English>- - CHANGE SIDE - -</English>
 				<Spanish>- - CAMBIAR BANDO - -</Spanish>
 			</Key>
 			<Key ID="STR_ChangeSide_SideChanged">
-				<Chinesesimp>A3U - ÕóÓªÒÑÇĞ»»</Chinesesimp>
+				<Chinesesimp>A3U - é˜µè¥å·²åˆ‡æ¢</Chinesesimp>
 				<Original>A3U - Side changed</Original>
 				<English>A3U - Side changed</English>
 				<Spanish>A3U - Bando cambiado</Spanish>
 			</Key>
 			<Key ID="STR_ChangeSide_YourActualSide">
-				<Chinesesimp>ÄãµÄÊµ¼ÊÕóÓª:</Chinesesimp>
+				<Chinesesimp>ä½ çš„å®é™…é˜µè¥:</Chinesesimp>
 				<Original>Your actual side:</Original>
 				<English>Your actual side:</English>
 				<Spanish>Tu bando actual:</Spanish>
 			</Key>
 			<Key ID="STR_ChangeSide_Exit">
-				<Chinesesimp>¹Ø±Õ</Chinesesimp>
+				<Chinesesimp>å…³é—­</Chinesesimp>
 				<Original>CLOSE</Original>
 				<English>CLOSE</English>
 				<Spanish>CERRAR</Spanish>
 			</Key>
 			<Key ID="STR_ChangeSide_Title">
-				<Chinesesimp>A3U - ÇĞ»»ÕóÓª</Chinesesimp>
+				<Chinesesimp>A3U - åˆ‡æ¢é˜µè¥</Chinesesimp>
 				<Original>A3U - Change side</Original>
 				<English>A3U - Change side</English>
 				<Spanish>A3U - Cambiar bando</Spanish>
@@ -154,18 +154,18 @@
 		</Container>
 		<Container name="changeSide_EdenModule">
 			<Key ID="STR_ChangeSide_displayName">
-				<Chinesesimp>ÇĞ»»ÕóÓª</Chinesesimp>
+				<Chinesesimp>åˆ‡æ¢é˜µè¥</Chinesesimp>
 				<Original>Change side</Original>
 				<English>Change side</English>
 				<Spanish>Cambiar bando</Spanish>
 			</Key>
 			<Key ID="STR_ChangeSide_ModuleDescription">
-				<Chinesesimp>Use: Óë¶ÔÏóÍ¬²½.&lt;br/&gt; Function: ËüÍ¨¹ıÌí¼ÓactionĞĞÎªÀ´ÔÊĞíÍæ¼ÒÇĞ»»ÕóÓª.</Chinesesimp>
+				<Chinesesimp>Use: ä¸å¯¹è±¡åŒæ­¥.&lt;br/&gt; Function: å®ƒé€šè¿‡æ·»åŠ actionè¡Œä¸ºæ¥å…è®¸ç©å®¶åˆ‡æ¢é˜µè¥.</Chinesesimp>
 				<Original>Use: Synchronize with an object.&lt;br/&gt; Function: It allows by means
 					of a UI accessible through an AddAction to change sides ingame.</Original>
 				<English>Use: Synchronize with an object.&lt;br/&gt; Function: It allows by means of
 					a UI accessible through an AddAction to change sides ingame.</English>
-				<Spanish>Uso: Sincronizar con un objeto.&lt;br/&gt; Funci¨®n: Permite mediante una UI
+				<Spanish>Uso: Sincronizar con un objeto.&lt;br/&gt; FunciÃ³n: Permite mediante una UI
 					accesible a traves de un AddAction cambiar de bando ingame.</Spanish>
 			</Key>
 		</Container>
@@ -173,103 +173,103 @@
 	<Package name="Predefined Loadout Copy">
 		<Container name="predefinedLoadout">
 			<Key ID="STR_predefinedLoadout_AddActionTitle">
-				<Chinesesimp>- - ±øÖÖUI - -</Chinesesimp>
+				<Chinesesimp>- - å…µç§UI - -</Chinesesimp>
 				<Original>- - LOADOUT UI - -</Original>
 				<English>- - LOADOUT UI - -</English>
 				<Spanish>- - LOADOUT UI - -</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_LoadoutLoaded">
-				<Chinesesimp>±øÖÖÒÑ¼ÓÔØ</Chinesesimp>
+				<Chinesesimp>å…µç§å·²åŠ è½½</Chinesesimp>
 				<Original>Loadout loaded.</Original>
 				<English>Loadout loaded.</English>
 				<Spanish>Loadout cargado.</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_UiTitle">
-				<Chinesesimp>A3U - Ô¤Éè±øÖÖ¸±±¾</Chinesesimp>
+				<Chinesesimp>A3U - é¢„è®¾å…µç§å‰¯æœ¬</Chinesesimp>
 				<Original>A3U - PREDEFINED LOADOUT COPY</Original>
 				<English>A3U - PREDEFINED LOADOUT COPY</English>
 				<Spanish>A3U - PREDEFINED LOADOUT COPY</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_Equip">
-				<Chinesesimp>¸ü»»×°±¸</Chinesesimp>
+				<Chinesesimp>æ›´æ¢è£…å¤‡</Chinesesimp>
 				<Original>EQUIP</Original>
 				<English>EQUIP</English>
 				<Spanish>EQUIPAMIENTO</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_WhatToCopy">
-				<Chinesesimp>½«Òª¸´ÖÆµÄÄÚÈİ:</Chinesesimp>
+				<Chinesesimp>å°†è¦å¤åˆ¶çš„å†…å®¹:</Chinesesimp>
 				<Original>What to copy:</Original>
 				<English>What to copy:</English>
 				<Spanish>Que copiar:</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_Loadouts">
-				<Chinesesimp>±øÖÖ:</Chinesesimp>
+				<Chinesesimp>å…µç§:</Chinesesimp>
 				<Original>Loadouts:</Original>
 				<English>Loadouts:</English>
 				<Spanish>Loadouts:</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_Close">
-				<Chinesesimp>¹Ø±Õ</Chinesesimp>
+				<Chinesesimp>å…³é—­</Chinesesimp>
 				<Original>CLOSE</Original>
 				<English>CLOSE</English>
 				<Spanish>CERRAR</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_PrimaryWeapon">
-				<Chinesesimp>Ö÷ÎäÆ÷</Chinesesimp>
+				<Chinesesimp>ä¸»æ­¦å™¨</Chinesesimp>
 				<Original>Primary weapon</Original>
 				<English>Primary weapon</English>
 				<Spanish>Arma principal</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_SecondaryWeapon">
-				<Chinesesimp>¸±ÎäÆ÷</Chinesesimp>
+				<Chinesesimp>å‰¯æ­¦å™¨</Chinesesimp>
 				<Original>Secondary weapon</Original>
 				<English>Secondary weapon</English>
 				<Spanish>Arma secundaria</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_BeltWeapon">
-				<Chinesesimp>Ñü´øÎäÆ÷</Chinesesimp>
+				<Chinesesimp>è…°å¸¦æ­¦å™¨</Chinesesimp>
 				<Original>Belt weapon</Original>
 				<English>Belt weapon</English>
 				<Spanish>Arma de cinto</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_Uniform">
-				<Chinesesimp>ÖÆ·ş</Chinesesimp>
+				<Chinesesimp>åˆ¶æœ</Chinesesimp>
 				<Original>Uniform</Original>
 				<English>Uniform</English>
 				<Spanish>Uniforme</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_Vest">
-				<Chinesesimp>±³ĞÄ</Chinesesimp>
+				<Chinesesimp>èƒŒå¿ƒ</Chinesesimp>
 				<Original>Vest</Original>
 				<English>Vest</English>
 				<Spanish>Chaleco</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_Backpack">
-				<Chinesesimp>±³°ü</Chinesesimp>
+				<Chinesesimp>èƒŒåŒ…</Chinesesimp>
 				<Original>Backpack</Original>
 				<English>Backpack</English>
 				<Spanish>Mochila</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_Helmet">
-				<Chinesesimp>Í·¿ø</Chinesesimp>
+				<Chinesesimp>å¤´ç›”</Chinesesimp>
 				<Original>Helmet</Original>
 				<English>Helmet</English>
 				<Spanish>Casco</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_Glasses">
-				<Chinesesimp>ÑÛ¾¦</Chinesesimp>
+				<Chinesesimp>çœ¼ç›</Chinesesimp>
 				<Original>Glasses</Original>
 				<English>Glasses</English>
 				<Spanish>Gafas</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_Binoculars">
-				<Chinesesimp>ÍûÔ¶¾µ</Chinesesimp>
+				<Chinesesimp>æœ›è¿œé•œ</Chinesesimp>
 				<Original>Binoculars</Original>
 				<English>Binoculars</English>
 				<Spanish>Binoculares</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_Items">
-				<Chinesesimp>ÎïÆ·</Chinesesimp>
+				<Chinesesimp>ç‰©å“</Chinesesimp>
 				<Original>Items</Original>
 				<English>Items</English>
 				<Spanish>Items</Spanish>
@@ -277,13 +277,13 @@
 		</Container>
 		<Container name="predefinedLoadout_EdenModule">
 			<Key ID="STR_predefinedLoadout_displayName">
-				<Chinesesimp>Ô¤¶¨ÒåµÄ±øÖÖ</Chinesesimp>
+				<Chinesesimp>é¢„å®šä¹‰çš„å…µç§</Chinesesimp>
 				<Original>Predefined loadout</Original>
 				<English>Predefined loadout</English>
 				<Spanish>Loadout predefinido</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_ModuleDescription">
-				<Chinesesimp>Use: ÓëÒª·ÃÎÊÆä¸ºÔØµÄµ¥ÔªÍ¬²½.&lt;br/&gt; Function: Èç¹ûËüÓëµ¥¸öµ¥ÔªÍ¬²½£¬Äã¿ÉÒÔÍ¨¹ıAddActionÀ´×°±¸ËüµÄ¸ºÔØ£¬Ëü½«³öÏÖÔÚµÚÒ»¸öÍ¬²½µ¥ÔªÖĞ(ÔÚÄãÖ»ÓëÒ»¸ö¶ÔÏóÍ¬²½µÄÇé¿öÏÂ)£¬»òÕßÔÚµÚ¶ş¸öÍ¬²½¶ÔÏóÖĞ(ÔÚÄãÊ×ÏÈÍ¬²½ÁËµ¥Ôª£¬È»ºóÓë¶ÔÏóÍ¬²½µÄÇé¿öÏÂ)¡£. </Chinesesimp>
+				<Chinesesimp>Use: ä¸è¦è®¿é—®å…¶è´Ÿè½½çš„å•å…ƒåŒæ­¥.&lt;br/&gt; Function: å¦‚æœå®ƒä¸å•ä¸ªå•å…ƒåŒæ­¥ï¼Œä½ å¯ä»¥é€šè¿‡AddActionæ¥è£…å¤‡å®ƒçš„è´Ÿè½½ï¼Œå®ƒå°†å‡ºç°åœ¨ç¬¬ä¸€ä¸ªåŒæ­¥å•å…ƒä¸­(åœ¨ä½ åªä¸ä¸€ä¸ªå¯¹è±¡åŒæ­¥çš„æƒ…å†µä¸‹)ï¼Œæˆ–è€…åœ¨ç¬¬äºŒä¸ªåŒæ­¥å¯¹è±¡ä¸­(åœ¨ä½ é¦–å…ˆåŒæ­¥äº†å•å…ƒï¼Œç„¶åä¸å¯¹è±¡åŒæ­¥çš„æƒ…å†µä¸‹)ã€‚. </Chinesesimp>
 				<Original>Use: Synchronize with the unit to which you want to access its
 					loadout.&lt;br/&gt; Function: If it is synchronized with a single unit, you can
 					equip its loadout by means of an AddAction that will appear in the first
@@ -297,14 +297,14 @@
 					or in the second synchronized object (in the case that you have synchronized
 					first the unit and then with an object). TFAR mod compatible.</English>
 				<Spanish> Uso: Sincroniza con la unidad a la que quieres acceder a su
-					loadout.&lt;br/&gt; Funci¨®n: Si se sincroniza con una sola unidad puedes
+					loadout.&lt;br/&gt; FunciÃ³n: Si se sincroniza con una sola unidad puedes
 					equiparte su loadout mediante un AddAction que aparecera en la primeara unidad
 					sicronizada (en el caso de que solo hayas sincronizado con un objeto) o en el
 					segundo objeto sincronizado (en el caso de que hayas sincronizado primero la
-					unidad y despu¨¦s con un objeto). </Spanish>
+					unidad y despuÃ©s con un objeto). </Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_displayNameUI">
-				<Chinesesimp>Ô¤¶¨Òå×°±¸UI</Chinesesimp>
+				<Chinesesimp>é¢„å®šä¹‰è£…å¤‡UI</Chinesesimp>
 				<Original>Predefined loadout UI</Original>
 				<English>Predefined loadout UI</English>
 				<Spanish>Loadout predefinido (UI)</Spanish>
@@ -317,7 +317,7 @@
 				<English>Use: Synchronize with an object.&lt;br/&gt; Function: When synchronized
 					with an object, it allows access to an interface (UI) where you can select any
 					of the loadouts that have been entered with the "Predefined Loadout" module.</English>
-				<Spanish>Uso: Sincroniza con un objeto.&lt;br/&gt; Funci¨®n: Cuando se syncronzia con
+				<Spanish>Uso: Sincroniza con un objeto.&lt;br/&gt; FunciÃ³n: Cuando se syncronzia con
 					un objeto, este permite acceder a una interfaz (UI) en donde se puede
 					seleccionar cualquiera de los loadouts de los que se hayan introducido con el
 					modulo "Loadout Predefinido".</Spanish>
@@ -335,19 +335,19 @@
 				<Spanish>Titulo del loadout</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_colorTitle">
-				<Chinesesimp>±êÌâÑÕÉ«</Chinesesimp>
+				<Chinesesimp>æ ‡é¢˜é¢œè‰²</Chinesesimp>
 				<Original>Title color</Original>
 				<English>Title color</English>
 				<Spanish>Color del titulo</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_Type">
-				<Chinesesimp>ÀàĞÍ</Chinesesimp>
+				<Chinesesimp>ç±»å‹</Chinesesimp>
 				<Original>Type</Original>
 				<English>Type</English>
 				<Spanish>Tipo</Spanish>
 			</Key>
 			<Key ID="STR_predefinedLoadout_AddAddAction">
-				<Chinesesimp>Ìí¼Ó AddAction</Chinesesimp>
+				<Chinesesimp>æ·»åŠ  AddAction</Chinesesimp>
 				<Original>Add AddAction</Original>
 				<English>Add AddAction</English>
 				<Spanish>A?adir AddAction</Spanish>
@@ -368,7 +368,7 @@
 				<Chinesesimp></Chinesesimp>
 				<Original>Get always the current loadout if AI alive</Original>
 				<English>Get always the current loadout if AI alive</English>
-				<Spanish>Coger siempre el loadout actual si la IA est¨¢ viva</Spanish>
+				<Spanish>Coger siempre el loadout actual si la IA estÃ¡ viva</Spanish>
 			</Key>
 		</Container>
 	</Package>
@@ -434,7 +434,7 @@
 				<Chinesesimp></Chinesesimp>
 				<Original>Healing type</Original>
 				<English>Healing type</English>
-				<Spanish>Tipo de curaci¨®n</Spanish>
+				<Spanish>Tipo de curaciÃ³n</Spanish>
 			</Key>
 			<Key ID="STR_AceHealZone_Raidus">
 				<Chinesesimp></Chinesesimp>
@@ -566,7 +566,7 @@
 				<Chinesesimp></Chinesesimp>
 				<Original>Stop shooting or throwing grenades! You are in a safe zone!</Original>
 				<English>Stop shooting or throwing grenades! You are in a safe zone!</English>
-				<Spanish>Para de disparar o tirar granadas! Est¨¢s en una zona segura!</Spanish>
+				<Spanish>Para de disparar o tirar granadas! EstÃ¡s en una zona segura!</Spanish>
 			</Key>
 		</Container>
 		<Container name="safeZone_ZeusUi">
@@ -685,13 +685,13 @@
 				<Spanish>CANCELAR</Spanish>
 			</Key>
 			<Key ID="STR_generic_Close">
-				<Chinesesimp>¹Ø±Õ</Chinesesimp>
+				<Chinesesimp>å…³é—­</Chinesesimp>
 				<Original>CLOSE</Original>
 				<English>CLOSE</English>
 				<Spanish>CERRAR</Spanish>
 			</Key>
 			<Key ID="STR_generic_Warning">
-				<Chinesesimp>¾¯¸æ</Chinesesimp>
+				<Chinesesimp>è­¦å‘Š</Chinesesimp>
 				<Original>WARNING</Original>
 				<English>WARNING</English>
 				<Spanish>ATENCI?N</Spanish>
@@ -701,67 +701,67 @@
 	<Package name="TAW">
 		<Container name="taw">
 			<Key ID="STR_taw_UiA3uSettings">
-				<Chinesesimp>A3UÉèÖÃ</Chinesesimp>
+				<Chinesesimp>A3Uè®¾ç½®</Chinesesimp>
 				<Original>A3U Settings</Original>
 				<English>A3U Settings</English>
-				<Spanish>Configuraci¨®n A3U</Spanish>
+				<Spanish>ConfiguraciÃ³n A3U</Spanish>
 			</Key>
 			<Key ID="STR_taw_UimaxViewDistance">
-				<Chinesesimp>Max. ÊÓ¾à:</Chinesesimp>
+				<Chinesesimp>Max. è§†è·:</Chinesesimp>
 				<Original>Max. View Distance:</Original>
 				<English>Max. View Distance:</English>
-				<Spanish>Max. Distancia de Vis¨®n:</Spanish>
+				<Spanish>Max. Distancia de VisÃ³n:</Spanish>
 			</Key>
 			<Key ID="STR_taw_UiallowNoGrass">
-				<Chinesesimp>ÔÊĞí³ı²İ:</Chinesesimp>
+				<Chinesesimp>å…è®¸é™¤è‰:</Chinesesimp>
 				<Original>Allow No Grass:</Original>
 				<English>Allow No Grass:</English>
 				<Spanish>Permitir sin hierba:</Spanish>
 			</Key>
 			<Key ID="STR_taw_infantry">
-				<Chinesesimp>²½±ø</Chinesesimp>
+				<Chinesesimp>æ­¥å…µ</Chinesesimp>
 				<Original>Infantry:</Original>
 				<English>Infantry:</English>
-				<Spanish>Infanter¨ªa:</Spanish>
+				<Spanish>InfanterÃ­a:</Spanish>
 			</Key>
 			<Key ID="STR_taw_ground">
-				<Chinesesimp>µØÃæ:</Chinesesimp>
+				<Chinesesimp>åœ°é¢:</Chinesesimp>
 				<Original>Ground:</Original>
 				<English>Ground:</English>
 				<Spanish>Tierra:</Spanish>
 			</Key>
 			<Key ID="STR_taw_air">
-				<Chinesesimp>¿ÕÖĞ:</Chinesesimp>
+				<Chinesesimp>ç©ºä¸­:</Chinesesimp>
 				<Original>Air:</Original>
 				<English>Air:</English>
 				<Spanish>Aire:</Spanish>
 			</Key>
 			<Key ID="STR_taw_object">
-				<Chinesesimp>¶ÔÏó</Chinesesimp>
+				<Chinesesimp>å¯¹è±¡</Chinesesimp>
 				<Original>Object:</Original>
 				<English>Object:</English>
 				<Spanish>Objeto:</Spanish>
 			</Key>
 			<Key ID="STR_taw_drone">
-				<Chinesesimp>ÎŞÈË»ú</Chinesesimp>
+				<Chinesesimp>æ— äººæœº</Chinesesimp>
 				<Original>Drone:</Original>
 				<English>Drone:</English>
 				<Spanish>Dron:</Spanish>
 			</Key>
 			<Key ID="STR_taw_grassSettings">
-				<Chinesesimp>²İµØÉèÖÃ</Chinesesimp>
+				<Chinesesimp>è‰åœ°è®¾ç½®</Chinesesimp>
 				<Original>Grass Settings</Original>
 				<English>Grass Settings</English>
-				<Spanish>Configuraci¨®n Hierba</Spanish>
+				<Spanish>ConfiguraciÃ³n Hierba</Spanish>
 			</Key>
 			<Key ID="STR_taw_objectSettings">
-				<Chinesesimp>¶ÔÏóÉèÖÃ</Chinesesimp>
+				<Chinesesimp>å¯¹è±¡è®¾ç½®</Chinesesimp>
 				<Original>Object Settings</Original>
 				<English>Object Settings</English>
-				<Spanish>Configuraci¨®n Objetos</Spanish>
+				<Spanish>ConfiguraciÃ³n Objetos</Spanish>
 			</Key>
 			<Key ID="STR_generic_Saves">
-				<Chinesesimp>±£´æ</Chinesesimp>
+				<Chinesesimp>ä¿å­˜</Chinesesimp>
 				<Original>SAVES</Original>
 				<English>SAVES</English>
 				<Spanish>GUARDAR</Spanish>
@@ -769,7 +769,7 @@
 		</Container>
 		<Container name="genericZeus">
 			<Key ID="STR_generic_A3uGeneric">
-				<Chinesesimp>A3U - Í¨ÓÃ</Chinesesimp>
+				<Chinesesimp>A3U - é€šç”¨</Chinesesimp>
 				<Original>A3U - Generic</Original>
 				<English>A3U - Generic</English>
 				<Spanish>A3U - Generico</Spanish>
@@ -777,32 +777,32 @@
 		</Container>
 		<Container name="moduelEden">
 			<Key ID="STR_TAW_displayName">
-				<Chinesesimp>ÊÓ¾à</Chinesesimp>
+				<Chinesesimp>è§†è·</Chinesesimp>
 				<Original>TAW</Original>
 				<English>TAW</English>
 				<Spanish>TAW</Spanish>
 			</Key>
 			<Key ID="STR_TAW_maximumViewDistance">
-				<Chinesesimp>×î´óÊÓ¾à (m)</Chinesesimp>
+				<Chinesesimp>æœ€å¤§è§†è· (m)</Chinesesimp>
 				<Original>Maximum View Distance (m)</Original>
 				<English>Maximum View Distance (m)</English>
-				<Spanish>Distancia de visi¨®n (m)</Spanish>
+				<Spanish>Distancia de visiÃ³n (m)</Spanish>
 			</Key>
 			<Key ID="STR_TAW_allowNoGrass">
-				<Chinesesimp>ÔÊĞí³ı²İ:</Chinesesimp>
+				<Chinesesimp>å…è®¸é™¤è‰:</Chinesesimp>
 				<Original>Allow no grass</Original>
 				<English>Allow no grass</English>
 				<Spanish>Permitir quitar hierba</Spanish>
 			</Key>
 			<Key ID="STR_TAW_moduleDescription">
-				<Chinesesimp>Use: ²»ĞèÒªÍ¬²½.:&lt;br/&gt; Function: ÔÊĞíÓÃ»§·ÃÎÊTAWµÄ½çÃæÍ¨¹ıACE½»»¥²Ëµ¥ºÍ¸ü¸ÄÊÓÍ¼¾àÀëÉèÖÃ.</Chinesesimp>
+				<Chinesesimp>Use: ä¸éœ€è¦åŒæ­¥.:&lt;br/&gt; Function: å…è®¸ç”¨æˆ·è®¿é—®TAWçš„ç•Œé¢é€šè¿‡ACEäº¤äº’èœå•å’Œæ›´æ”¹è§†å›¾è·ç¦»è®¾ç½®.</Chinesesimp>
 				<Original>Use: Not needs to be synced.:&lt;br/&gt; Function: Allows you to acces the
 					TAW's interface through ACE interaction menu and change view distance settings.</Original>
 				<English>Use: Not needs to be synced.:&lt;br/&gt; Function: Allows you to acces the
 					TAW's interface through ACE interaction menu and change view distance settings.</English>
-				<Spanish>Uso: No es necesario que se sincronize.:&lt;br/&gt; Funci¨®n: Te permite
-					acceder a la interfaz del TAW a traves del men¨² de interacci¨®n del ACE y cambiar
-					los parametros de distancia de visi¨®n.</Spanish>
+				<Spanish>Uso: No es necesario que se sincronize.:&lt;br/&gt; FunciÃ³n: Te permite
+					acceder a la interfaz del TAW a traves del menÃº de interacciÃ³n del ACE y cambiar
+					los parametros de distancia de visiÃ³n.</Spanish>
 			</Key>
 		</Container>
 	</Package>
@@ -824,7 +824,7 @@
 				<Chinesesimp></Chinesesimp>
 				<Original>TP Accuracy (m)</Original>
 				<English>TP Accuracy (m)</English>
-				<Spanish>Precisi¨®n TP (m)</Spanish>
+				<Spanish>PrecisiÃ³n TP (m)</Spanish>
 			</Key>
 			<Key ID="STR_Teleport_AddActionTitle">
 				<Chinesesimp></Chinesesimp>
@@ -849,13 +849,13 @@
 				<Original> Use: syncs with any object to access teleport map (through AddAction). </Original>
 				<English> Use: syncs with any object to access teleport map (through AddAction). </English>
 				<Spanish> Uso: Syncroniza con cualquier objeto para tener acceso al mapa de teleport
-					(a trav¨¦s de AddAction) </Spanish>
+					(a travÃ©s de AddAction) </Spanish>
 			</Key>
 			<Key ID="STR_TeleportModuleName1">
 				<Chinesesimp></Chinesesimp>
 				<Original>Teleport (Strategic Map)</Original>
 				<English>Teleport (Strategic Map)</English>
-				<Spanish>Teleport (Mapa Estrat¨¦gico)</Spanish>
+				<Spanish>Teleport (Mapa EstratÃ©gico)</Spanish>
 			</Key>
 			<Key ID="STR_Teleport_ParentID1">
 				<Chinesesimp></Chinesesimp>
@@ -873,14 +873,14 @@
 				<Chinesesimp></Chinesesimp>
 				<Original>TP Accuracy (m)</Original>
 				<English>TP Accuracy (m)</English>
-				<Spanish>Precisi¨®n TP (m)</Spanish>
+				<Spanish>PrecisiÃ³n TP (m)</Spanish>
 			</Key>
 			<Key ID="STR_TeleportModuleDescription1">
 				<Chinesesimp></Chinesesimp>
 				<Original> Use: syncs with any object to access teleport map (through AddAction). </Original>
 				<English> Use: syncs with any object to access teleport map (through AddAction). </English>
 				<Spanish> Uso: Syncroniza con cualquier objeto para tener acceso al mapa de teleport
-					(a trav¨¦s de AddAction) </Spanish>
+					(a travÃ©s de AddAction) </Spanish>
 			</Key>
 			<Key ID="STR_TeleportModuleName2">
 				<Chinesesimp></Chinesesimp>
@@ -892,13 +892,13 @@
 				<Chinesesimp></Chinesesimp>
 				<Original>Teleport (TP position)</Original>
 				<English>Teleport (TP position)</English>
-				<Spanish>Teleport (Posici¨®n de TP)</Spanish>
+				<Spanish>Teleport (PosiciÃ³n de TP)</Spanish>
 			</Key>
 			<Key ID="STR_TeleporPos_Name">
 				<Chinesesimp></Chinesesimp>
 				<Original>Position title</Original>
 				<English>Position title</English>
-				<Spanish>Titulo de la posici¨®n</Spanish>
+				<Spanish>Titulo de la posiciÃ³n</Spanish>
 			</Key>
 			<Key ID="STR_TeleporPos_Id">
 				<Chinesesimp></Chinesesimp>
@@ -912,8 +912,8 @@
 					be the position where players will be teleproted. </Original>
 				<English> Use: Not sync required.:&lt;br/&gt; Function: This module position will be
 					the position where players will be teleproted. </English>
-				<Spanish> Use: No se require de sincronizaci¨®n.:&lt;br/&gt; Funci¨®n: la posici¨®n de
-					este modulo ser¨¢ la posici¨®n a la que se teletransportar¨¢n los jugadores. </Spanish>
+				<Spanish> Use: No se require de sincronizaciÃ³n.:&lt;br/&gt; FunciÃ³n: la posiciÃ³n de
+					este modulo serÃ¡ la posiciÃ³n a la que se teletransportarÃ¡n los jugadores. </Spanish>
 			</Key>
 		</Container>
 		<Container name="TeleportMesages">
@@ -968,26 +968,26 @@
 				<Original> Example: Case in which do you want to create 2 Virtual
 					Garages:&lt;br/&gt; - Synchronize the Virtual Garage module with 2 objects (to
 					give them acces to Virtual Garage).&lt;br/&gt; - Creat an empty marker (using
-					the map view) where the veh¨ªcle will appear.&lt;br/&gt; - We give to each empty
+					the map view) where the vehÃ­cle will appear.&lt;br/&gt; - We give to each empty
 					markers a name (in the example: VGmarker_X).&lt;br/&gt; - I recomend you to use
 					some helipad, paratrooper signal or some other thing with the purposeto of
-					indicating the zone where the vhe¨ªcle will appear.&lt;br/&gt; - Garage List:
+					indicating the zone where the vheÃ­cle will appear.&lt;br/&gt; - Garage List:
 					['VGmarker_0','VGmarker_1'].&lt;br/&gt; </Original>
 				<English> Example: Case in which do you want to create 2 Virtual Garages:&lt;br/&gt;
 					- Synchronize the Virtual Garage module with 2 objects (to give them acces to
 					Virtual Garage).&lt;br/&gt; - Creat an empty marker (using the map view) where
-					the veh¨ªcle will appear.&lt;br/&gt; - We give to each empty markers a name (in
+					the vehÃ­cle will appear.&lt;br/&gt; - We give to each empty markers a name (in
 					the example: VGmarker_X).&lt;br/&gt; - I recomend you to use some helipad,
 					paratrooper signal or some other thing with the purposeto of indicating the zone
-					where the vhe¨ªcle will appear.&lt;br/&gt; - Garage List:
+					where the vheÃ­cle will appear.&lt;br/&gt; - Garage List:
 					['VGmarker_0','VGmarker_1'].&lt;br/&gt; </English>
 				<Spanish> Ejemplo: Caso en el que se quiere colocar 2 garajes:&lt;br/&gt; -
 					Sincronizar el modulo de Garaje Virtual con dos objetos (para darles acceso al
 					Garaje Virtual).&lt;br/&gt; - Crear un marcador Vacio en cada zona que queremos
-					que aparezca el veh¨ªculo (desde el mapa).&lt;br/&gt; - A cada marcador le
+					que aparezca el vehÃ­culo (desde el mapa).&lt;br/&gt; - A cada marcador le
 					ponemos un nombre (in this example: VGmarker_X).&lt;br/&gt; - Recomiendo poner
-					un helipuerto, se?alicaci¨®n de paracaidista o se?al, de que all¨ª aparecera el
-					veh¨ªculo.&lt;br/&gt; - Lista de Garajes: ['VGmarker_0','VGmarker_1'].&lt;br/&gt; </Spanish>
+					un helipuerto, se?alicaciÃ³n de paracaidista o se?al, de que allÃ­ aparecera el
+					vehÃ­culo.&lt;br/&gt; - Lista de Garajes: ['VGmarker_0','VGmarker_1'].&lt;br/&gt; </Spanish>
 			</Key>
 			<Key ID="STR_VirtualGarageAddAction0">
 				<Chinesesimp></Chinesesimp>
@@ -1021,7 +1021,7 @@
 				<Chinesesimp></Chinesesimp>
 				<Original>Effects duration</Original>
 				<English>Effects duration</English>
-				<Spanish>Duraci¨®n effectos</Spanish>
+				<Spanish>DuraciÃ³n effectos</Spanish>
 			</Key>
 			<Key ID="STR_A3U_STC_Info">
 				<Chinesesimp></Chinesesimp>
@@ -1063,7 +1063,7 @@
 				<Chinesesimp></Chinesesimp>
 				<Original>Number of injuries</Original>
 				<English>Number of injuries</English>
-				<Spanish>N¨²mero de heridas</Spanish>
+				<Spanish>NÃºmero de heridas</Spanish>
 			</Key>
 			<Key ID="STR_A3U_STC_Heli_UNC">
 				<Chinesesimp></Chinesesimp>
@@ -1099,7 +1099,7 @@
 				<Chinesesimp></Chinesesimp>
 				<Original>Number of items removed</Original>
 				<English>Number of items removed</English>
-				<Spanish>n¨²mero de equipo eliminado</Spanish>
+				<Spanish>nÃºmero de equipo eliminado</Spanish>
 			</Key>
 			<Key ID="STR_A3U_STC_Heli_Gear_VP">
 				<Chinesesimp></Chinesesimp>
@@ -1111,7 +1111,7 @@
 				<Chinesesimp></Chinesesimp>
 				<Original>Number of items removed</Original>
 				<English>Number of items removed</English>
-				<Spanish>n¨²mero de equipo eliminado</Spanish>
+				<Spanish>nÃºmero de equipo eliminado</Spanish>
 			</Key>
 			<Key ID="STR_A3U_STC_Heli_Gear_UP">
 				<Chinesesimp></Chinesesimp>
@@ -1123,7 +1123,7 @@
 				<Chinesesimp></Chinesesimp>
 				<Original>Number of items removed</Original>
 				<English>Number of items removed</English>
-				<Spanish>n¨²mero de equipo eliminado</Spanish>
+				<Spanish>nÃºmero de equipo eliminado</Spanish>
 			</Key>
 			<Key ID="STR_A3U_STC_Heli_Gear_WP">
 				<Chinesesimp></Chinesesimp>
@@ -1141,7 +1141,7 @@
 				<Chinesesimp></Chinesesimp>
 				<Original>Duration after activation (s)</Original>
 				<English>Duration after activation (s)</English>
-				<Spanish>Duraci¨®n despu¨¦s de activarse (s)</Spanish>
+				<Spanish>DuraciÃ³n despuÃ©s de activarse (s)</Spanish>
 			</Key>
 			<Key ID="STR_A3U_STC_Heli_Effects">
 				<Chinesesimp></Chinesesimp>
@@ -1153,37 +1153,37 @@
 				<Chinesesimp></Chinesesimp>
 				<Original>Info. of lost gear</Original>
 				<English>Info. of lost gear</English>
-				<Spanish>Info. de la equipaci¨®n perdida</Spanish>
+				<Spanish>Info. de la equipaciÃ³n perdida</Spanish>
 			</Key>
 			<Key ID="STR_A3U_STC_Heli_AirplaneConf">
 				<Chinesesimp></Chinesesimp>
 				<Original>STC - Aircraft configuration</Original>
 				<English>STC - Aircraft configuration</English>
-				<Spanish>STC - Configuraci¨®n en aviones</Spanish>
+				<Spanish>STC - ConfiguraciÃ³n en aviones</Spanish>
 			</Key>
 			<Key ID="STR_A3U_STC_Heli_HelicopterConf">
 				<Chinesesimp></Chinesesimp>
 				<Original>STC - Helicopter configuration</Original>
 				<English>STC - Helicopter configuration</English>
-				<Spanish>STC - Configuraci¨®n en helicopteros</Spanish>
+				<Spanish>STC - ConfiguraciÃ³n en helicopteros</Spanish>
 			</Key>
 			<Key ID="STR_A3U_STC_Heli_LandConf">
 				<Chinesesimp></Chinesesimp>
 				<Original>STC - Land vehicles configuration</Original>
 				<English>STC - Land vehicles configuration</English>
-				<Spanish>STC - Configuraci¨®n en veh. terrestres</Spanish>
+				<Spanish>STC - ConfiguraciÃ³n en veh. terrestres</Spanish>
 			</Key>
 			<Key ID="STR_A3U_STC_Heli_FailureInfo">
 				<Chinesesimp></Chinesesimp>
 				<Original>Vehicle failure message</Original>
 				<English>Vehicle failure message</English>
-				<Spanish>Mensaje de fallo del veh¨ªculo</Spanish>
+				<Spanish>Mensaje de fallo del vehÃ­culo</Spanish>
 			</Key>
 			<Key ID="STR_A3U_STC_Info_Mesage">
 				<Chinesesimp></Chinesesimp>
 				<Original>A3U - STC: Active on this vehicle.</Original>
 				<English>A3U - STC: Active on this vehicle.</English>
-				<Spanish>A3U - STC: Activo en este veh¨ªculo.</Spanish>
+				<Spanish>A3U - STC: Activo en este vehÃ­culo.</Spanish>
 			</Key>
 			<Key ID="STR_A3U_STC_Info_Gear">
 				<Chinesesimp></Chinesesimp>
@@ -1298,7 +1298,7 @@
 				<English>Insert your steam ID to have acces to advanced options in the A3U
 					configuration interface (ingame).</English>
 				<Spanish>Introduce tu ID de steam para tener acceso a opciones avanzadas en la
-					interfaz de configuraci¨®n del A3U (ingame).</Spanish>
+					interfaz de configuraciÃ³n del A3U (ingame).</Spanish>
 			</Key>
 			<Key ID="STR_A3UConf_ModuleDescription">
 				<Chinesesimp></Chinesesimp>
@@ -1312,7 +1312,7 @@
 		</Container>
 		<Container name="A3U_Conf_Full">
 			<Key ID="STR_A3UConf_Exit">
-				<Chinesesimp>¹Ø±Õ</Chinesesimp>
+				<Chinesesimp>å…³é—­</Chinesesimp>
 				<Original>CLOSE</Original>
 				<English>Close</English>
 				<Spanish>SALIR</Spanish>
@@ -1369,7 +1369,7 @@
 				<Chinesesimp></Chinesesimp>
 				<Original>Logged as Administrator (Automatic in Single Player)</Original>
 				<English>Logged as Administrator (Automatic in Single Player)</English>
-				<Spanish>Registrado como administrador (Autom¨¢tico en Sinle Player)</Spanish>
+				<Spanish>Registrado como administrador (AutomÃ¡tico en Sinle Player)</Spanish>
 			</Key>
 			<Key ID="STR_A3UConf_Mes0">
 				<Chinesesimp></Chinesesimp>
@@ -1435,7 +1435,7 @@
 				<Chinesesimp></Chinesesimp>
 				<Original>made changes to the A3U configuration.</Original>
 				<English>made changes to the A3U configuration.</English>
-				<Spanish>realiz¨® cambios en la configuraci¨®n de A3U.</Spanish>
+				<Spanish>realizÃ³ cambios en la configuraciÃ³n de A3U.</Spanish>
 			</Key>
 			<Key ID="STR_A3UConf_Player">
 				<Chinesesimp></Chinesesimp>
@@ -1454,7 +1454,7 @@
 				<Spanish>Teleport (player)</Spanish>
 			</Key>
 			<Key ID="STR_PlayerTP_ModuleDescription">
-				<Chinesesimp>Use: Óë¶ÔÏóÍ¬²½,ÒÔÍ¨¹ıAddAction·ÃÎÊ´«ËÍ½Ó¿Ú¡£</Chinesesimp>
+				<Chinesesimp>Use: ä¸å¯¹è±¡åŒæ­¥,ä»¥é€šè¿‡AddActionè®¿é—®ä¼ é€æ¥å£ã€‚</Chinesesimp>
 				<Original>Use: Synchronize with an object to get acces to the teleport interface
 					throgh AddAction. </Original>
 				<English>Use: Synchronize with an object to get acces to the teleport interface
@@ -1464,37 +1464,37 @@
 		</Container>
 		<Container name="PlayerTP_Full">
 			<Key ID="STR_PlayerTP_Exit">
-				<Chinesesimp>¹Ø±Õ</Chinesesimp>
+				<Chinesesimp>å…³é—­</Chinesesimp>
 				<Original>CLOSE</Original>
 				<English>Close</English>
 				<Spanish>SALIR</Spanish>
 			</Key>
 			<Key ID="STR_PlayerTP_Title">
-				<Chinesesimp>A3U - Íæ¼Ò´«ËÍ</Chinesesimp>
+				<Chinesesimp>A3U - ç©å®¶ä¼ é€</Chinesesimp>
 				<Original>A3U - PLAYERS TP</Original>
 				<English>A3U - PLAYERS TP</English>
 				<Spanish>A3U - JUGADORES TP</Spanish>
 			</Key>
 			<Key ID="STR_PlayerTP_Conf">
-				<Chinesesimp>ÅäÖÃ</Chinesesimp>
+				<Chinesesimp>é…ç½®</Chinesesimp>
 				<Original>CONFIGURATION</Original>
 				<English>CONFIGURATION</English>
 				<Spanish>CONFIGURACI?N</Spanish>
 			</Key>
 			<Key ID="STR_PlayerTP_TP">
-				<Chinesesimp>´«ËÍ</Chinesesimp>
+				<Chinesesimp>ä¼ é€</Chinesesimp>
 				<Original>TELEPORT</Original>
 				<English>TELEPORT</English>
 				<Spanish>TELEPORT</Spanish>
 			</Key>
 			<Key ID="STR_PlayerTP_players">
-				<Chinesesimp>Íæ¼Ò:</Chinesesimp>
+				<Chinesesimp>ç©å®¶:</Chinesesimp>
 				<Original>Players:</Original>
 				<English>Players:</English>
 				<Spanish>Jugadores:</Spanish>
 			</Key>
 			<Key ID="STR_PlayerTP_AddActionTitle">
-				<Chinesesimp>- - Íæ¼Ò´«ËÍ - -</Chinesesimp>
+				<Chinesesimp>- - ç©å®¶ä¼ é€ - -</Chinesesimp>
 				<Original>- - PLAYER TP - -</Original>
 				<English>- - PLAYER TP - -</English>
 				<Spanish>- - PLAYER TP - -</Spanish>
@@ -1504,54 +1504,54 @@
 	<Package name="CopyEquipment">
 		<Container name="CopyEquipment_EdenModule">
 			<Key ID="STR_CopyEquipment_displayName">
-				<Chinesesimp>¸´ÖÆÑ¡ÖĞ×°±¸</Chinesesimp>
+				<Chinesesimp>å¤åˆ¶é€‰ä¸­è£…å¤‡</Chinesesimp>
 				<Original>Copy Equipment</Original>
 				<English>Copy Equipment</English>
-				<Spanish>Copiar Equipaci¨®n</Spanish>
+				<Spanish>Copiar EquipaciÃ³n</Spanish>
 			</Key>
 			<Key ID="STR_CopyEquipment_ModuleDescription">
-				<Chinesesimp>Use: Óë¶ÔÏóÍ¬²½.&lt;br/&gt; Function: ËüÔÊĞíÄã¸´ÖÆÆäËûÍæ¼ÒµÄ×°±¸.&lt;br/&gt; TFARÄ£×é¼æÈİ. </Chinesesimp>
+				<Chinesesimp>Use: ä¸å¯¹è±¡åŒæ­¥.&lt;br/&gt; Function: å®ƒå…è®¸ä½ å¤åˆ¶å…¶ä»–ç©å®¶çš„è£…å¤‡.&lt;br/&gt; TFARæ¨¡ç»„å…¼å®¹. </Chinesesimp>
 				<Original>Use: Synchronize with an object.&lt;br/&gt; Function: It allows you to
 					copy the equipment of other players.&lt;br/&gt; TFAR mod compatible. </Original>
 				<English>Use: Synchronize with an object.&lt;br/&gt; Function: It allows you to copy
 					the equipment of other players.&lt;br/&gt; TFAR mod compatible.</English>
-				<Spanish>Uso: Sincronizar con un objeto.&lt;br/&gt; Funci¨®n: Permite copiar la
-					equipaci¨®n de otros jugadores.&lt;br/&gt;Es compatible con el mod TFAR</Spanish>
+				<Spanish>Uso: Sincronizar con un objeto.&lt;br/&gt; FunciÃ³n: Permite copiar la
+					equipaciÃ³n de otros jugadores.&lt;br/&gt;Es compatible con el mod TFAR</Spanish>
 			</Key>
 		</Container>
 		<Container name="CopyEquipment_Full">
 			<Key ID="STR_CopyEquipment_AddActionTitle">
-				<Chinesesimp>- - ¸´ÖÆ×°±¸. - -</Chinesesimp>
+				<Chinesesimp>- - å¤åˆ¶è£…å¤‡. - -</Chinesesimp>
 				<Original>- - COPY EQUIP. - -</Original>
 				<English>- - COPY EQUIP. - -</English>
 				<Spanish>- - COPY EQUIP. - -</Spanish>
 			</Key>
 			<Key ID="STR_CopyEquipment_Exit">
-				<Chinesesimp>¹Ø±Õ</Chinesesimp>
+				<Chinesesimp>å…³é—­</Chinesesimp>
 				<Original>CLOSE</Original>
 				<English>CLOSE</English>
 				<Spanish>CERRAR</Spanish>
 			</Key>
 			<Key ID="STR_CopyEquipment_Title">
-				<Chinesesimp>A3U - ¸´ÖÆ×°±¸.</Chinesesimp>
+				<Chinesesimp>A3U - å¤åˆ¶è£…å¤‡.</Chinesesimp>
 				<Original>A3U - Copy Equip.</Original>
 				<English>A3U - Copy Equip.</English>
 				<Spanish>A3U - Copi. Equip.</Spanish>
 			</Key>
 			<Key ID="STR_CopyEquipment_Conf">
-				<Chinesesimp>ÅäÖÃ</Chinesesimp>
+				<Chinesesimp>é…ç½®</Chinesesimp>
 				<Original>CONFIGURATION</Original>
 				<English>CONFIGURATION</English>
 				<Spanish>CONFIGURACI?N</Spanish>
 			</Key>
 			<Key ID="STR_CopyEquipment_Equip">
-				<Chinesesimp>×°±¸</Chinesesimp>
+				<Chinesesimp>è£…å¤‡</Chinesesimp>
 				<Original>EQUIP</Original>
 				<English>EQUIP</English>
 				<Spanish>EQUIPAR</Spanish>
 			</Key>
 			<Key ID="STR_CopyEquipment_players">
-				<Chinesesimp>Íæ¼Ò:</Chinesesimp>
+				<Chinesesimp>ç©å®¶:</Chinesesimp>
 				<Original>Players:</Original>
 				<English>Players:</English>
 				<Spanish>Jugadores:</Spanish>
@@ -1561,52 +1561,52 @@
 	<Package name="Simple Defuse">
 		<Container name="SimpleDefuse_EdenModule">
 			<Key ID="STR_SimpleDefuse_displayName">
-				<Chinesesimp>¼òµ¥²ğµ¯</Chinesesimp>
+				<Chinesesimp>ç®€å•æ‹†å¼¹</Chinesesimp>
 				<Original>Simple Defuse</Original>
 				<English>Simple Defuse</English>
 				<Spanish>Simple Defuse</Spanish>
 			</Key>
 			<Key ID="STR_SimpleDefuse_ModuleDescription">
-				<Chinesesimp>Use: Óë¶ÔÏóÍ¬²½.&lt;br/&gt; Function: ËüÔÊĞíÄã¸´ÖÆÆäËûÍæ¼ÒµÄ×°±¸.&lt;br/&gt; TFARÄ£×é¼æÈİ. </Chinesesimp>
+				<Chinesesimp>Use: ä¸å¯¹è±¡åŒæ­¥.&lt;br/&gt; Function: å®ƒå…è®¸ä½ å¤åˆ¶å…¶ä»–ç©å®¶çš„è£…å¤‡.&lt;br/&gt; TFARæ¨¡ç»„å…¼å®¹. </Chinesesimp>
 				<Original>Use: Synchronize with an object.&lt;br/&gt; Function: It allows you to
 					copy the equipment of other players.&lt;br/&gt; TFAR mod compatible. </Original>
 				<English>Use: Synchronize with an object.&lt;br/&gt; Function: It allows you to copy
 					the equipment of other players.&lt;br/&gt; TFAR mod compatible.</English>
-				<Spanish>Uso: Sincronizar con un objeto.&lt;br/&gt; Funci¨®n: Permite copiar la
-					equipaci¨®n de otros jugadores.&lt;br/&gt;Es compatible con el mod TFAR</Spanish>
+				<Spanish>Uso: Sincronizar con un objeto.&lt;br/&gt; FunciÃ³n: Permite copiar la
+					equipaciÃ³n de otros jugadores.&lt;br/&gt;Es compatible con el mod TFAR</Spanish>
 			</Key>
 			<Key ID="STR_SimpleDefuse_VisRad">
-				<Chinesesimp>¿ÉÊÓ»¯°ë¾¶ (m)</Chinesesimp>
+				<Chinesesimp>å¯è§†åŒ–åŠå¾„ (m)</Chinesesimp>
 				<Original>Visualization radius (m)</Original>
 				<English>Visualization radius (m)</English>
-				<Spanish>Radio de visualicaci¨®n (m)</Spanish>
+				<Spanish>Radio de visualicaciÃ³n (m)</Spanish>
 			</Key>
 			<Key ID="STR_SimpleDefuse_StartTime">
-				<Chinesesimp>¿ªÊ¼Ê±¼ä (s)</Chinesesimp>
+				<Chinesesimp>å¼€å§‹æ—¶é—´ (s)</Chinesesimp>
 				<Original>Start Time (s)</Original>
 				<English>Start Time (s)</English>
 				<Spanish>Tiempo de START (s)</Spanish>
 			</Key>
 			<Key ID="STR_SimpleDefuse_TextStyle">
-				<Chinesesimp>ÎÄ±¾ÑùÊ½</Chinesesimp>
+				<Chinesesimp>æ–‡æœ¬æ ·å¼</Chinesesimp>
 				<Original>Text style</Original>
 				<English>Text style</English>
 				<Spanish>Estilo de texto</Spanish>
 			</Key>
 			<Key ID="STR_SimpleDefuse_TimeFormat">
-				<Chinesesimp>Ê±¼ä¸ñÊ½</Chinesesimp>
+				<Chinesesimp>æ—¶é—´æ ¼å¼</Chinesesimp>
 				<Original>Time format</Original>
 				<English>Time format</English>
 				<Spanish>Formato del tiempo</Spanish>
 			</Key>
 			<Key ID="STR_SimpleDefuse_RefreshPeriod">
-				<Chinesesimp>Ë¢ĞÂÖÜÆÚ (s)</Chinesesimp>
+				<Chinesesimp>åˆ·æ–°å‘¨æœŸ (s)</Chinesesimp>
 				<Original>Refresh period (s)</Original>
 				<English>Refresh period (s)</English>
 				<Spanish>Periodo de refresco (s)</Spanish>
 			</Key>
 			<Key ID="STR_SimpleDefuse_Blinking">
-				<Chinesesimp>ÉÁË¸</Chinesesimp>
+				<Chinesesimp>é—ªçƒ</Chinesesimp>
 				<Original>Blinking</Original>
 				<English>Blinking</English>
 				<Spanish>Parpadeo</Spanish>
@@ -1614,19 +1614,19 @@
 		</Container>
 		<Container name="SimpleDefuse_Full">
 			<Key ID="STR_SimpleDefuse_AddActionTitle">
-				<Chinesesimp>- - ²ğµ¯ - -</Chinesesimp>
+				<Chinesesimp>- - æ‹†å¼¹ - -</Chinesesimp>
 				<Original>- - DEFUSE - -</Original>
 				<English>- - DEFUSE - -</English>
 				<Spanish>- - DESACTIVAR - -</Spanish>
 			</Key>
 			<Key ID="STR_SimpleDefuse_ActionDefusing">
-				<Chinesesimp>½â³ıÖĞ...</Chinesesimp>
+				<Chinesesimp>è§£é™¤ä¸­...</Chinesesimp>
 				<Original>DEFUSING ...</Original>
 				<English>DEFUSING ...</English>
 				<Spanish>DESACTIVANDO ...</Spanish>
 			</Key>
 			<Key ID="STR_SimpleDefuse_COUNTDOWN">
-				<Chinesesimp>µ¹¼ÆÊ±</Chinesesimp>
+				<Chinesesimp>å€’è®¡æ—¶</Chinesesimp>
 				<Original>COUNTDOWN</Original>
 				<English>COUNTDOWN</English>
 				<Spanish>CUENTA ATR?S</Spanish>
@@ -1636,182 +1636,182 @@
 	<Package name="DMG">
 		<Container name="DMG_Full">
 			<Key ID="STR_DMG_Exit">
-				<Chinesesimp>¹Ø±Õ</Chinesesimp>
+				<Chinesesimp>å…³é—­</Chinesesimp>
 				<Original>CLOSE</Original>
 				<English>Close</English>
 				<Spanish>SALIR</Spanish>
 			</Key>
 			<Key ID="STR_DMG_Title">
-				<Chinesesimp>A3U - ¶¯Ì¬ÈÎÎñÉú³ÉÆ÷(DMG)</Chinesesimp>
+				<Chinesesimp>A3U - åŠ¨æ€ä»»åŠ¡ç”Ÿæˆå™¨(DMG)</Chinesesimp>
 				<Original>A3U - Dynamic Mission Generator (DMG)</Original>
 				<English>A3U - Dynamic Mission Generator (DMG)</English>
 				<Spanish>A3U - Dynamic Mission Generator (DMG)</Spanish>
 			</Key>
 			<Key ID="STR_DMG_Conf">
-				<Chinesesimp>ÅäÖÃ</Chinesesimp>
+				<Chinesesimp>é…ç½®</Chinesesimp>
 				<Original>CONFIGURATION</Original>
 				<English>CONFIGURATION</English>
 				<Spanish>CONFIGURACI?N</Spanish>
 			</Key>
 			<Key ID="STR_DMG_INI">
-				<Chinesesimp>¿ªÊ¼</Chinesesimp>
+				<Chinesesimp>å¼€å§‹</Chinesesimp>
 				<Original>START</Original>
 				<English>START</English>
 				<Spanish>INICIAR</Spanish>
 			</Key>
 			<Key ID="STR_DMG_CAN">
-				<Chinesesimp>È¡Ïû</Chinesesimp>
+				<Chinesesimp>å–æ¶ˆ</Chinesesimp>
 				<Original>CANCEL</Original>
 				<English>CANCEL</English>
 				<Spanish>CANCELAR</Spanish>
 			</Key>
 			<Key ID="STR_CopyEquipment_MIS">
-				<Chinesesimp>ÈÎÎñ:</Chinesesimp>
+				<Chinesesimp>ä»»åŠ¡:</Chinesesimp>
 				<Original>Missions:</Original>
 				<English>Missions:</English>
 				<Spanish>Misiones:</Spanish>
 			</Key>
 			<Key ID="STR_CopyEquipment_RAND">
-				<Chinesesimp>Ëæ»úÎ»ÖÃ</Chinesesimp>
+				<Chinesesimp>éšæœºä½ç½®</Chinesesimp>
 				<Original>Random position</Original>
 				<English>Random position</English>
-				<Spanish>posici¨®n aleatoria</Spanish>
+				<Spanish>posiciÃ³n aleatoria</Spanish>
 			</Key>
 			<Key ID="STR_CopyEquipment_RETR">
-				<Chinesesimp>ÖØÊÔ</Chinesesimp>
+				<Chinesesimp>é‡è¯•</Chinesesimp>
 				<Original>RETRY</Original>
 				<English>RETRY</English>
 				<Spanish>REINTENTAR</Spanish>
 			</Key>
 			<Key ID="STR_CopyEquipment_CPL">
-				<Chinesesimp>Íæ¼ÒÒÑÁ¬½Ó:</Chinesesimp>
+				<Chinesesimp>ç©å®¶å·²è¿æ¥:</Chinesesimp>
 				<Original>Player connected:</Original>
 				<English>Player connected:</English>
 				<Spanish>Jugador conectado:</Spanish>
 			</Key>
 			<Key ID="STR_CopyEquipment_M01">
-				<Chinesesimp>¿ÕÇÚÁªÂç</Chinesesimp>
+				<Chinesesimp>ç©ºå‹¤è”ç»œ</Chinesesimp>
 				<Original>Air contacts</Original>
 				<English>Air contacts</English>
-				<Spanish>Contactos a¨¦reos</Spanish>
+				<Spanish>Contactos aÃ©reos</Spanish>
 			</Key>
 			<Key ID="STR_CopyEquipment_M02">
-				<Chinesesimp>À¹½Ø³µ¶Ó</Chinesesimp>
+				<Chinesesimp>æ‹¦æˆªè½¦é˜Ÿ</Chinesesimp>
 				<Original>Intercept the convoy</Original>
 				<English>Intercept the convoy</English>
 				<Spanish>Interceptar al convoy</Spanish>
 			</Key>
 			<Key ID="STR_CopyEquipment_M03">
-				<Chinesesimp>Í¨ĞÅĞ¡×é</Chinesesimp>
+				<Chinesesimp>é€šä¿¡å°ç»„</Chinesesimp>
 				<Original>Communications platoon</Original>
 				<English>Communications platoon</English>
-				<Spanish>Pelot¨®n de comunicaciones</Spanish>
+				<Spanish>PelotÃ³n de comunicaciones</Spanish>
 			</Key>
 			<Key ID="STR_DMG_InfoDel_0">
-				<Chinesesimp>É¾³ıÈÎÎñÖĞ...</Chinesesimp>
+				<Chinesesimp>åˆ é™¤ä»»åŠ¡ä¸­...</Chinesesimp>
 				<Original>Deleting mission ...</Original>
 				<English>Deleting mission ...</English>
-				<Spanish>Eliminando misi¨®n ...</Spanish>
+				<Spanish>Eliminando misiÃ³n ...</Spanish>
 			</Key>
 			<Key ID="STR_DMG_InfoDel_1">
-				<Chinesesimp>³õÊ¼»¯:</Chinesesimp>
+				<Chinesesimp>åˆå§‹åŒ–:</Chinesesimp>
 				<Original>Initialized:</Original>
 				<English>Initialized:</English>
-				<Spanish>Inicializaci¨®n:</Spanish>
+				<Spanish>InicializaciÃ³n:</Spanish>
 			</Key>
 			<Key ID="STR_DMG_InfoDel_2">
-				<Chinesesimp>É¾³ıÈÎÎñ</Chinesesimp>
+				<Chinesesimp>åˆ é™¤ä»»åŠ¡</Chinesesimp>
 				<Original>Del. Tasks</Original>
 				<English>Del. Tasks</English>
 				<Spanish>Elim. Tareas:</Spanish>
 			</Key>
 			<Key ID="STR_DMG_InfoDel_3">
-				<Chinesesimp>É¾³ıµ¥Î»</Chinesesimp>
+				<Chinesesimp>åˆ é™¤å•ä½</Chinesesimp>
 				<Original>Del. Units</Original>
 				<English>Del. Units</English>
 				<Spanish>Elim. Unidades: </Spanish>
 			</Key>
 			<Key ID="STR_DMG_InfoDel_4">
-				<Chinesesimp>É¾³ı</Chinesesimp>
+				<Chinesesimp>åˆ é™¤</Chinesesimp>
 				<Original>DELETING ...</Original>
 				<English>DELETING ...</English>
 				<Spanish>ELIMINANDO...</Spanish>
 			</Key>
 			<Key ID="STR_DMG_InfoDel_5">
-				<Chinesesimp>ÈÎÎñÉ¾³ı</Chinesesimp>
+				<Chinesesimp>ä»»åŠ¡åˆ é™¤</Chinesesimp>
 				<Original>MISSION DELETED</Original>
 				<English>MISSION DELETED</English>
 				<Spanish>MISI?N ELIMINADA</Spanish>
 			</Key>
 			<Key ID="STR_DMG_InfoGen_0">
-				<Chinesesimp>Éú³ÉÈÎÎñÖĞ...</Chinesesimp>
+				<Chinesesimp>ç”Ÿæˆä»»åŠ¡ä¸­...</Chinesesimp>
 				<Original>Generating mission ...</Original>
 				<English>Generating mission ...</English>
-				<Spanish>Generando misi¨®n ...</Spanish>
+				<Spanish>Generando misiÃ³n ...</Spanish>
 			</Key>
 			<Key ID="STR_DMG_InfoGen_1">
-				<Chinesesimp>³õÊ¼»¯:</Chinesesimp>
+				<Chinesesimp>åˆå§‹åŒ–:</Chinesesimp>
 				<Original>Initialized:</Original>
 				<English>Initialized:</English>
-				<Spanish>Inicializaci¨®n:</Spanish>
+				<Spanish>InicializaciÃ³n:</Spanish>
 			</Key>
 			<Key ID="STR_DMG_InfoGen_2">
-				<Chinesesimp>Éú³Éµ¥Î»</Chinesesimp>
+				<Chinesesimp>ç”Ÿæˆå•ä½</Chinesesimp>
 				<Original>Gen. Units</Original>
 				<English>Gen. Units</English>
 				<Spanish>Gen. Unidades: </Spanish>
 			</Key>
 			<Key ID="STR_DMG_InfoGen_3">
-				<Chinesesimp>Éú³ÉÈÎÎñ</Chinesesimp>
+				<Chinesesimp>ç”Ÿæˆä»»åŠ¡</Chinesesimp>
 				<Original>Gen. Tasks</Original>
 				<English>Gen. Tasks</English>
 				<Spanish>Gen. Tareas:</Spanish>
 			</Key>
 			<Key ID="STR_DMG_InfoGen_4">
-				<Chinesesimp>Éú³ÉÖĞÖĞ...</Chinesesimp>
+				<Chinesesimp>ç”Ÿæˆä¸­ä¸­...</Chinesesimp>
 				<Original>GENERATING ...</Original>
 				<English>GENERATING ...</English>
 				<Spanish>GENERANDO...</Spanish>
 			</Key>
 			<Key ID="STR_DMG_InfoGen_5">
-				<Chinesesimp>ÈÎÎñ¼ÓÔØ</Chinesesimp>
+				<Chinesesimp>ä»»åŠ¡åŠ è½½</Chinesesimp>
 				<Original>MISSION LOADED</Original>
 				<English>MISSION LOADED</English>
 				<Spanish>MISI?N CARGADA</Spanish>
 			</Key>
 			<Key ID="STR_DMG_InfoGen_6">
-				<Chinesesimp>ÈÎÎñÈ¡Ïû</Chinesesimp>
+				<Chinesesimp>ä»»åŠ¡å–æ¶ˆ</Chinesesimp>
 				<Original>MISSION CANCELED</Original>
 				<English>MISSION CANCELED</English>
 				<Spanish>MISI?N CANCELADA</Spanish>
 			</Key>
 			<Key ID="STR_DMG_InfoGen_7">
-				<Chinesesimp>ÕâÕÅµØÍ¼ÉÏÃ»ÓĞ¹æ»®µÄµÀÂ·°ë¾¶10000Ã×ÒÔÄÚµÄÊ¹Ãü¡£ÈÎÎñÈ¡Ïû¡£</Chinesesimp>
+				<Chinesesimp>è¿™å¼ åœ°å›¾ä¸Šæ²¡æœ‰è§„åˆ’çš„é“è·¯åŠå¾„10000ç±³ä»¥å†…çš„ä½¿å‘½ã€‚ä»»åŠ¡å–æ¶ˆã€‚</Chinesesimp>
 				<Original>This map doesn't have programed roads within a radius of 10000 m of the
 					mission. Mission generation CANCELED.</Original>
 				<English>This map doesn't have programed roads within a radius of 10000 m of the
 					mission. Mission generation CANCELED.</English>
 				<Spanish>Este mapa no tiene carreteras programadas dentro de un radio de 10000 m de
-					la misi¨®n. Misi¨®n generada CANCELADA.</Spanish>
+					la misiÃ³n. MisiÃ³n generada CANCELADA.</Spanish>
 			</Key>
 		</Container>
 	</Package>
 	<Package name="DynamicGroups">
 		<Container name="DynamicGroups_EdenModule">
 			<Key ID="STR_DynamicGroups_displayName">
-				<Chinesesimp>¶¯Ì¬Ğ¡×é</Chinesesimp>
+				<Chinesesimp>åŠ¨æ€å°ç»„</Chinesesimp>
 				<Original>Dynamic Groups</Original>
 				<English>Dynamic Groups</English>
 				<Spanish>Dynamic Groups</Spanish>
 			</Key>
 			<Key ID="STR_DynamicGroups_ModuleDescription">
-				<Chinesesimp>Use: ²»µÃÓëÈÎºÎ¶ÔÏóÍ¬²½.&lt;br/&gt; Function: Õâ½«ÔÊĞíÄúÊ¹ÓÃ(Ä¬ÈÏ)¡°U¡±¼ü·ÃÎÊArma3×é¹ÜÀíÆ÷¡£. </Chinesesimp>
+				<Chinesesimp>Use: ä¸å¾—ä¸ä»»ä½•å¯¹è±¡åŒæ­¥.&lt;br/&gt; Function: è¿™å°†å…è®¸æ‚¨ä½¿ç”¨(é»˜è®¤)â€œUâ€é”®è®¿é—®Arma3ç»„ç®¡ç†å™¨ã€‚. </Chinesesimp>
 				<Original>Use: Must not be synchronized with any object.&lt;br/&gt; Function: Allows
 					you to access the Arma 3 group manager using the (default) "U" key. </Original>
 				<English>Use: Must not be synchronized with any object.&lt;br/&gt; Function: Allows
 					you to access the Arma 3 group manager using the (default) "U" key. TFAR mod
 					compatible.</English>
-				<Spanish>Uso: No se debe sincronizar con ning¨²n objeto.&lt;br/&gt; Funci¨®n: Te
+				<Spanish>Uso: No se debe sincronizar con ningÃºn objeto.&lt;br/&gt; FunciÃ³n: Te
 					permite acceder al gestor de grupos de Arma 3 usando la tecla (por defecto) "U".</Spanish>
 			</Key>
 		</Container>
@@ -1819,19 +1819,19 @@
 	<Package name="Generic">
 		<Container name="Generic_Full">
 			<Key ID="STR_Generic_BLOQ">
-				<Chinesesimp>ÒÑËø¶¨</Chinesesimp>
+				<Chinesesimp>å·²é”å®š</Chinesesimp>
 				<Original>LOCKED</Original>
 				<English>LOCKED</English>
 				<Spanish>BLOQUEADO</Spanish>
 			</Key>
 			<Key ID="STR_Generic_mes">
-				<Chinesesimp>by ¹ÜÀíÔ±</Chinesesimp>
+				<Chinesesimp>by ç®¡ç†å‘˜</Chinesesimp>
 				<Original>by the administrator</Original>
 				<English>by the administrator</English>
 				<Spanish>por el administrador</Spanish>
 			</Key>
 			<Key ID="STR_Generic_DMG_Lock">
-				<Chinesesimp>WARNING: DMGËø¶¨£¬DMGÉú³ÉÈ±Ê§.</Chinesesimp>
+				<Chinesesimp>WARNING: DMGé”å®šï¼ŒDMGç”Ÿæˆç¼ºå¤±.</Chinesesimp>
 				<Original>WARNING: DMG LOCKED, DMG spawns are missing.</Original>
 				<English>WARNING: DMG LOCKED, DMG spawns are missing.</English>
 				<Spanish>ATENCI?N: DMG BLOQUEADO, faltan los spawns del DMG.</Spanish>
@@ -1841,104 +1841,104 @@
 	<Package name="InternalMesages">
 		<Container name="Internal_Full">
 			<Key ID="STR_M03Cancel">
-				<Chinesesimp>Í¨ĞÅĞ¡¶Ó²»²úÉúÈÎÎñ£¬Òò´ËÎŞ·¨Ïû³ı¡£</Chinesesimp>
+				<Chinesesimp>é€šä¿¡å°é˜Ÿä¸äº§ç”Ÿä»»åŠ¡ï¼Œå› æ­¤æ— æ³•æ¶ˆé™¤ã€‚</Chinesesimp>
 				<Original>The communications squad does not generate a mission and therefore can not
 					be eliminated.</Original>
 				<English>The communications squad does not generate a mission and therefore can not
 					be eliminated.</English>
-				<Spanish>El pelot¨®n de comunicaciones no genera una mision y por lo tanto no se
+				<Spanish>El pelotÃ³n de comunicaciones no genera una mision y por lo tanto no se
 					puede eliminar.</Spanish>
 			</Key>
 			<Key ID="STR_M00">
-				<Chinesesimp>ÄúÉĞÎ´Ñ¡ÔñÈÎÎñ.</Chinesesimp>
+				<Chinesesimp>æ‚¨å°šæœªé€‰æ‹©ä»»åŠ¡.</Chinesesimp>
 				<Original>You have not selected a mission.</Original>
 				<English>You have not selected a mission.</English>
-				<Spanish>No has seleccionado una misi¨®n.</Spanish>
+				<Spanish>No has seleccionado una misiÃ³n.</Spanish>
 			</Key>
 			<Key ID="STR_VerfModConv">
-				<Chinesesimp>½ÓµØÄ£¿é´íÎó£º³µ¶ÓµÄ´óĞ¡±ØĞëĞ¡ÓÚ¿ÉÓÃµÄÖØÉúÊıÁ¿.</Chinesesimp>
+				<Chinesesimp>æ¥åœ°æ¨¡å—é”™è¯¯ï¼šè½¦é˜Ÿçš„å¤§å°å¿…é¡»å°äºå¯ç”¨çš„é‡ç”Ÿæ•°é‡.</Chinesesimp>
 				<Original>GROUND MODULE ERROR: The size of the Convoy must be smaller than the
 					number of spawns available.</Original>
 				<English>GROUND MODULE ERROR: The size of the Convoy must be smaller than the number
 					of spawns available.</English>
-				<Spanish>GROUND MODULE ERROR: El tama?o del Convoy debe ser m¨¢s peque?o que el
-					n¨²mero de spawns disponibles.</Spanish>
+				<Spanish>GROUND MODULE ERROR: El tama?o del Convoy debe ser mÃ¡s peque?o que el
+					nÃºmero de spawns disponibles.</Spanish>
 			</Key>
 			<Key ID="STR_VerfNoHayMisionCancelar">
-				<Chinesesimp>Ã»ÓĞ´´½¨ÈÎÎñ.</Chinesesimp>
+				<Chinesesimp>æ²¡æœ‰åˆ›å»ºä»»åŠ¡.</Chinesesimp>
 				<Original>There is no mission created.</Original>
 				<English>There is no mission created.</English>
-				<Spanish>No hay ning¨²na misi¨®n creada.</Spanish>
+				<Spanish>No hay ningÃºna misiÃ³n creada.</Spanish>
 			</Key>
 			<Key ID="STR_VerfSeEstaGenerandoMision_Espera">
-				<Chinesesimp>ÁíÒ»¸öÈÎÎñÕıÔÚÉú³É£¬ÉÔºóÔÙÊÔ...</Chinesesimp>
+				<Chinesesimp>å¦ä¸€ä¸ªä»»åŠ¡æ­£åœ¨ç”Ÿæˆï¼Œç¨åå†è¯•...</Chinesesimp>
 				<Original>Another mission is being generated, wait ...</Original>
 				<English>Another mission is being generated, wait ...</English>
-				<Spanish>Se esta generando otra misi¨®n, espera ...</Spanish>
+				<Spanish>Se esta generando otra misiÃ³n, espera ...</Spanish>
 			</Key>
 			<Key ID="STR_VerfM02NoMasDeUna">
-				<Chinesesimp>Äú²»ÄÜÉú³É¶à¸ö´ËÀàÈÎÎñ.</Chinesesimp>
+				<Chinesesimp>æ‚¨ä¸èƒ½ç”Ÿæˆå¤šä¸ªæ­¤ç±»ä»»åŠ¡.</Chinesesimp>
 				<Original>You can not generate more than one mission of this type.</Original>
 				<English>You can not generate more than one mission of this type.</English>
-				<Spanish>No se puede generar m¨¢s de una mision de este tipo.</Spanish>
+				<Spanish>No se puede generar mÃ¡s de una mision de este tipo.</Spanish>
 			</Key>
 			<Key ID="STR_VerfAleatoryPosError">
-				<Chinesesimp>ÔÚÑ°ÕÒËæ»úÎ»ÖÃÊ±·¢Éú´íÎó£¬Äú±ØĞëÊ¹ÓÃµØÍ¼Ñ¡ÔñÈÎÎñÎ»ÖÃ.</Chinesesimp>
+				<Chinesesimp>åœ¨å¯»æ‰¾éšæœºä½ç½®æ—¶å‘ç”Ÿé”™è¯¯ï¼Œæ‚¨å¿…é¡»ä½¿ç”¨åœ°å›¾é€‰æ‹©ä»»åŠ¡ä½ç½®.</Chinesesimp>
 				<Original>ERROR when looking for the random position, you will have to select the
 					mission position with the map.</Original>
 				<English>ERROR when looking for the random position, you will have to select the
 					mission position with the map.</English>
-				<Spanish>ERROR al buscar la posici¨®n aleatoria, tendras de seleccionar la posici¨®n
-					de la misi¨®n con el mapa.</Spanish>
+				<Spanish>ERROR al buscar la posiciÃ³n aleatoria, tendras de seleccionar la posiciÃ³n
+					de la misiÃ³n con el mapa.</Spanish>
 			</Key>
 		</Container>
 	</Package>
 	<Package name="ATMDrop">
 		<Container name="ATM_Drop">
 			<Key ID="STR_ATM_Alt">
-				<Chinesesimp>º£°Î:</Chinesesimp>
+				<Chinesesimp>æµ·æ‹”:</Chinesesimp>
 				<Original>Altitude:</Original>
 				<French>Altitude:</French>
 				<Spanish>Altitud:</Spanish>
 			</Key>
 			<Key ID="STR_ATM_Keys">
-				<Chinesesimp>Ñ¡Ôñ¹Ø¼üµã:</Chinesesimp>
+				<Chinesesimp>é€‰æ‹©å…³é”®ç‚¹:</Chinesesimp>
 				<Original>Select Key:</Original>
 				<French>Choisir Une touche:</French>
 				<Spanish>Selecciona una tecla:</Spanish>
 			</Key>
 			<Key ID="STR_ATM_Main">
-				<Chinesesimp>Ñ¡ÔñÄúµÄº£°Î¸ß¶ÈºÍ¹Ø¼üµã</Chinesesimp>
+				<Chinesesimp>é€‰æ‹©æ‚¨çš„æµ·æ‹”é«˜åº¦å’Œå…³é”®ç‚¹</Chinesesimp>
 				<Original>Choose your Altitude and Cut Key</Original>
 				<French>Choisir votre altitude et une touche</French>
 				<Spanish>Escoje la altitud y la tecla para cortar las cuerdas</Spanish>
 			</Key>
 			<Key ID="STR_ATM_hover">
-				<Chinesesimp>Ñ¡ÔñÄúµÄ¸ß¶ÈºÍ¹Ø¼üµã</Chinesesimp>
+				<Chinesesimp>é€‰æ‹©æ‚¨çš„é«˜åº¦å’Œå…³é”®ç‚¹</Chinesesimp>
 				<Original>Select your altitude and your key</Original>
 				<French>Selectionner votre altitude et votre touche</French>
 				<Spanish>Selecciona tu altitud y una tecla</Spanish>
 			</Key>
 			<Key ID="STR_ATM_hinton">
-				<Chinesesimp>ÔÚµØÍ¼ÉÏÑ¡Ôñ¸ß¶È²¢Ö¸¶¨LZ½øĞĞHALOÌøÔ¾</Chinesesimp>
+				<Chinesesimp>åœ¨åœ°å›¾ä¸Šé€‰æ‹©é«˜åº¦å¹¶æŒ‡å®šLZè¿›è¡ŒHALOè·³è·ƒ</Chinesesimp>
 				<Original>Select Altitude and Designate LZ for HALO Jump on the map</Original>
-				<French>S¨¦lectionner votre Altitude et d¨¦signer une LZ sur la carte</French>
+				<French>SÃ©lectionner votre Altitude et dÃ©signer une LZ sur la carte</French>
 				<Spanish>Selecciona altitud y designa una LZ para el salto HALO en el mapa</Spanish>
 			</Key>
 			<Key ID="STR_ATM_hintjump">
-				<Chinesesimp>°´¼üÇĞ¶ÏÉşË÷</Chinesesimp>
+				<Chinesesimp>æŒ‰é”®åˆ‡æ–­ç»³ç´¢</Chinesesimp>
 				<Original>PRESS KEY TO CUT-AWAY ROPES</Original>
 				<French>Appuyer sur votre touche pour couper les suspentes</French>
 				<Spanish>Presiona la tecla para cortar las cuerdas</Spanish>
 			</Key>
 			<Key ID="STR_ATM_hintload">
-				<Chinesesimp>ÕıÔÚ¼ÓÔØ±øÖÖÖĞ...</Chinesesimp>
+				<Chinesesimp>æ­£åœ¨åŠ è½½å…µç§ä¸­...</Chinesesimp>
 				<Original>loading loadout ...</Original>
-				<French>Chargement de votre ¨¦quipement ...</French>
+				<French>Chargement de votre Ã©quipement ...</French>
 				<Spanish>Cargando equipamiento ...</Spanish>
 			</Key>
 			<Key ID="STR_ATM_Close">
-				<Chinesesimp>¹Ø±Õ</Chinesesimp>
+				<Chinesesimp>å…³é—­</Chinesesimp>
 				<Original>CLOSE</Original>
 				<French>FERMER</French>
 				<Spanish>CERRAR</Spanish>
@@ -1948,151 +1948,151 @@
 	<Package name="IE">
 		<Container name="IE_Full">
 			<Key ID="STR_IE_Title">
-				<Chinesesimp>A3U - Íæ¼Ò×°±¸</Chinesesimp>
+				<Chinesesimp>A3U - ç©å®¶è£…å¤‡</Chinesesimp>
 				<Original>A3U - PLAYER'S EQUIPMENT</Original>
 				<English>A3U - PLAYER'S EQUIPMENT</English>
 				<Spanish>A3U - EQUIPAMIENTO DEL JUGADOR</Spanish>
 			</Key>
 			<Key ID="STR_IE_Exit">
-				<Chinesesimp>¹Ø±Õ</Chinesesimp>
+				<Chinesesimp>å…³é—­</Chinesesimp>
 				<Original>CLOSE</Original>
 				<English>CLOSE</English>
 				<Spanish>CERRAR</Spanish>
 			</Key>
 			<Key ID="STR_IE_Bag">
-				<Chinesesimp>ĞĞÄÒ</Chinesesimp>
+				<Chinesesimp>è¡Œå›Š</Chinesesimp>
 				<Original>BAG</Original>
 				<English>BAG</English>
 				<Spanish>MOCHILA</Spanish>
 			</Key>
 			<Key ID="STR_IE_MainWeapon">
-				<Chinesesimp>Ö÷ÎäÆ÷</Chinesesimp>
+				<Chinesesimp>ä¸»æ­¦å™¨</Chinesesimp>
 				<Original>MAIN WEAP.</Original>
 				<English>MAIN WEAP.</English>
 				<Spanish>ARMA PRIN.</Spanish>
 			</Key>
 			<Key ID="STR_IE_Launcher">
-				<Chinesesimp>·¢ÉäÆ÷</Chinesesimp>
+				<Chinesesimp>å‘å°„å™¨</Chinesesimp>
 				<Original>LAUNCHER</Original>
 				<English>LAUNCHER</English>
 				<Spanish>LANZADOR</Spanish>
 			</Key>
 			<Key ID="STR_IE_MedGear">
-				<Chinesesimp>Ò½ÁÆ×°±¸</Chinesesimp>
+				<Chinesesimp>åŒ»ç–—è£…å¤‡</Chinesesimp>
 				<Original>MED. GEAR</Original>
 				<English>MED. GEAR</English>
 				<Spanish>EQP. M?DICO</Spanish>
 			</Key>
 			<Key ID="STR_IE_Drop">
-				<Chinesesimp>·ÅÏÂ</Chinesesimp>
+				<Chinesesimp>æ”¾ä¸‹</Chinesesimp>
 				<Original>DROP</Original>
 				<English>DROP</English>
 				<Spanish>SOLTAR</Spanish>
 			</Key>
 			<Key ID="STR_IE_Take">
-				<Chinesesimp>È¡×ß</Chinesesimp>
+				<Chinesesimp>å–èµ°</Chinesesimp>
 				<Original>TAKE</Original>
 				<English>TAKE</English>
 				<Spanish>COJER</Spanish>
 			</Key>
 			<Key ID="STR_IE_Unit">
-				<Chinesesimp>µ¥Î»:</Chinesesimp>
+				<Chinesesimp>å•ä½:</Chinesesimp>
 				<Original>Unit:</Original>
 				<English>Unit:</English>
 				<Spanish>Unidad:</Spanish>
 			</Key>
 			<Key ID="STR_IE_SM0">
-				<Chinesesimp>·ÅÏÂÁËÄãµÄ±³°ü</Chinesesimp>
+				<Chinesesimp>æ”¾ä¸‹äº†ä½ çš„èƒŒåŒ…</Chinesesimp>
 				<Original>has dropped your backpack</Original>
 				<English>has dropped your backpack</English>
 				<Spanish>te ha soltado la mochila</Spanish>
 			</Key>
 			<Key ID="STR_IE_SM1">
-				<Chinesesimp>Äã°ÑËûµÄ±³°üÍÑµôÁË</Chinesesimp>
+				<Chinesesimp>ä½ æŠŠä»–çš„èƒŒåŒ…è„±æ‰äº†</Chinesesimp>
 				<Original>You have dropped his backpack</Original>
 				<English>You have dropped his backpack</English>
 				<Spanish>Has soltado su mochila</Spanish>
 			</Key>
 			<Key ID="STR_IE_SMW0">
-				<Chinesesimp>·ÅÏÂÁËÄãµÄÖ÷ÎäÆ÷</Chinesesimp>
+				<Chinesesimp>æ”¾ä¸‹äº†ä½ çš„ä¸»æ­¦å™¨</Chinesesimp>
 				<Original>has dropped your main weapon</Original>
 				<English>has dropped your main weapon</English>
 				<Spanish>te ha soltado el arma principal</Spanish>
 			</Key>
 			<Key ID="STR_IE_SMW1">
-				<Chinesesimp>Äã°ÑËûµÄÖ÷ÎäÆ÷·ÅÏÂÁË</Chinesesimp>
+				<Chinesesimp>ä½ æŠŠä»–çš„ä¸»æ­¦å™¨æ”¾ä¸‹äº†</Chinesesimp>
 				<Original>You have dropped his main weapon</Original>
 				<English>You have dropped his main weapon</English>
 				<Spanish>Has soltado su arma principal</Spanish>
 			</Key>
 			<Key ID="STR_IE_SL0">
-				<Chinesesimp>·ÅÏÂÁËÄãµÄ·¢ÉäÆ÷</Chinesesimp>
+				<Chinesesimp>æ”¾ä¸‹äº†ä½ çš„å‘å°„å™¨</Chinesesimp>
 				<Original>has dropped your launcher</Original>
 				<English>has dropped your launcher</English>
 				<Spanish>te ha soltado el lanzador</Spanish>
 			</Key>
 			<Key ID="STR_IE_SL1">
-				<Chinesesimp>Äã°ÑËûµÄ·¢ÉäÆ÷·ÅÏÂÁË</Chinesesimp>
+				<Chinesesimp>ä½ æŠŠä»–çš„å‘å°„å™¨æ”¾ä¸‹äº†</Chinesesimp>
 				<Original>You have dropped his launcher</Original>
 				<English>You have dropped his launcher</English>
 				<Spanish>Has soltado su lanzador</Spanish>
 			</Key>
 			<Key ID="STR_IE_CM0">
-				<Chinesesimp>È¡×ßÁËÄãµÄ±³°ü</Chinesesimp>
+				<Chinesesimp>å–èµ°äº†ä½ çš„èƒŒåŒ…</Chinesesimp>
 				<Original>has taken your backpack</Original>
 				<English>has taken your backpack</English>
 				<Spanish>te ha cojido la mochila</Spanish>
 			</Key>
 			<Key ID="STR_IE_CM1">
-				<Chinesesimp>ÄãÈ¡×ßÁËËûµÄ±³°ü</Chinesesimp>
+				<Chinesesimp>ä½ å–èµ°äº†ä»–çš„èƒŒåŒ…</Chinesesimp>
 				<Original>You have taken his backpack</Original>
 				<English>You have taken his backpack</English>
 				<Spanish>Has cojido su mochila</Spanish>
 			</Key>
 			<Key ID="STR_IE_CMW0">
-				<Chinesesimp>È¡×ßÁËÄãµÄÖ÷ÎäÆ÷</Chinesesimp>
+				<Chinesesimp>å–èµ°äº†ä½ çš„ä¸»æ­¦å™¨</Chinesesimp>
 				<Original>has taken your main weapon</Original>
 				<English>has taken your main weapon</English>
 				<Spanish>te ha cojido el arma principal</Spanish>
 			</Key>
 			<Key ID="STR_IE_CMW1">
-				<Chinesesimp>ÄãÈ¡×ßÁËËûµÄÖ÷ÎäÆ÷</Chinesesimp>
+				<Chinesesimp>ä½ å–èµ°äº†ä»–çš„ä¸»æ­¦å™¨</Chinesesimp>
 				<Original>You have taken his main weapon</Original>
 				<English>You have taken his main weapon</English>
 				<Spanish>Has cojido su arma principal</Spanish>
 			</Key>
 			<Key ID="STR_IE_CL0">
-				<Chinesesimp>È¡×ßÁËÄãµÄ·¢ÉäÆ÷</Chinesesimp>
+				<Chinesesimp>å–èµ°äº†ä½ çš„å‘å°„å™¨</Chinesesimp>
 				<Original>has taken your launcher</Original>
 				<English>has taken your launcher</English>
 				<Spanish>te ha cojido el lanzador</Spanish>
 			</Key>
 			<Key ID="STR_IE_CL1">
-				<Chinesesimp>ÄãÈ¡×ßÁËËûµÄ·¢ÉäÆ÷</Chinesesimp>
+				<Chinesesimp>ä½ å–èµ°äº†ä»–çš„å‘å°„å™¨</Chinesesimp>
 				<Original>You have taken his launcher</Original>
 				<English>You have taken his launcher</English>
 				<Spanish>Has cojido su lanzador</Spanish>
 			</Key>
 			<Key ID="STR_IE_CME0">
-				<Chinesesimp>È¡×ßÁËÄãµÄÒ½ÁÆ×°±¸</Chinesesimp>
+				<Chinesesimp>å–èµ°äº†ä½ çš„åŒ»ç–—è£…å¤‡</Chinesesimp>
 				<Original>has taken your medical equipment</Original>
 				<English>has taken your medical equipment</English>
-				<Spanish>te ha cojido tu equipamiento m¨¦dico</Spanish>
+				<Spanish>te ha cojido tu equipamiento mÃ©dico</Spanish>
 			</Key>
 			<Key ID="STR_IE_CME1">
-				<Chinesesimp>ÄãÈ¡×ßÁËËûµÄÒ½ÁÆ×°±¸</Chinesesimp>
+				<Chinesesimp>ä½ å–èµ°äº†ä»–çš„åŒ»ç–—è£…å¤‡</Chinesesimp>
 				<Original>You have taken his medical equipment</Original>
 				<English>You have taken his medical equipment</English>
-				<Spanish>Has cojido su equipamiento m¨¦dico</Spanish>
+				<Spanish>Has cojido su equipamiento mÃ©dico</Spanish>
 			</Key>
 			<Key ID="STR_IE_CME2">
-				<Chinesesimp>ËùÓĞÒ½ÁÆ×°±¸ÉĞÎ´±»ÄÃ×ß</Chinesesimp>
+				<Chinesesimp>æ‰€æœ‰åŒ»ç–—è£…å¤‡å°šæœªè¢«æ‹¿èµ°</Chinesesimp>
 				<Original>All Med. equipment has not been taken</Original>
 				<English>All Med. equipment has not been taken</English>
-				<Spanish>No se ha podido cojert todo el material m¨¦dico</Spanish>
+				<Spanish>No se ha podido cojert todo el material mÃ©dico</Spanish>
 			</Key>
 			<Key ID="STR_IE_NONE">
-				<Chinesesimp>½ûÓÃ</Chinesesimp>
+				<Chinesesimp>ç¦ç”¨</Chinesesimp>
 				<Original>Disabled</Original>
 				<English>Disabled</English>
 				<Spanish>Desactivado</Spanish>
@@ -2100,50 +2100,50 @@
 		</Container>
 		<Container name="IE_EdenModule">
 			<Key ID="STR_IE_displayName">
-				<Chinesesimp>ÎŞÒâÊ¶ÕßµÄ×°±¸</Chinesesimp>
+				<Chinesesimp>æ— æ„è¯†è€…çš„è£…å¤‡</Chinesesimp>
 				<Original>Unconscient's Equipment</Original>
 				<English>Unconscient's Equipment</English>
-				<Spanish>Equipaci¨®n del Inconsciente</Spanish>
+				<Spanish>EquipaciÃ³n del Inconsciente</Spanish>
 			</Key>
 			<Key ID="STR_IE_ModuleDescription">
-				<Chinesesimp>Use: Ëü±ØĞëÊ×ÏÈÓëÒ»¸ö²»¿É¼ûµÄÖ±Éı»ú³¡Í¬²½£¬È»ºóÓëÄãÏëÒª·ÃÎÊ½çÃæµÄ¶ÔÏóÍ¬²½.&lt;br/&gt; Function:
-					Ëü¿ÉÒÔÈÃÄãÓÃ²»Í¬µÄACEÉË¿ÚÉú³ÉAI.</Chinesesimp>
+				<Chinesesimp>Use: å®ƒå¿…é¡»é¦–å…ˆä¸ä¸€ä¸ªä¸å¯è§çš„ç›´å‡æœºåœºåŒæ­¥ï¼Œç„¶åä¸ä½ æƒ³è¦è®¿é—®ç•Œé¢çš„å¯¹è±¡åŒæ­¥.&lt;br/&gt; Function:
+					å®ƒå¯ä»¥è®©ä½ ç”¨ä¸åŒçš„ACEä¼¤å£ç”ŸæˆAI.</Chinesesimp>
 				<Original>Use: It has to be synchronized first with an invisible heliport and then
 					with the object you want to acces the interface.&lt;br/&gt; Function: It allows
 					you to generate AI with different ACE wounds. </Original>
 				<English>Use: Must not be synchronized with any object.&lt;br/&gt; Function: It
 					allows you to generate AI with different ACE wounds.</English>
-				<Spanish>Uso: Tiene de sincronizarse primero con un helipuerto invisible y despu¨¦s
-					con el objeto que quieras que tenga la interfaz.&lt;br/&gt; Funci¨®n: Te permite
+				<Spanish>Uso: Tiene de sincronizarse primero con un helipuerto invisible y despuÃ©s
+					con el objeto que quieras que tenga la interfaz.&lt;br/&gt; FunciÃ³n: Te permite
 					generar IA con diferentes heridas del ACE.</Spanish>
 			</Key>
 			<Key ID="STR_IE_SoundType">
-				<Chinesesimp>»èÃÔÊ±·¢³öÉùÒô</Chinesesimp>
+				<Chinesesimp>æ˜è¿·æ—¶å‘å‡ºå£°éŸ³</Chinesesimp>
 				<Original>Sound when unconscious</Original>
 				<English>Sound when unconscious</English>
 				<Spanish>Sonido al caer inconsciente</Spanish>
 			</Key>
 			<Key ID="STR_IE_AccesToEquipment">
-				<Chinesesimp>ÎŞÒâÊ¶ÕßµÄ×°±¸</Chinesesimp>
+				<Chinesesimp>æ— æ„è¯†è€…çš„è£…å¤‡</Chinesesimp>
 				<Original>Unconscient's Equipment</Original>
 				<English>Unconscient's Equipment</English>
-				<Spanish>Equipaci¨®n del Inconsciente</Spanish>
+				<Spanish>EquipaciÃ³n del Inconsciente</Spanish>
 			</Key>
 		</Container>
 	</Package>
 	<Package name="Version">
 		<Container name="Version_Full">
 			<Key ID="STR_V_0">
-				<Chinesesimp>¾¯¸æ</Chinesesimp>
+				<Chinesesimp>è­¦å‘Š</Chinesesimp>
 				<Original>WARNING</Original>
 				<English>WARNING</English>
 				<Spanish>ATENCI?N</Spanish>
 			</Key>
 			<Key ID="STR_V_1">
-				<Chinesesimp>·şÎñÆ÷ÉÏµÄA3U°æ±¾Óë¿Í»§¶ËµÄ°æ±¾²»Í¬.</Chinesesimp>
+				<Chinesesimp>æœåŠ¡å™¨ä¸Šçš„A3Uç‰ˆæœ¬ä¸å®¢æˆ·ç«¯çš„ç‰ˆæœ¬ä¸åŒ.</Chinesesimp>
 				<Original>The version of A3U on the server is different from that of the client.</Original>
 				<English>The version of A3U on the server is different from that of the client.</English>
-				<Spanish>La versi¨®n del A3U en el servidor es diferente a la del cliente.</Spanish>
+				<Spanish>La versiÃ³n del A3U en el servidor es diferente a la del cliente.</Spanish>
 			</Key>
 			<Key ID="STR_A3U_Version">
 				<Chinesesimp>0.7.15</Chinesesimp>
@@ -2156,121 +2156,121 @@
 	<Package name="NRBQ">
 		<Container name="CBRN_Full">
 			<Key ID="STR_NRBQ_Message_1_1">
-				<Chinesesimp>ÑªÒºÖĞµÄÊµ¼ÊÎÛÈ¾</Chinesesimp>
+				<Chinesesimp>è¡€æ¶²ä¸­çš„å®é™…æ±¡æŸ“</Chinesesimp>
 				<Original>Actual contamination in blood</Original>
 				<English>Actual contamination in blood</English>
-				<Spanish>Contaminaci¨®n actual en sangre</Spanish>
+				<Spanish>ContaminaciÃ³n actual en sangre</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_1_2">
-				<Chinesesimp>WARNING: ÎÛÈ¾½Ó´¥¹ı¶à!!</Chinesesimp>
+				<Chinesesimp>WARNING: æ±¡æŸ“æ¥è§¦è¿‡å¤š!!</Chinesesimp>
 				<Original>WARNING: Overexposure by contamined gear contact !!</Original>
 				<English>WARNING: Overexposure by contamined gear contact !!</English>
-				<Spanish>ATENCI?N: Sobrexposici¨®n por contacto con equipamiento contaminado !!</Spanish>
+				<Spanish>ATENCI?N: SobrexposiciÃ³n por contacto con equipamiento contaminado !!</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_1_3">
-				<Chinesesimp>WARNING: ¹ı¶È½Ó´¥</Chinesesimp>
+				<Chinesesimp>WARNING: è¿‡åº¦æ¥è§¦</Chinesesimp>
 				<Original>WARNING: Overexposure</Original>
 				<English>WARNING: Overexposure</English>
-				<Spanish>ATENCI?N: Sobrexposici¨®n</Spanish>
+				<Spanish>ATENCI?N: SobrexposiciÃ³n</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_High">
-				<Chinesesimp>¸ß</Chinesesimp>
+				<Chinesesimp>é«˜</Chinesesimp>
 				<Original>High</Original>
 				<English>High</English>
 				<Spanish>Alta</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_Low">
-				<Chinesesimp>µÍ</Chinesesimp>
+				<Chinesesimp>ä½</Chinesesimp>
 				<Original>Low</Original>
 				<English>Low</English>
 				<Spanish>Baja</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_2_1">
-				<Chinesesimp>ÏûÉ±ÁÜÔ¡¿ªÆô</Chinesesimp>
+				<Chinesesimp>æ¶ˆæ€æ·‹æµ´å¼€å¯</Chinesesimp>
 				<Original>Decon shower ON</Original>
 				<English>Decon shower ON</English>
-				<Spanish>Ducha de descontaminaci¨®n ON</Spanish>
+				<Spanish>Ducha de descontaminaciÃ³n ON</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_2_2">
-				<Chinesesimp>ÏûÉ±ÁÜÔ¡¹Ø±Õ</Chinesesimp>
+				<Chinesesimp>æ¶ˆæ€æ·‹æµ´å…³é—­</Chinesesimp>
 				<Original>Decon shower OFF</Original>
 				<English>Decon shower OFF</English>
-				<Spanish>Ducha de descontaminaci¨®n OFF</Spanish>
+				<Spanish>Ducha de descontaminaciÃ³n OFF</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_3_1">
-				<Chinesesimp>ÅÅ³ıÎÛÈ¾ÖĞ...</Chinesesimp>
+				<Chinesesimp>æ’é™¤æ±¡æŸ“ä¸­...</Chinesesimp>
 				<Original>Decontaminating ...</Original>
 				<English>Decontaminating ...</English>
 				<Spanish>Descontaminando ...</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_3_2">
-				<Chinesesimp>Íê³É !</Chinesesimp>
+				<Chinesesimp>å®Œæˆ !</Chinesesimp>
 				<Original>Complete !</Original>
 				<English>Complete !</English>
 				<Spanish>Completado !</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_4_1">
-				<Chinesesimp>ÎÛÈ¾ !!</Chinesesimp>
+				<Chinesesimp>æ±¡æŸ“ !!</Chinesesimp>
 				<Original>Contaminated !!</Original>
 				<English>Contaminated !!</English>
 				<Spanish>Contaminado !!</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_4_2">
-				<Chinesesimp>Çå³ı</Chinesesimp>
+				<Chinesesimp>æ¸…é™¤</Chinesesimp>
 				<Original>Clear</Original>
 				<English>Clear</English>
 				<Spanish>Limpio</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_NormalDosis">
-				<Chinesesimp>CBRN - Õı³£¼ÁÁ¿</Chinesesimp>
+				<Chinesesimp>CBRN - æ­£å¸¸å‰‚é‡</Chinesesimp>
 				<Original>CBRN - Normal Dosis</Original>
 				<English>CBRN - Normal Dosis</English>
 				<Spanish>NRBQ - Dosis Normal</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_MidiumDosis">
-				<Chinesesimp>CBRN - ÖĞµÈ¼ÁÁ¿</Chinesesimp>
+				<Chinesesimp>CBRN - ä¸­ç­‰å‰‚é‡</Chinesesimp>
 				<Original>CBRN - Medium Dosis</Original>
 				<English>CBRN - Medium Dosis</English>
 				<Spanish>NRBQ - Dosis Media</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_MidiumDosisR">
-				<Chinesesimp>CBRN - ÖĞµÈ¼ÁÁ¿»Ö¸´</Chinesesimp>
+				<Chinesesimp>CBRN - ä¸­ç­‰å‰‚é‡æ¢å¤</Chinesesimp>
 				<Original>CBRN - Medium Dosis Resuply</Original>
 				<English>CBRN - Medium Dosis Resuply</English>
 				<Spanish>NRBQ - Dosis Media Reaprobi.</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_NormalDosisR">
-				<Chinesesimp>CBRN - Õı³£¼ÁÁ¿»Ö¸´</Chinesesimp>
+				<Chinesesimp>CBRN - æ­£å¸¸å‰‚é‡æ¢å¤</Chinesesimp>
 				<Original>CBRN - Normal Dosis Resuply</Original>
 				<English>CBRN - Normal Dosis Resuply</English>
 				<Spanish>NRBQ - Dosis Normal Reaprobi.</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_Neutralizar">
-				<Chinesesimp>ÖĞºÍ</Chinesesimp>
+				<Chinesesimp>ä¸­å’Œ</Chinesesimp>
 				<Original>Neutralize</Original>
 				<English>Neutralize</English>
 				<Spanish>Neutralizar</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_NeutrActionOK">
-				<Chinesesimp>CBRNÎÛÈ¾ÒÑÖĞºÍ.</Chinesesimp>
+				<Chinesesimp>CBRNæ±¡æŸ“å·²ä¸­å’Œ.</Chinesesimp>
 				<Original>CBRN Thread neutralized.</Original>
 				<English>CBRN Thread neutralized.</English>
 				<Spanish>Amenaza NRBQ neutralizada.</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_NeutrActionCANCELED">
-				<Chinesesimp>CBRN ÎÛÈ¾Î´±»ÖĞºÍ</Chinesesimp>
+				<Chinesesimp>CBRN æ±¡æŸ“æœªè¢«ä¸­å’Œ</Chinesesimp>
 				<Original>CBRN Thread NOT neutralized.</Original>
 				<English>CBRN Thread NOT neutralized.</English>
 				<Spanish>Amenaza NRBQ NO neutralizada.</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_Neutralizando">
-				<Chinesesimp>ÖĞºÍ...</Chinesesimp>
+				<Chinesesimp>ä¸­å’Œ...</Chinesesimp>
 				<Original>Neutralizing ...</Original>
 				<English>Neutralizing ...</English>
 				<Spanish>Neutralizando ...</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Message_AplicandoDosis">
-				<Chinesesimp>Ê¹ÓÃ ¿¹CBRN ¼ÁÁ¿</Chinesesimp>
+				<Chinesesimp>ä½¿ç”¨ æŠ—CBRN å‰‚é‡</Chinesesimp>
 				<Original>Applying Anti-CBRN Dosis</Original>
 				<English>Applying Anti-CBRN Dosis</English>
 				<Spanish>Aplicando Anti-NRBQ Dosis</Spanish>
@@ -2278,13 +2278,13 @@
 		</Container>
 		<Container name="NRBQ_EdenModule">
 			<Key ID="STR_NRBQ_displayName">
-				<Chinesesimp>³õÊ¼»¯ CBRN</Chinesesimp>
+				<Chinesesimp>åˆå§‹åŒ– CBRN</Chinesesimp>
 				<Original>Init CBRN</Original>
 				<English>Init CBRN</English>
 				<Spanish>Init NRBQ</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_ModuleDescription">
-				<Chinesesimp>Èç¹ûÄãÏëÊ¹ÓÃCBRNÆøÌå£¬±ØĞëÊ¹ÓÃ.</Chinesesimp>
+				<Chinesesimp>å¦‚æœä½ æƒ³ä½¿ç”¨CBRNæ°”ä½“ï¼Œå¿…é¡»ä½¿ç”¨.</Chinesesimp>
 				<Original>Must be place if you want to use the CBRN mechanic.</Original>
 				<English>Must be place if you want to use the CBRN mechanic.</English>
 				<Spanish>Debe usarse si quieres utilizar la mecanica CBRN.</Spanish>
@@ -2292,25 +2292,25 @@
 		</Container>
 		<Container name="NRBQ_EdenModule_AddCbrnGas">
 			<Key ID="STR_NRBQ_Module0_displayName">
-				<Chinesesimp>Ìí¼ÓCBRNÆøÌå</Chinesesimp>
+				<Chinesesimp>æ·»åŠ CBRNæ°”ä½“</Chinesesimp>
 				<Original>Add CBRN Gas</Original>
 				<English>Add CBRN Gas</English>
 				<Spanish>A?adir Gas NRBQ</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Module0_moduleDescription">
-				<Chinesesimp>Use: ±ØĞëÓë¶ÔÏóÍ¬²½.</Chinesesimp>
+				<Chinesesimp>Use: å¿…é¡»ä¸å¯¹è±¡åŒæ­¥.</Chinesesimp>
 				<Original>Use: Must be synchronized with a object.</Original>
 				<English>Use: Must be synchronized with a object.</English>
 				<Spanish>Uso: Debe estar sincronizado con un objeto.</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Module0_GasEffect">
-				<Chinesesimp>ÆøÌåĞ§Ó¦</Chinesesimp>
+				<Chinesesimp>æ°”ä½“æ•ˆåº”</Chinesesimp>
 				<Original>Gas Effect</Original>
 				<English>Gas Effect</English>
 				<Spanish>Effecto del gas</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Module0_requiredRole">
-				<Chinesesimp>ËùĞèACE½ÇÉ«</Chinesesimp>
+				<Chinesesimp>æ‰€éœ€ACEè§’è‰²</Chinesesimp>
 				<Original>Required ACE role</Original>
 				<English>Required ACE role</English>
 				<Spanish>Rol de ACE requerido</Spanish>
@@ -2318,25 +2318,25 @@
 		</Container>
 		<Container name="NRBQ_EdenModule_AddCbrnGasTrig">
 			<Key ID="STR_NRBQ_Module1_displayName">
-				<Chinesesimp>Ìí¼ÓCBRNÆøÌå(´¥·¢Æ÷)</Chinesesimp>
+				<Chinesesimp>æ·»åŠ CBRNæ°”ä½“(è§¦å‘å™¨)</Chinesesimp>
 				<Original>Add CBRN Gas (Trigger)</Original>
 				<English>Add CBRN Gas (Trigger)</English>
 				<Spanish>A?adir Gas NRBQ (Trigger)</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Module1_moduleDescription">
-				<Chinesesimp>Use: ±ØĞëÓë¶ÔÏóÍ¬²½.</Chinesesimp>
+				<Chinesesimp>Use: å¿…é¡»ä¸å¯¹è±¡åŒæ­¥.</Chinesesimp>
 				<Original>Use: Must be synchronized with a object.</Original>
 				<English>Use: Must be synchronized with a object.</English>
 				<Spanish>Uso: Debe estar sincronizado con un objeto.</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Module1_GasEffect">
-				<Chinesesimp>ÆøÌåĞ§Ó¦</Chinesesimp>
+				<Chinesesimp>æ°”ä½“æ•ˆåº”</Chinesesimp>
 				<Original>Gas Effect</Original>
 				<English>Gas Effect</English>
 				<Spanish>Effecto del gas</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Module1_requiredRole">
-				<Chinesesimp>ËùĞèACE½ÇÉ«</Chinesesimp>
+				<Chinesesimp>æ‰€éœ€ACEè§’è‰²</Chinesesimp>
 				<Original>Required ACE role</Original>
 				<English>Required ACE role</English>
 				<Spanish>Rol de ACE requerido</Spanish>
@@ -2344,25 +2344,25 @@
 		</Container>
 		<Container name="NRBQ_EdenModule_SmallShower">
 			<Key ID="STR_NRBQ_Module2_displayName">
-				<Chinesesimp>ÈËÔ±ÁÜÔ¡</Chinesesimp>
+				<Chinesesimp>äººå‘˜æ·‹æµ´</Chinesesimp>
 				<Original>Personel Showers</Original>
 				<English>Personel Showers</English>
 				<Spanish>Duchas de personal</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Module2_moduleDescription">
-				<Chinesesimp>Use: ±ØĞëÓë¶ÔÏóÍ¬²½.</Chinesesimp>
+				<Chinesesimp>Use: å¿…é¡»ä¸å¯¹è±¡åŒæ­¥.</Chinesesimp>
 				<Original>Use: Must be synchronized with a object.</Original>
 				<English>Use: Must be synchronized with a object.</English>
 				<Spanish>Uso: Debe estar sincronizado con un objeto.</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Module2_showerTime">
-				<Chinesesimp>ÁÜÔ¡Ê±¼ä (s)</Chinesesimp>
+				<Chinesesimp>æ·‹æµ´æ—¶é—´ (s)</Chinesesimp>
 				<Original>Shower time (s)</Original>
 				<English>Shower time (s)</English>
 				<Spanish>Tiempo de ducha (s)</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Module2_failureProb">
-				<Chinesesimp>ÀÛ»ı¹ÊÕÏ¸ÅÂÊ</Chinesesimp>
+				<Chinesesimp>ç´¯ç§¯æ•…éšœæ¦‚ç‡</Chinesesimp>
 				<Original>Failure probability (%)</Original>
 				<English>Failure probability (%)</English>
 				<Spanish>Probabilidad de fallar (%)</Spanish>
@@ -2370,61 +2370,61 @@
 		</Container>
 		<Container name="NRBQ_EdenModule_Sim">
 			<Key ID="STR_NRBQ_Module4_displayName">
-				<Chinesesimp>²âÊÔ¶ÔÏó</Chinesesimp>
+				<Chinesesimp>æµ‹è¯•å¯¹è±¡</Chinesesimp>
 				<Original>Test Object</Original>
 				<English>Test Object</English>
 				<Spanish>Objeto de prueba</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Module4_moduleDescription">
-				<Chinesesimp>Use: ±ØĞëÓë¶ÔÏóÍ¬²½.Õâ¸öÄ£¿é¿ÉÒÔÈÃÄãµÃµ½ÄãÎÛÈ¾£¬ÖÎÓú£¬µÈµÈ..²»ĞèÒª½øÈëÈÎºÎÎÛÈ¾µÄÄÚ²¿ÇøÓò.</Chinesesimp>
+				<Chinesesimp>Use: å¿…é¡»ä¸å¯¹è±¡åŒæ­¥.è¿™ä¸ªæ¨¡å—å¯ä»¥è®©ä½ å¾—åˆ°ä½ æ±¡æŸ“ï¼Œæ²»æ„ˆï¼Œç­‰ç­‰..ä¸éœ€è¦è¿›å…¥ä»»ä½•æ±¡æŸ“çš„å†…éƒ¨åŒºåŸŸ.</Chinesesimp>
 				<Original>Use: Must be synchronized with a object. This module will alow you to get
 					you contamined, healed, etc. Without the need of entering inside any contamined
 					area.</Original>
 				<English>Use: Must be synchronized with a object. This module will allow you to get
 					you contamined, healed, etc. Without the need of entering inside any contamined
 					area.</English>
-				<Spanish>Uso: Debe sincronizarse con alg¨²n objeto. Este modulo permite contaminarse,
+				<Spanish>Uso: Debe sincronizarse con algÃºn objeto. Este modulo permite contaminarse,
 					curarse, etc. Sin la necesidad de entrar en una zona contaminada.</Spanish>
 			</Key>
 		</Container>
 		<Container name="NRBQ_EdenModule_DetectionTent">
 			<Key ID="STR_NRBQ_Module5_displayName">
-				<Chinesesimp>¼ì²âÖĞĞÄ</Chinesesimp>
+				<Chinesesimp>æ£€æµ‹ä¸­å¿ƒ</Chinesesimp>
 				<Original>Detection center</Original>
 				<English>Detection center</English>
-				<Spanish>Centro de detecci¨®n</Spanish>
+				<Spanish>Centro de detecciÃ³n</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Module5_moduleDescription">
-				<Chinesesimp>Use: Use: ±ØĞëÓë¶ÔÏóÍ¬²½.Õâ¸öÄ£¿é»áÈÃÄãÖªµÀÄãµÄÉè±¸ÊÇ·ñ±»ÎÛÈ¾ÁË.</Chinesesimp>
+				<Chinesesimp>Use: Use: å¿…é¡»ä¸å¯¹è±¡åŒæ­¥.è¿™ä¸ªæ¨¡å—ä¼šè®©ä½ çŸ¥é“ä½ çš„è®¾å¤‡æ˜¯å¦è¢«æ±¡æŸ“äº†.</Chinesesimp>
 				<Original>Use: Must be synchronized with a object. This module will alow you to know
 					if your equipment is contamined or not.</Original>
 				<English>Use: Must be synchronized with a object. This module will alow you to know
 					if your equipment is contamined or not.</English>
-				<Spanish>Uso: Debe sincronizarse con alg¨²n objeto. Este modulo permite saber si
+				<Spanish>Uso: Debe sincronizarse con algÃºn objeto. Este modulo permite saber si
 					estas o no contaminado.</Spanish>
 			</Key>
 		</Container>
 		<Container name="NRBQ_EdenModule_BigShower">
 			<Key ID="STR_NRBQ_Module3_displayName">
-				<Chinesesimp>³µÁ¾ÁÜÔ¡</Chinesesimp>
+				<Chinesesimp>è½¦è¾†æ·‹æµ´</Chinesesimp>
 				<Original>Vehicle Showers</Original>
 				<English>Vehicle Showers</English>
-				<Spanish>Duchas de veh¨ªculos</Spanish>
+				<Spanish>Duchas de vehÃ­culos</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Module3_moduleDescription">
-				<Chinesesimp>Use: ±ØĞëÓë¶ÔÏóÍ¬²½</Chinesesimp>
+				<Chinesesimp>Use: å¿…é¡»ä¸å¯¹è±¡åŒæ­¥</Chinesesimp>
 				<Original>Use: Must be synchronized with a object.</Original>
 				<English>Use: Must be synchronized with a object.</English>
 				<Spanish>Uso: Debe estar sincronizado con un objeto.</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Module3_showerTime">
-				<Chinesesimp>ÁÜÔ¡Ê±¼ä(s)</Chinesesimp>
+				<Chinesesimp>æ·‹æµ´æ—¶é—´(s)</Chinesesimp>
 				<Original>Shower time (s)</Original>
 				<English>Shower time (s)</English>
 				<Spanish>Tiempo de ducha (s)</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_Module3_failureProb">
-				<Chinesesimp>¹ÊÕÏ¸ÅÂÊ(%)</Chinesesimp>
+				<Chinesesimp>æ•…éšœæ¦‚ç‡(%)</Chinesesimp>
 				<Original>Failure probability (%)</Original>
 				<English>Failure probability (%)</English>
 				<Spanish>Probabilidad de fallar (%)</Spanish>
@@ -2432,157 +2432,157 @@
 		</Container>
 		<Container name="CBRN_Full2">
 			<Key ID="STR_NRBQ_M_Active">
-				<Chinesesimp>½øĞĞÖĞ</Chinesesimp>
+				<Chinesesimp>è¿›è¡Œä¸­</Chinesesimp>
 				<Original>Active</Original>
 				<English>Active</English>
 				<Spanish>Activar</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_ReqFace">
-				<Chinesesimp>ĞèÒªÒÂÎï</Chinesesimp>
+				<Chinesesimp>éœ€è¦è¡£ç‰©</Chinesesimp>
 				<Original>Requiere Face Gear</Original>
 				<English>Requiere Face Gear</English>
-				<Spanish>Requerir equipaci¨®n de cara</Spanish>
+				<Spanish>Requerir equipaciÃ³n de cara</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_FaceGear">
-				<Chinesesimp>ÒÂÎï</Chinesesimp>
+				<Chinesesimp>è¡£ç‰©</Chinesesimp>
 				<Original>Face Gear</Original>
 				<English>Face Gear</English>
-				<Spanish>Equipaci¨®n de cara</Spanish>
+				<Spanish>EquipaciÃ³n de cara</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_ReqUnif">
-				<Chinesesimp>ĞèÒªÖÆ·ş</Chinesesimp>
+				<Chinesesimp>éœ€è¦åˆ¶æœ</Chinesesimp>
 				<Original>Requiere Uniform</Original>
 				<English>Requiere Uniform</English>
 				<Spanish>Requerir Uniforme</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_UnifGear">
-				<Chinesesimp>ÖÆ·ş</Chinesesimp>
+				<Chinesesimp>åˆ¶æœ</Chinesesimp>
 				<Original>Uniforms</Original>
 				<English>Uniforms</English>
 				<Spanish>Uniforme</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_ReqBack">
-				<Chinesesimp>ĞèÒª±³°ü</Chinesesimp>
+				<Chinesesimp>éœ€è¦èƒŒåŒ…</Chinesesimp>
 				<Original>Requiere Backpack</Original>
 				<English>Requiere Backpack</English>
 				<Spanish>Requerir Mochila</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_BackGear">
-				<Chinesesimp>±³°ü</Chinesesimp>
+				<Chinesesimp>èƒŒåŒ…</Chinesesimp>
 				<Original>Backpacks</Original>
 				<English>Backpacks</English>
 				<Spanish>Mochilas</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_ReqVeh">
-				<Chinesesimp>CBRN³µÁ¾±£»¤</Chinesesimp>
+				<Chinesesimp>CBRNè½¦è¾†ä¿æŠ¤</Chinesesimp>
 				<Original>CBRN vehicles protection</Original>
 				<English>CBRN vehicles protection</English>
-				<Spanish>Vehiculos con protecci¨®n NRBQ</Spanish>
+				<Spanish>Vehiculos con protecciÃ³n NRBQ</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_VehGear">
-				<Chinesesimp>CBRN³µÁ¾</Chinesesimp>
+				<Chinesesimp>CBRNè½¦è¾†</Chinesesimp>
 				<Original>CBRN vehicles</Original>
 				<English>CBRN vehicles</English>
 				<Spanish>Vehiculos NRBQ</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_GearCont">
-				<Chinesesimp>ÒÂÎïÎÛÈ¾</Chinesesimp>
+				<Chinesesimp>è¡£ç‰©æ±¡æŸ“</Chinesesimp>
 				<Original>Gear contamination</Original>
 				<English>Gear contamination</English>
-				<Spanish>Contaminaci¨®n de equipamiento</Spanish>
+				<Spanish>ContaminaciÃ³n de equipamiento</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_GasRadius">
-				<Chinesesimp>ÎÛÈ¾°ë¾¶</Chinesesimp>
+				<Chinesesimp>æ±¡æŸ“åŠå¾„</Chinesesimp>
 				<Original>Contamination Radius</Original>
 				<English>Contamination Radius</English>
-				<Spanish>Radio de contaminaci¨®n</Spanish>
+				<Spanish>Radio de contaminaciÃ³n</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_GasParticles">
-				<Chinesesimp>ÆøÌå¿ÅÁ£Êı</Chinesesimp>
+				<Chinesesimp>æ°”ä½“é¢—ç²’æ•°</Chinesesimp>
 				<Original>Number of gas particles</Original>
 				<English>Number of gas particles</English>
-				<Spanish>N¨²mero de particulas de gas</Spanish>
+				<Spanish>NÃºmero de particulas de gas</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_GasLifeTime">
-				<Chinesesimp>ÆøÌåÊÙÃü</Chinesesimp>
+				<Chinesesimp>æ°”ä½“å¯¿å‘½</Chinesesimp>
 				<Original>Gas lifeTime</Original>
 				<English>Gas lifeTime</English>
-				<Spanish>Duraci¨®n del gas</Spanish>
+				<Spanish>DuraciÃ³n del gas</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_GasColor">
-				<Chinesesimp>ÆøÌåÑÕÉ«(RGB)</Chinesesimp>
+				<Chinesesimp>æ°”ä½“é¢œè‰²(RGB)</Chinesesimp>
 				<Original>Gas color (RGB)</Original>
 				<English>Gas color (RGB)</English>
 				<Spanish>Color del gas (RGB)</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_Normals">
-				<Chinesesimp>Õı³£¼ÁÁ¿</Chinesesimp>
+				<Chinesesimp>æ­£å¸¸å‰‚é‡</Chinesesimp>
 				<Original>Number of Normal dosis</Original>
 				<English>Number of Normal dosis</English>
-				<Spanish>N¨²mero de dosis normales</Spanish>
+				<Spanish>NÃºmero de dosis normales</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_Medium">
-				<Chinesesimp>ÖĞµÈ¼ÁÁ¿</Chinesesimp>
+				<Chinesesimp>ä¸­ç­‰å‰‚é‡</Chinesesimp>
 				<Original>Number of Medium dosis</Original>
 				<English>Number of Medium dosis</English>
-				<Spanish>N¨²mero de dosis Medias</Spanish>
+				<Spanish>NÃºmero de dosis Medias</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_Shower_S">
-				<Chinesesimp>ÈËÔ±ÁÜÔ¡</Chinesesimp>
+				<Chinesesimp>äººå‘˜æ·‹æµ´</Chinesesimp>
 				<Original>Personel Showers</Original>
 				<English>Personel Showers</English>
 				<Spanish>Duchas de personal</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_Shower_B">
-				<Chinesesimp>ÔØ¾ßÁÜÔ¡</Chinesesimp>
+				<Chinesesimp>è½½å…·æ·‹æµ´</Chinesesimp>
 				<Original>Vehicle Showers</Original>
 				<English>Vehicle Showers</English>
-				<Spanish>Duchas de veh¨ªculos</Spanish>
+				<Spanish>Duchas de vehÃ­culos</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_Tent">
-				<Chinesesimp>Ì½²âÕÊÅñ</Chinesesimp>
+				<Chinesesimp>æ¢æµ‹å¸ç¯·</Chinesesimp>
 				<Original>Detection Tent</Original>
 				<English>Detection Tent</English>
-				<Spanish>Tienda de detecci¨®n</Spanish>
+				<Spanish>Tienda de detecciÃ³n</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_sim">
-				<Chinesesimp>²âÊÔ¶ÔÏó</Chinesesimp>
+				<Chinesesimp>æµ‹è¯•å¯¹è±¡</Chinesesimp>
 				<Original>Test Object</Original>
 				<English>Test Object</English>
 				<Spanish>Objeto de pruebas</Spanish>
 			</Key>
 			<Key ID="STR_NRBQ_M_Res">
-				<Chinesesimp>CBRN¼ÁÁ¿»Ö¸´</Chinesesimp>
+				<Chinesesimp>CBRNå‰‚é‡æ¢å¤</Chinesesimp>
 				<Original>CBRN Dosis Resuplay</Original>
 				<English>CBRN Dosis Resuplay</English>
 				<Spanish>Reaprob. Dosis NRBQ</Spanish>
 			</Key>
 			<Key ID="STR_Cat_A3U_CBRN">
-				<Chinesesimp>A3U CBRNÎÛÈ¾</Chinesesimp>
+				<Chinesesimp>A3U CBRNæ±¡æŸ“</Chinesesimp>
 				<Original>A3U CBRN</Original>
 				<English>A3U CBRN</English>
 				<Spanish>A3U NRBQ</Spanish>
 			</Key>
 			<Key ID="STR_CE_Mesage_1_0">
-				<Chinesesimp>Éè±¸</Chinesesimp>
+				<Chinesesimp>è®¾å¤‡</Chinesesimp>
 				<Original>The Equipment</Original>
 				<English>The Equipment</English>
-				<Spanish>La Equipaci¨®n</Spanish>
+				<Spanish>La EquipaciÃ³n</Spanish>
 			</Key>
 			<Key ID="STR_CE_Mesage_1_1">
-				<Chinesesimp>ÒÑ³É¹¦¸´ÖÆ</Chinesesimp>
+				<Chinesesimp>å·²æˆåŠŸå¤åˆ¶</Chinesesimp>
 				<Original>has been copied successfully.</Original>
 				<English>has been copied successfully.</English>
-				<Spanish>se ha copiado con ¨¦xito</Spanish>
+				<Spanish>se ha copiado con Ã©xito</Spanish>
 			</Key>
 			<Key ID="STR_CE_Mesage_1_2">
-				<Chinesesimp>´íÎó.</Chinesesimp>
+				<Chinesesimp>é”™è¯¯.</Chinesesimp>
 				<Original>error.</Original>
 				<English>error.</English>
 				<Spanish>error.</Spanish>
 			</Key>
 			<Key ID="STR_Info_Mesage_Clear">
-				<Chinesesimp>Çå³ı</Chinesesimp>
+				<Chinesesimp>æ¸…é™¤</Chinesesimp>
 				<Original>Clear</Original>
 				<English>Clear</English>
 				<Spanish>Limpio</Spanish>
@@ -2590,49 +2590,49 @@
 		</Container>
 		<Container name="AddCBRN_ZeusUi">
 			<Key ID="STR_CBRN_ZeusTitle">
-				<Chinesesimp>½«CBRNÌí¼Óµ½¶ÔÏó</Chinesesimp>
+				<Chinesesimp>å°†CBRNæ·»åŠ åˆ°å¯¹è±¡</Chinesesimp>
 				<Original>Add CBRN to object</Original>
 				<English>Add CBRN to object</English>
 				<Spanish>A?adir CBRN al objeto</Spanish>
 			</Key>
 			<Key ID="STR_CBRN_ZeusUiTitle">
-				<Chinesesimp>A3U - ½«CBRNÌí¼Óµ½¶ÔÏó</Chinesesimp>
+				<Chinesesimp>A3U - å°†CBRNæ·»åŠ åˆ°å¯¹è±¡</Chinesesimp>
 				<Original>A3U - Add CBRN to object</Original>
 				<English>A3U - Add CBRN to object</English>
 				<Spanish>A3U - A?adir CBRN al objeto</Spanish>
 			</Key>
 			<Key ID="STR_CBRN_GasType">
-				<Chinesesimp>ÆøÌåÀàĞÍ</Chinesesimp>
+				<Chinesesimp>æ°”ä½“ç±»å‹</Chinesesimp>
 				<Original>Gas type</Original>
 				<English>Gas type</English>
 				<Spanish>Tipo de gas</Spanish>
 			</Key>
 			<Key ID="STR_CBRN_Raidus">
-				<Chinesesimp>°ë¾¶(m)</Chinesesimp>
+				<Chinesesimp>åŠå¾„(m)</Chinesesimp>
 				<Original>Radius (m)</Original>
 				<English>Radius (m)</English>
 				<Spanish>Radio (m)</Spanish>
 			</Key>
 			<Key ID="STR_CBRN_ParticleNumber">
-				<Chinesesimp>Á£×ÓÊı</Chinesesimp>
+				<Chinesesimp>ç²’å­æ•°</Chinesesimp>
 				<Original>Particle number</Original>
 				<English>Particle number</English>
-				<Spanish>N¨²mero de part¨ªculas</Spanish>
+				<Spanish>NÃºmero de partÃ­culas</Spanish>
 			</Key>
 			<Key ID="STR_CBRN_GasLifeTime">
-				<Chinesesimp>ÆøÌåÊÙÃü (s)</Chinesesimp>
+				<Chinesesimp>æ°”ä½“å¯¿å‘½ (s)</Chinesesimp>
 				<Original>Gas lifetime (s)</Original>
 				<English>Gas lifetime (s)</English>
-				<Spanish>Duraci¨®n del gas (s)</Spanish>
+				<Spanish>DuraciÃ³n del gas (s)</Spanish>
 			</Key>
 			<Key ID="STR_CBRN_GasColor">
-				<Chinesesimp>ÆøÌåÑÕÉ«</Chinesesimp>
+				<Chinesesimp>æ°”ä½“é¢œè‰²</Chinesesimp>
 				<Original>Gas color</Original>
 				<English>Gas color</English>
 				<Spanish>Color del gas</Spanish>
 			</Key>
 			<Key ID="STR_CBRN_RequiredRole">
-				<Chinesesimp>ËùĞèµÄACE½ÇÉ«</Chinesesimp>
+				<Chinesesimp>æ‰€éœ€çš„ACEè§’è‰²</Chinesesimp>
 				<Original>Required ACE role</Original>
 				<English>Required ACE role</English>
 				<Spanish>Role de ACE requerido</Spanish>
@@ -2642,224 +2642,224 @@
 	<Package name="MedicalTraining">
 		<Container name="MedicalTraining_EdenModule">
 			<Key ID="STR_MedicalTraining_displayName">
-				<Chinesesimp>Ò½Ñ§ÑµÁ·</Chinesesimp>
+				<Chinesesimp>åŒ»å­¦è®­ç»ƒ</Chinesesimp>
 				<Original>Medical training</Original>
 				<English>Medical training</English>
-				<Spanish>Entrenamiento M¨¦dico</Spanish>
+				<Spanish>Entrenamiento MÃ©dico</Spanish>
 			</Key>
 			<Key ID="STR_MedicalTraining_ModuleDescription">
-				<Chinesesimp>Use: Ëü±ØĞëÏÈºÍÒşĞÎÖ±Éı»ú³¡Í¬²½£¬È»ºóÊ¹ÓÃÒª·ÃÎÊÄ£¿éµÄ¶ÔÏó.&lt;br/&gt; Function: ËüÔÊĞíÉú³É¾ßÓĞ²»Í¬ACEÉË¿ÚµÄAI. </Chinesesimp>
+				<Chinesesimp>Use: å®ƒå¿…é¡»å…ˆå’Œéšå½¢ç›´å‡æœºåœºåŒæ­¥ï¼Œç„¶åä½¿ç”¨è¦è®¿é—®æ¨¡å—çš„å¯¹è±¡.&lt;br/&gt; Function: å®ƒå…è®¸ç”Ÿæˆå…·æœ‰ä¸åŒACEä¼¤å£çš„AI. </Chinesesimp>
 				<Original>Use: It has to be synchronized first with an invisible heliport and then
 					with the object you want to acces the interface.&lt;br/&gt; Function: It allows
 					you to generate AI with different ACE wounds. </Original>
 				<English>Use: Must not be synchronized with any object.&lt;br/&gt; Function: It
 					allows you to generate AI with different ACE wounds.</English>
-				<Spanish>Uso: Tiene de sincronizarse primero con un helipuerto invisible y despu¨¦s
-					con el objeto que quieras que tenga la interfaz.&lt;br/&gt; Funci¨®n: Te permite
+				<Spanish>Uso: Tiene de sincronizarse primero con un helipuerto invisible y despuÃ©s
+					con el objeto que quieras que tenga la interfaz.&lt;br/&gt; FunciÃ³n: Te permite
 					generar IA con diferentes heridas del ACE.</Spanish>
 			</Key>
 		</Container>
 		<Container name="EntrMed_Full">
 			<Key ID="STR_EntrMed_Generate">
-				<Chinesesimp>Éú³É</Chinesesimp>
+				<Chinesesimp>ç”Ÿæˆ</Chinesesimp>
 				<Original>GENERATE</Original>
 				<English>GENERATE</English>
 				<Spanish>GENERAR</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_MedTrain">
-				<Chinesesimp>Ò½Ñ§ÑµÁ·:</Chinesesimp>
+				<Chinesesimp>åŒ»å­¦è®­ç»ƒ:</Chinesesimp>
 				<Original>Medical training:</Original>
 				<English>Medical training:</English>
-				<Spanish>Entrenamiento m¨¦dico:</Spanish>
+				<Spanish>Entrenamiento mÃ©dico:</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_InjTemp">
-				<Chinesesimp>ÊÜÉËÄ£°å:</Chinesesimp>
+				<Chinesesimp>å—ä¼¤æ¨¡æ¿:</Chinesesimp>
 				<Original>Injured templates:</Original>
 				<English>Injured templates:</English>
 				<Spanish>Plantillas de heridos:</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_Close">
-				<Chinesesimp>¹Ø±Õ</Chinesesimp>
+				<Chinesesimp>å…³é—­</Chinesesimp>
 				<Original>CLOSE</Original>
 				<English>CLOSE</English>
 				<Spanish>CERRAR</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_DeleteAll">
-				<Chinesesimp>É¾³ıËùÓĞ</Chinesesimp>
+				<Chinesesimp>åˆ é™¤æ‰€æœ‰</Chinesesimp>
 				<Original>DELETE ALL</Original>
 				<English>DELETE ALL</English>
 				<Spanish>ELIMINAR TODOS</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_AdvOptions">
-				<Chinesesimp>¸ß¼¶Ñ¡Ïî</Chinesesimp>
+				<Chinesesimp>é«˜çº§é€‰é¡¹</Chinesesimp>
 				<Original>Advanced options</Original>
 				<English>Advanced options</English>
 				<Spanish>Opciones avanzadas</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_Number">
-				<Chinesesimp>±àºÅ:</Chinesesimp>
+				<Chinesesimp>ç¼–å·:</Chinesesimp>
 				<Original>Number:</Original>
 				<English>Number:</English>
-				<Spanish>N¨²mero:</Spanish>
+				<Spanish>NÃºmero:</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_AddNew">
-				<Chinesesimp>ĞÂÔö</Chinesesimp>
+				<Chinesesimp>æ–°å¢</Chinesesimp>
 				<Original>ADD NEW</Original>
 				<English>ADD NEW</English>
 				<Spanish>A?ADIR NUEVA</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_BodyParts">
-				<Chinesesimp>ÉíÌå²¿Î»</Chinesesimp>
+				<Chinesesimp>èº«ä½“éƒ¨ä½</Chinesesimp>
 				<Original>Body parts</Original>
 				<English>Body parts</English>
 				<Spanish>Partes del cuerpo</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_Injuries">
-				<Chinesesimp>ËğÉË</Chinesesimp>
+				<Chinesesimp>æŸä¼¤</Chinesesimp>
 				<Original>Injuries:</Original>
 				<English>Injuries:</English>
 				<Spanish>Heridas:</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_Edit">
-				<Chinesesimp>±à¼­</Chinesesimp>
+				<Chinesesimp>ç¼–è¾‘</Chinesesimp>
 				<Original>EDIT</Original>
 				<English>EDIT</English>
 				<Spanish>EDITAR</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_Delete">
-				<Chinesesimp>É¾³ı</Chinesesimp>
+				<Chinesesimp>åˆ é™¤</Chinesesimp>
 				<Original>DELETE</Original>
 				<English>DELETE</English>
 				<Spanish>ELIMINAR</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_InjurieType">
-				<Chinesesimp>ÊÜÉËÀàĞÍ:</Chinesesimp>
+				<Chinesesimp>å—ä¼¤ç±»å‹:</Chinesesimp>
 				<Original>Injurie type:</Original>
 				<English>Injurie type:</English>
 				<Spanish>Tipo de herida:</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_Unit">
-				<Chinesesimp>µ¥Î»</Chinesesimp>
+				<Chinesesimp>å•ä½</Chinesesimp>
 				<Original>Unit</Original>
 				<English>Unit</English>
 				<Spanish>Unidad</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_Side">
-				<Chinesesimp>ÕóÓª</Chinesesimp>
+				<Chinesesimp>é˜µè¥</Chinesesimp>
 				<Original>Side</Original>
 				<English>Side</English>
 				<Spanish>Bando</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_BasicOptions">
-				<Chinesesimp>»ù´¡Ñ¡Ïî</Chinesesimp>
+				<Chinesesimp>åŸºç¡€é€‰é¡¹</Chinesesimp>
 				<Original>Basic options</Original>
 				<English>Basic options</English>
-				<Spanish>Opciones b¨¢sicas</Spanish>
+				<Spanish>Opciones bÃ¡sicas</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_noWounds">
-				<Chinesesimp>ÎŞ´´ÉË</Chinesesimp>
+				<Chinesesimp>æ— åˆ›ä¼¤</Chinesesimp>
 				<Original>No wounds</Original>
 				<English>No wounds</English>
 				<Spanish>Sin heridas</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_MinorWounds">
-				<Chinesesimp>ÇáÎ¢</Chinesesimp>
+				<Chinesesimp>è½»å¾®</Chinesesimp>
 				<Original>Minor</Original>
 				<English>Minor</English>
 				<Spanish>Leves</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_NormalWounds">
-				<Chinesesimp>ÆÕÍ¨</Chinesesimp>
+				<Chinesesimp>æ™®é€š</Chinesesimp>
 				<Original>Normal</Original>
 				<English>Normal</English>
 				<Spanish>Normales</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_SeriousWounds">
-				<Chinesesimp>ÑÏÖØ</Chinesesimp>
+				<Chinesesimp>ä¸¥é‡</Chinesesimp>
 				<Original>Serious</Original>
 				<English>Serious</English>
 				<Spanish>Graves</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_VerySeriousWounds">
-				<Chinesesimp>·Ç³£ÑÏÖØ</Chinesesimp>
+				<Chinesesimp>éå¸¸ä¸¥é‡</Chinesesimp>
 				<Original>Very serious</Original>
 				<English>Very serious</English>
 				<Spanish>Muy graves</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_InReanimationWounds">
-				<Chinesesimp>ÔÚ¸´»îÖĞ</Chinesesimp>
+				<Chinesesimp>åœ¨å¤æ´»ä¸­</Chinesesimp>
 				<Original>In reanimation</Original>
 				<English>In reanimation</English>
-				<Spanish>En reanimaci¨®n</Spanish>
+				<Spanish>En reanimaciÃ³n</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_Head">
-				<Chinesesimp>Í·²¿</Chinesesimp>
+				<Chinesesimp>å¤´éƒ¨</Chinesesimp>
 				<Original>Head</Original>
 				<English>Head</English>
 				<Spanish>Cabeza</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_Torso">
-				<Chinesesimp>Çû¸É</Chinesesimp>
+				<Chinesesimp>èº¯å¹²</Chinesesimp>
 				<Original>Torso</Original>
 				<English>Torso</English>
 				<Spanish>Torso</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_RightArm">
-				<Chinesesimp>ÓÒÊÖ</Chinesesimp>
+				<Chinesesimp>å³æ‰‹</Chinesesimp>
 				<Original>R. arm</Original>
 				<English>R. arm</English>
 				<Spanish>Brazo D.</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_LeftArm">
-				<Chinesesimp>×óÊÖ</Chinesesimp>
+				<Chinesesimp>å·¦æ‰‹</Chinesesimp>
 				<Original>L. arm</Original>
 				<English>L. arm</English>
 				<Spanish>Brazo I.</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_RightLeg">
-				<Chinesesimp>ÓÒÍÈ</Chinesesimp>
+				<Chinesesimp>å³è…¿</Chinesesimp>
 				<Original>R. leg</Original>
 				<English>R. leg</English>
 				<Spanish>Pierna D.</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_LeftLeg">
-				<Chinesesimp>×óÍÈ</Chinesesimp>
+				<Chinesesimp>å·¦è…¿</Chinesesimp>
 				<Original>L. leg</Original>
 				<English>L. leg</English>
 				<Spanish>Pierna I.</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_EntityBlue">
-				<Chinesesimp>ÊµÌåRV - À¶É«</Chinesesimp>
+				<Chinesesimp>å®ä½“RV - è“è‰²</Chinesesimp>
 				<Original>Entity RV - Blue</Original>
 				<English>Entity RV - Blue</English>
 				<Spanish>Entidad RV - Azul</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_EntityRed">
-				<Chinesesimp>ÊµÌåRV - ºìÉ«</Chinesesimp>
+				<Chinesesimp>å®ä½“RV - çº¢è‰²</Chinesesimp>
 				<Original>Entity RV - Red</Original>
 				<English>Entity RV - Red</English>
 				<Spanish>Entidad RV - Rojo</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_EntityGreen">
-				<Chinesesimp>ÊµÌåRV - ÂÌÉ«</Chinesesimp>
+				<Chinesesimp>å®ä½“RV - ç»¿è‰²</Chinesesimp>
 				<Original>Entity RV - Green</Original>
 				<English>Entity RV - Green</English>
 				<Spanish>Entidad RV - Verd</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_EntityPurple">
-				<Chinesesimp>ÊµÌåRV - ×ÏÉ«×ÏÉ«</Chinesesimp>
+				<Chinesesimp>å®ä½“RV - ç´«è‰²ç´«è‰²</Chinesesimp>
 				<Original>Entity RV - Purple</Original>
 				<English>Entity RV - Purple</English>
 				<Spanish>Entidad RV - Purpura</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_PatientGenerated">
-				<Chinesesimp>ÒÑÉ¾³ı»¼Õß.</Chinesesimp>
+				<Chinesesimp>å·²åˆ é™¤æ‚£è€….</Chinesesimp>
 				<Original>Patient generated.</Original>
 				<English>Patient generated.</English>
 				<Spanish>Paciente generado.</Spanish>
 			</Key>
 			<Key ID="STR_EntrMed_PatientDeleted">
-				<Chinesesimp>ÒÑÉ¾³ı»¼Õß.</Chinesesimp>
+				<Chinesesimp>å·²åˆ é™¤æ‚£è€….</Chinesesimp>
 				<Original>Patient deleted.</Original>
 				<English>Patient deleted.</English>
 				<Spanish>Paciente eliminado.</Spanish>
@@ -2869,13 +2869,13 @@
 	<Package name="Zone Alarm">
 		<Container name="ZoneAlarm_ZeusUi">
 			<Key ID="STR_ZoneAlarm_ZeusTitle">
-				<Chinesesimp>¾¯½äÇøÓò</Chinesesimp>
+				<Chinesesimp>è­¦æˆ’åŒºåŸŸ</Chinesesimp>
 				<Original>Zone alarm</Original>
 				<English>Zone alarm</English>
 				<Spanish>Alarma de zona</Spanish>
 			</Key>
 			<Key ID="STR_ZoneAlarm_ZeusUiTitle">
-				<Chinesesimp>¾¯½äÇøÓò</Chinesesimp>
+				<Chinesesimp>è­¦æˆ’åŒºåŸŸ</Chinesesimp>
 				<Original>Zone alarm</Original>
 				<English>Zone alarm</English>
 				<Spanish>Alarma de zona</Spanish>
