@@ -902,6 +902,7 @@ class cfgWeapons
                     PassThrough=0.4;
                 };
             };
+		};
     };
     class youmei_vest_blk : ItemCore
     {
@@ -953,6 +954,7 @@ class cfgWeapons
                     PassThrough=0.4;
                 };
             };
+		};
     };
     class youmei_vest_mc : ItemCore
     {
@@ -1004,6 +1006,7 @@ class cfgWeapons
                     PassThrough=0.4;
                 };
             };
+		};
     };
     class youmei_vest_tan : ItemCore
     {
