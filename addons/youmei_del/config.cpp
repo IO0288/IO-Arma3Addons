@@ -819,7 +819,7 @@ class cfgWeapons
             //         passThrough=0.01;
             //     };
         	// };
-			{
+            {
                 class Chest
                 {
                     HitpointName="HitChest";
@@ -829,19 +829,19 @@ class cfgWeapons
                 class Diaphragm
                 {
                     HitpointName="HitDiaphragm";
-                    armor=15;
-                    PassThrough=0.1;
+                    armor=10;
+                    PassThrough=0.2;
                 };
                 class Abdomen
                 {
                     hitpointName="HitAbdomen";
-                    armor=15;
-                    passThrough=0.2;
+                    armor=10;
+                    passThrough=0.3;
                 };
                 class Body
                 {
                     hitpointName="HitBody";
-                    passThrough=0.2;
+                    passThrough=0.3;
                 };
 				class Neck
                 {
@@ -1070,8 +1070,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1086,8 +1086,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_s1";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1102,8 +1102,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_s2";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1118,8 +1118,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_s3";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1134,8 +1134,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_s4";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1150,8 +1150,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_s5";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1166,8 +1166,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_s6";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1182,8 +1182,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_2";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1198,8 +1198,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_2_s1";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1214,8 +1214,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_2_s2";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1230,8 +1230,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_2_s3";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1246,8 +1246,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_2_s4";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1262,8 +1262,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_2_s5";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1278,8 +1278,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_2_s6";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1294,8 +1294,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_2_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1310,8 +1310,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_2_s1_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1326,8 +1326,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_2_s2_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1342,8 +1342,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_2_s3_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1358,8 +1358,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_2_s4_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1374,8 +1374,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_2_s5_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1390,8 +1390,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_2_s6_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1406,8 +1406,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1422,8 +1422,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_s1";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1438,8 +1438,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_s2";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1454,8 +1454,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_s3";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1470,8 +1470,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_s4";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1486,8 +1486,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_s5";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1502,8 +1502,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_s6";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1518,8 +1518,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_2";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1534,8 +1534,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_2_s1";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1550,8 +1550,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_s2";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1566,8 +1566,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_2_s3";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1582,8 +1582,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_2_s4";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1598,8 +1598,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_2_s5";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1614,8 +1614,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_2_s6";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1630,8 +1630,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_3";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1646,8 +1646,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_3_s1";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1662,8 +1662,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_3_s2";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1678,8 +1678,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_3_s3";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1694,8 +1694,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_3_s4";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1710,8 +1710,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_3_s4";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1726,8 +1726,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_3_s6";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1742,8 +1742,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_3_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1758,8 +1758,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_3_s1_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1774,8 +1774,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_3_s2_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1790,8 +1790,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_3_s3_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1806,8 +1806,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_3_s4_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1822,8 +1822,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_3_s4_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1838,8 +1838,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_3_s6_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1854,8 +1854,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_4";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1870,8 +1870,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_4_s1";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1886,8 +1886,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_4_s2";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1902,8 +1902,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_4_s3";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1918,8 +1918,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_4_s4";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1934,8 +1934,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_4_s4";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1950,8 +1950,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_4_s6";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1966,8 +1966,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_4_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1982,8 +1982,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_4_s1_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -1998,8 +1998,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_4_s2_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -2014,8 +2014,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_4_s3_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -2030,8 +2030,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_4_s4_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -2046,8 +2046,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_4_s4_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
@@ -2062,8 +2062,8 @@ class cfgWeapons
         {
             uniformModel="-";
             uniformClass="Youmei_tactical_4_s6_w";
-            containerClass="Supply60";
-            mass="22 * 1.5";
+            containerClass="Supply34";
+            mass="22 * 1.23";
             allowedSlots[]={"701", "801", "901"};
             armor=0;
         };
