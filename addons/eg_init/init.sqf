@@ -1,6 +1,8 @@
 // From HIG_droneAlt.pbo
 [] spawn{
+	egnum = 0;
 	while {true} do {
+		egnum = egnum + 1
 		_myUAV = getConnectedUAV player;
 		if (_myUAV !=objNull) then
 		{
