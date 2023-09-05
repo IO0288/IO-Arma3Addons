@@ -1,9 +1,9 @@
 #include "script_version.hpp"
 class CfgPatches
 {
-	class youmei_del
+	class Youmei_Val_Del
 	{
-		name = "youmei_del - IO0288";
+		name = "Youmei_Val_Del - IO0288";
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 2.10;// 所需Arma3版本
