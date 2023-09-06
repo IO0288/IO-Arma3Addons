@@ -15,21 +15,6 @@ class CfgPatches
 		versionAr[] = {MAJOR, MINOR, PATCH, BUILD};
 	};
 };
-
-class CfgPatches
-{
-    class BoBcats_ammo
-    {
-        units[]={};
-        weapons[]={};
-        requiredVersion=1.32;
-        requiredAddons[]={"A3_Weapons_F", "BC_CORE", "A3_Weapons_F_Ammoboxes", "A3_Weapons_F_beta", "A3_Weapons_F_Acc", "rhsusf_c_weapons"};
-        version="0.1";
-        author="BoBcats";
-        magazines[]={"Nothing_mag", "smao_40mm_TB", "smao_40mm_TS", "smao_mag_40mm_Incinerate", "rhs_ammo_556x45_M855A1_Dim_Ball", "rhs_ammo_556x45_Mk318_Dim_Ball", "rhs_ammo_556x45_Mk262_Dim_Ball", "rhs_ammo_556x45_M995_AP_Ball", "rhs_ammo_556x45_M995_AP_Dim_Ball"};
-        ammo[]={"B_Nothing", "smao_mag_40mm_TB", "smao_mag_40mm_TS", "smao_40mm_Incinerate", "rhs_mag_30Rnd_556x45_M855A1_Dim_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Dim_Stanag", "rhs_mag_30Rnd_556x45_Mk262_Dim_Stanag", "rhs_mag_30Rnd_556x45_XM996_Stanag", "rhs_mag_30Rnd_556x45_M995_AP_Stanag", "rhs_mag_30Rnd_556x45_M995_AP_Dim_Stanag", "rhsusf_100Rnd_556x45_M855A1_Dim_soft_pouch", "rhsusf_200Rnd_556x45_M855A1_Dim_soft_pouch", "rhsusf_100Rnd_556x45_XM996_Dim_soft_pouch", "rhsusf_200Rnd_556x45_XM996_Dim_soft_pouch", "rhsusf_100Rnd_556x45_M995_AP_soft_pouch", "rhsusf_200Rnd_556x45_M995_AP_soft_pouch", "rhsusf_100Rnd_556x45_M995_AP_Dim_soft_pouch", "rhsusf_200Rnd_556x45_M995_AP_Dim_soft_pouch"};
-    };
-};
 class DefaultEventHandlers;
 class CfgCloudlets
 {
@@ -193,47 +178,18 @@ class SMAO_Thermobaric_Crater_Small
 };
 class CfgAmmo
 {
-    class BulletBase;
-    class G_40mm_HE;
-    class SmokeShell;
-    class rhsusf_40mm_HE{};
-    class rhsusf_40mm_HEDP{};
     class BC_40mm_Mercury_HEDP{};
-    class rhs_ammo_12gHEAP_penetrator;
     class BC_40mm_Mercury_HEDP_penetrator{};
     class smao_40mm_TB{};
     class smao_40mm_TS{};
     class smao_40mm_Incinerate{};
-    class B_556x45_Ball;
-    class B_556x45_Ball_Tracer_Red;
     class BC_762x35_BLK_EPR{};
     class BC_762x35_SS{};
     class BC_762x35_BLK_MEA{};
     class BC_ammo_556x45_DSG_MEA_Ball{};
     class BC_ammo_762x51_DSG_MEA_Ball{};
-    class rhs_ammo_556x45_M855A1_Ball{};
-    class rhs_ammo_556x45_M855A1_Dim_Ball{};
-    class rhs_ammo_556x45_Mk318_Ball{};
-    class rhs_ammo_556x45_Mk318_Dim_Ball{};
-    class rhs_ammo_556x45_Mk262_Ball{};
-    class rhs_ammo_556x45_Mk262_Dim_Ball{};
-    class rhs_ammo_556x45_M995_AP_Ball{};
-    class rhs_ammo_556x45_M995_AP_Dim_Ball{};
-    class rhs_ammo_762x51_M80_Ball{};
-    class rhs_ammo_762x51_M61_AP{};
-    class rhs_ammo_762x51_M62_tracer{};
-    class rhs_ammo_762x51_M80A1EPR_Ball{};
-    class rhs_ammo_762x51_M118_Special_Ball{};
-    class rhs_ammo_762x51_M993_Ball{};
-    class B_762x39_Ball_F;
-    class bc_ammo_762x39_BZ_Ball{};
-    class bc_ammo_762x39_110gr_AP_Ball{};
-    class ShotgunBase;
-    class B_12Gauge_Pellets_Submunition;
     class BC_12Gauge_Pellets_Submunition{};
-    class B_12Gauge_Pellets_Submunition_Deploy;
     class BC_12Gauge_Pellets_Submunition_Deploy{};
-    class B_12Gauge_Pellets;
     class BC_12Gauge_Pellets{};
     class SIX12_12Gauge_Pellets_Submunition_No0_Buck{};
     class SIX12_12Gauge_Pellets_Submunition_No0_Buck_Deploy{};
@@ -247,7 +203,6 @@ class CfgAmmo
     class SIX12_12Gauge_Pellets_Submunition_No4_Buck_Deploy{};
     class SIX12_12Gauge_Pellets_Submunition_No7_Bird{};
     class SIX12_12Gauge_Pellets_Submunition_No7_Bird_Deploy{};
-    class B_12Gauge_Slug;
     class BC_12Gauge_Slug{};
     class bc_ammo_12g_FRAG{};
 };
@@ -262,48 +217,8 @@ class CfgMagazines
     class BC_30Rnd_762x35_MIX{};
     class BC_30Rnd_762x35_BLK_MEA{};
     class BC_30Rnd_556_MEA_Stanag{};
-    class rhs_mag_20Rnd_SCAR_762x51_m993_ap{};
     class BC_20Rnd_762_MEA_Stanag{};
     class Nothing_mag{};
-    class rhs_mag_30Rnd_556x45_M855A1_Stanag{};
-    class rhs_mag_60Rnd_556x45_M855A1_Stanag{};
-    class rhs_mag_60Rnd_556x45_M856A1_Stanag{};
-    class rhs_mag_60Rnd_556x45_Mk262_Stanag{};
-    class rhs_mag_60Rnd_556x45_Mk318_Stanag{};
-    class rhs_mag_60Rnd_556x45_M995_Stanag{};
-    class rhs_mag_60Rnd_556x45_XM996_Stanag{};
-    class rhs_mag_50Rnd_556x45_M855A1_Stanag{};
-    class rhs_mag_50Rnd_556x45_M856A1_Stanag{};
-    class rhs_mag_30Rnd_556x45_Mk262_Stanag{};
-    class rhs_mag_50Rnd_556x45_Mk262_Stanag{};
-    class rhs_mag_30Rnd_556x45_Mk318_Stanag{};
-    class rhs_mag_50Rnd_556x45_Mk318_Stanag{};
-    class rhs_mag_30Rnd_556x45_M855A1_Dim_Stanag{};
-    class rhs_mag_30Rnd_556x45_Mk318_Dim_Stanag{};
-    class rhs_mag_30Rnd_556x45_Mk262_Dim_Stanag{};
-    class rhs_mag_30Rnd_556x45_XM996_Stanag{};
-    class rhs_mag_30Rnd_556x45_M995_AP_Stanag{};
-    class rhs_mag_30Rnd_556x45_M995_AP_Dim_Stanag{};
-    class rhs_mag_100Rnd_556x45_M855A1_cmag{};
-    class rhsusf_100Rnd_556x45_M855A1_Dim_soft_pouch{};
-    class rhsusf_100Rnd_556x45_M855A1_Dim_cmag{};
-    class rhsusf_200Rnd_556x45_M855A1_Dim_soft_pouch{};
-    class rhsusf_100Rnd_556x45_XM996_Dim_soft_pouch{};
-    class rhsusf_100Rnd_556x45_XM996_Dim_cmag{};
-    class rhsusf_200Rnd_556x45_XM996_Dim_soft_pouch{};
-    class rhsusf_100Rnd_556x45_M995_AP_soft_pouch{};
-    class rhsusf_100Rnd_556x45_M995_AP_cmag{};
-    class rhsusf_200Rnd_556x45_M995_AP_soft_pouch{};
-    class rhsusf_100Rnd_556x45_M995_AP_Dim_soft_pouch{};
-    class rhsusf_100Rnd_556x45_M995_AP_Dim_cmag{};
-    class rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red{};
-    class rhs_mag_100Rnd_556x45_M855A1_Stanag_Tracer_Red_cmag{};
-    class rhsusf_200Rnd_556x45_M995_AP_Dim_soft_pouch{};
-    class rhsusf_100Rnd_556x45_soft_pouch{};
-    class rhsusf_100Rnd_556x45_T_soft_pouch{};
-    class rhsusf_200Rnd_556x45_soft_pouch{};
-    class rhsusf_200Rnd_556x45_T_soft_pouch{};
-    class rhsusf_200rnd_556x45_T_box{};
     class bc_30rnd_762x39_bz_mag{};
     class bc_75rnd_762x39_bz_mag{};
     class bc_30rnd_762x39_110gr_ap_mag{};
