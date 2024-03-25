@@ -18,51 +18,21 @@ class CfgFunctions
 {
 	class IO
 	{
-		tag = "IO";
-		class addArsenal
+		class Batch
 		{
-			file = "\IO_Function\IO\IO_Batch_AArsenal.sqf";
-		};
-		class blackScreen
-		{
-			file = "\IO_Function\IO\IO_Batch_BScreen.sqf";
-		};
-		class createItemIntel
-		{
-			file = "\IO_Function\IO\IO_Batch_CIIntel.sqf";
-		};
-		class createIntel
-		{
-			file = "\IO_Function\IO\IO_Batch_CIntel.sqf";
-		};
-		class rating
-		{
-			file = "\IO_Function\IO\IO_Batch_Rating.sqf";
-		};
-		class rmVehicle
-		{
-			file = "\IO_Function\IO\IO_Batch_RmVehicle.sqf";
-		};
-		class randomTP
-		{
-			file = "\IO_Function\IO\IO_Batch_RTP.sqf";
-		};
-		class tell
-		{
-			file = "\IO_Function\IO\IO_Batch_Tell.sqf";
-		};
-		class rbomb
-		{
-			file = "\IO_Function\IO\IO_Batch_RBomb.sqf";
-		};
-		class scp
-		{
-			file = "\IO_Function\IO\IO_Batch_SCP.sqf";
-		};
+			file = "\IO_Function";			
+			class addArsenal { postInit=1; };
+			class blackScreen { postInit=1; };
+			class createIntel { postInit=1; };
+			class createItemIntel { postInit=1; };
+			class rating { postInit=1; };
+			class rmVehicle { postInit=1; };
+			class randomTP { postInit=1; };
+			class tell { postInit=1; };
+			class randomBomb { postInit=1; };
+			class scp { postInit=1; };
 
-		class ddbj
-		{
-			file="\IO_Function\IO\ddbj.sqf";
+			class ddbj { postInit=1; };
 		};
 	};
 };
