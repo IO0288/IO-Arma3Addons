@@ -31,6 +31,7 @@ class CfgFunctions
 			class tell { postInit=1; };
 			class randomBomb { postInit=1; };
 			class scp { postInit=1; };
+			class tvLaunch { postInit=1; };
 
 			class ddbj { postInit=1; };
 		};
