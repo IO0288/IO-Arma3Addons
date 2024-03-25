@@ -1,7 +1,7 @@
 #include "script_version.hpp"
 class CfgPatches
 {
-	class io_main
+	class IO_Main
 	{
 		name = "Main - IO0288";
 		units[] = {};
