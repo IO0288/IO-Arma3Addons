@@ -63,4 +63,6 @@ showPlayerOnHUD = {
 	}];
 };
 
-[] spawn showPlayerOnHUD;
+IO_fnc_ddbj = {
+	[] spawn showPlayerOnHUD;
+};
