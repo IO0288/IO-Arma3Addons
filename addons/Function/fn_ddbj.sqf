@@ -4,7 +4,8 @@ showPlayerOnHUD = {
 	addMissionEventHandler ["Draw3D", {
 		_size =getResolution#5;
 		// _ICON = getMissionPath "\ddbj.jpg";
-		_ICON = getMissionPath "\IO_Function\fn_ddbj.jpg";
+		// _ICON = getMissionPath "\IO_Function\fn_ddbj.jpg";
+		_ICON = "\IO_Function\fn_ddbj.paa";
 		_POS="";
 		_NAME="";
 		_COLOR="";
