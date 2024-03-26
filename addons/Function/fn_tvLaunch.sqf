@@ -4,13 +4,6 @@
 	 *[*units, *content] execVM "IO_Batch_tvLaunch.sqf";
  */
 
-params ["_p","_t"];
-createDialog "TVGuidedMissile";
-if (isNil "_p") then {
-	_p = [east,independent,civilian];
-	_t = 180;
-};
-[_p,_t] call destiny_fnc_TVGuidedMissile;
+params ["_u"];
 
-_param = [_p, _t];
-[_param, "参数_unit非玩家"] call BIS_fnc_log;
+_u addAction ["发射TV制导巡航飞弹", {call TVC_fnc_tvLaunch;removeAllAction this;}, nil, 2];
