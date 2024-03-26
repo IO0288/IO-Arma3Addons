@@ -21,18 +21,19 @@ class CfgFunctions
 		class Batch
 		{
 			file = "\IO_Function";			
-			class addArsenal { };//postInit=1;//https://community.bistudio.com/wiki/Arma_3:_Functions_Library
-			class blackScreen { };
-			class createIntel { };
-			class createItemIntel { };
-			class rating { };
-			class rmVehicle { };
-			class randomTP { };
-			class tell { };
-			class randomBomb { };
-			class scp { };
+			class addArsenal {};//postInit=1;//https://community.bistudio.com/wiki/Arma_3:_Functions_Library
+			class blackScreen {};
+			class createIntel {};
+			class createItemIntel {};
+			class rating {};
+			class rmVehicle {};
+			class randomTP {};
+			class tell {};
+			class randomBomb {};
+			class scp {};
+			class tvLaunch {};
 
-			class ddbj { };
+			class ddbj {};
 		};
 	};
 };
