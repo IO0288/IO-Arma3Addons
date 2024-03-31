@@ -6,4 +6,9 @@
 
 params ["_u"];
 
-_u addAction ["发射TV制导巡航飞弹", {[[east,independent,civilian],180] call TVC_fnc_tvLaunch;removeAllAction this;}, nil, 2];
+_u addAction ["发射TV制导巡航飞弹", {
+	params [ "_target", "_caller", "_actionId", "_arguments" ];
+	[[east, independent, civilian], 180] call TVC_fnc_tvLaunch;
+	removeAllActions this;
+	_target removeAction _actionID;
+}, nil, 2];
