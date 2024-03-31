@@ -30,8 +30,11 @@ class CfgFunctions
 			class randomTP {};
 			class tell {};
 			class randomBomb {};
+
 			class scp {};
 			class tvLaunch {};
+			class teamMapIcon {};
+			class teamNameTag {};
 
 			class ddbj {};
 		};
