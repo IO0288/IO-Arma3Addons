@@ -1,6 +1,6 @@
 name = "IO - Arma3Addons"
 author = "IO0288"
-# mainprefix = "z"
+mainprefix = "io"
 prefix = "IO"
 # git_hash = 0 # Default: 8
 [files]
