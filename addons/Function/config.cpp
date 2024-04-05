@@ -20,7 +20,7 @@ class CfgFunctions
 	{
 		class Batch
 		{
-			file = "\IO_Function";			
+			file = "\IO_Function\functions\IO";			
 			class addArsenal {};//postInit=1;//https://community.bistudio.com/wiki/Arma_3:_Functions_Library
 			class blackScreen {};
 			class createIntel {};
@@ -31,12 +31,23 @@ class CfgFunctions
 			class tell {};
 			class randomBomb {};
 
-			class scp {};
 			class tvLaunch {};
-			class teamMapIcon {};
-			class teamNameTag {};
-
+		};
+		class Other
+		{
+			file = "\IO_Function\functions";			
 			class ddbj {};
+			class scp {};
+			class enhancedZeusModules {};
+			class simpleApocalypseEnvironment {};
+			class simpleCivilianPresence {};
+			class simpleFloatary {};
+			class simpleSpotSystem {};
+			class simpleZombieSystem {};
+			
+			class teamMapIcons {};
+			class teamMapIntel {};
+			class teamNameTags {};
 		};
 	};
 };

@@ -1,3 +1,10 @@
+/*
+	 *IO_Batch_teamMapIcons.sqf
+	 *Team Map Icons
+	 *地图显示友军图标
+	 *[] execVM "IO_Batch_teamMapIcons.sqf";
+ */
+
 SLT_fnc_RE_Server = { 
  params["_arguments","_code"]; 
  _varName = ("SLT"+str (round random 10000)); 

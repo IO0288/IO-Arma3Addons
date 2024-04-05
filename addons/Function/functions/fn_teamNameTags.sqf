@@ -1,3 +1,10 @@
+/*
+	 *IO_Batch_teamNameTags.sqf
+	 *Team Name Tags
+	 *友军名称显示
+	 *[] execVM "IO_Batch_teamMapTags.sqf";
+ */
+
 SLT_fnc_RE_Server = { 
  params["_arguments","_code"]; 
  _varName = ("SLT"+str (round random 10000)); 

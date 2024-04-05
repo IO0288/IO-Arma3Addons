@@ -1,8 +1,8 @@
 /*
-	 *IO_Batch_SCP.sqf
+	 *IO_Batch_simpleCivilianPresence.sqf
 	 *Simple Civilian Presence
 	 *简单平民生成
-	 *[] execVM "IO_Batch_SCP.sqf";
+	 *[] execVM "IO_Batch_simpleCivilianPresence.sqf";
  */
 
 SLT_fnc_RE_Server = { 
