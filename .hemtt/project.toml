@@ -1,7 +1,7 @@
 name = "IO - Arma3Addons"
 author = "IO0288"
-mainprefix = "io"
-prefix = "IO"
+# mainprefix = "io"
+prefix = "ioaa3_def"
 # git_hash = 0 # Default: 8
 [files]
 include = [

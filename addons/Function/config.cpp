@@ -1,9 +1,9 @@
 #include "script_version.hpp"
 class CfgPatches
 {
-	class IO_Function
+	class IOAA3_Function
 	{
-		name = "Function - IO0288";
+		name = "IOAA3_Function - IO0288";
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 2.10;// 所需Arma3版本
@@ -20,7 +20,7 @@ class CfgFunctions
 	{
 		class Batch
 		{
-			file = "\IO_Function\functions\IO";			
+			file = "\ioaa3_def\function\functions\IO";			
 			class addArsenal {};//postInit=1;//https://community.bistudio.com/wiki/Arma_3:_Functions_Library
 			class blackScreen {};
 			class createIntel {};
@@ -35,15 +35,12 @@ class CfgFunctions
 		};
 		class Other
 		{
-			file = "\IO_Function\functions";			
+			file = "\ioaa3_def\function\functions";			
 			class ddbj {};
-			class scp {};
-			class enhancedZeusModules {};
-			class simpleApocalypseEnvironment {};
+			
 			class simpleCivilianPresence {};
 			class simpleFloatary {};
 			class simpleSpotSystem {};
-			class simpleZombieSystem {};
 			
 			class teamMapIcons {};
 			class teamMapIntel {};
