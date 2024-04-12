@@ -26,7 +26,7 @@ if (isNil "_intel select 0") then {
 _title = _intel select 1;
 _content = _intel select 2;
 _param = [_unit, [_picPath, _title, _content], _side, _zeus];
-	_param call BIS_fnc_log;
+_param call BIS_fnc_log;
 
 [_unit] call BIS_fnc_initIntelObject;
 
@@ -34,8 +34,8 @@ if (isServer) then {
 	// 图片
 	_unit setVariable [
 		"RscAttributeDiaryRecord_texture",
-		// "a3\structures_f_epc\Items\Documents\Data\document_secret_01_co.paa",// 图片路径
-		_picPath,// 图片路径
+		// "a3\structures_f_epc\Items\Documents\Data\document_secret_01_co.paa", // 图片路径
+		_picPath, // 图片路径
 		true
 	];
 

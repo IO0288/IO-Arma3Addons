@@ -27,7 +27,7 @@ if (!isNil "_units") exitWith {
 	{
 		_x addAction ["军火库", {
 			['Open', [true]] call BIS_fnc_arsenal;
-			}, nil, 2];
+		}, nil, 2];
 		_x addAction ["ACE军火库", {
 			[player, player, true] call ace_arsenal_fnc_openBox;
 		}, nil, 2];

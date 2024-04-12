@@ -1,7 +1,7 @@
 /*
- *	IO_Batch_RmVehicle.sqf
- *	批量删除传入的单位
- *	[(units east)] execVM "IO_Batch_RmVehicle.sqf";
+	 *IO_Batch_RmVehicle.sqf
+	 *批量删除传入的单位
+	 *[(units east)] execVM "IO_Batch_RmVehicle.sqf";
  */
 
 params ["_arr"];

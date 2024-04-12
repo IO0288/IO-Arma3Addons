@@ -1,12 +1,12 @@
 /*
- *	IO_Batch_RBomb.sqf
- *	批量随机创建爆炸
- *	[*rbomb_mb, rbomb_n, rbomb_s, rbomb_x, rbomb_y] execVM "IO_Batch_rbomb.sqf";
+	 *IO_Batch_RBomb.sqf
+	 *批量随机创建爆炸
+	 *[*rbomb_mb, rbomb_n, rbomb_s, rbomb_x, rbomb_y] execVM "IO_Batch_rbomb.sqf";
  */
 
 params ["_mb", "_n", "_s", "_x", "_y"];
 _param = [_mb, _n, _s, _x, _y];
-//* _arr = allUnits inAreaArray loop1_area_end/thisList// 触发器适用
+// * _arr = allUnits inAreaArray loop1_area_end/thisList// 触发器适用
 hint format["%1 %2 %3 %4 %5 %6", _mb, _n, _s, _x, _y, count _param];
 _rbomb_n = 3;
 _rbomb_s = 3;
@@ -37,4 +37,4 @@ if (count _param > 0) then {
 		};
 	};
 };
-[_param,"fnc_RBomb"] call BIS_fnc_log;
+[_param, "fnc_RBomb"] call BIS_fnc_log;

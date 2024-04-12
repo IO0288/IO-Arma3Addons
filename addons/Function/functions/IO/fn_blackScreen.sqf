@@ -16,9 +16,9 @@ if (isNil "_time3") then {
 _param = [_time1, _time2, _time3];
 if (_time1 > 0) exitWith {
 	_param spawn {
-		cutText ["一段时间之后.","BLACK OUT", _this select 0];
+		cutText ["一段时间之后.", "BLACK OUT", _this select 0];
 		sleep (_this select 1);
-		cutText ["一段时间之后...","BLACK IN", _this select 2];
+		cutText ["一段时间之后...", "BLACK IN", _this select 2];
 		_this call BIS_fnc_log;
 	};
 };
