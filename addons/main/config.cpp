@@ -7,16 +7,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 2.10;// 所需Arma3版本
-		requiredAddons[] =
-			{
-				"A3_Data_F",
-				"bwa3_loadorder",
-				"bwa3_comp_ace",
-				"rhsusf_c_weapons",
-				"bwa3_rgw90",
-				"bwa3_pzf3",
-				"bwa3_carlgustav"
-			};
+		requiredAddons[] = {"A3_Data_F"};
 		author = "IO0288";
 		authors[] =
 			{"IO0288"};

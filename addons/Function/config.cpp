@@ -7,7 +7,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 2.10;// 所需Arma3版本
-		requiredAddons[] = {"A3_Data_F", "ioaa3_def_main"};
+		requiredAddons[] = {"A3_Data_F"};
 		author = "IO0288";
 		url = "https://git.io0288.cn/IO0288/IO-Arma3Addons";
 		versionAr[] = {MAJOR, MINOR, PATCH, BUILD};
@@ -20,7 +20,7 @@ class CfgFunctions
 	{
 		class Batch
 		{
-			file = "\ioaa3_def\function\functions\IO";			
+			file = "\ioaa3_def_function\functions\IO";			
 			class addArsenal {};//postInit=1;//https://community.bistudio.com/wiki/Arma_3:_Functions_Library
 			class blackScreen {};
 			class createIntel {};
@@ -35,7 +35,7 @@ class CfgFunctions
 		};
 		class Other
 		{
-			file = "\ioaa3_def\function\functions";			
+			file = "\ioaa3_def_function\functions";			
 			class ddbj {};
 			
 			class simpleCivilianPresence {};

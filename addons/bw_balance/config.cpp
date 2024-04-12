@@ -16,9 +16,7 @@ class CfgPatches
 				"rhsusf_c_weapons",
 				"bwa3_rgw90",
 				"bwa3_pzf3",
-				"bwa3_carlgustav",
-				"A3_Data_F",
-				"ioaa3_def_main"
+				"bwa3_carlgustav"
 			};
 		author = "IO0288";
 		authors[] =

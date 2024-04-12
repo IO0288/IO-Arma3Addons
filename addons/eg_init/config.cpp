@@ -7,7 +7,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 2.10;
-		requiredAddons[] = {"Extended_EventHandlers", "A3_Data_F", "ioaa3_def_main"};
+		requiredAddons[] = {"Extended_EventHandlers", "A3_Data_F"};
 		author = "IO0288";
 		authors[] = {"IO0288"};
 		url = "https://git.io0288.cn/IO0288/IO-Arma3Addons";
