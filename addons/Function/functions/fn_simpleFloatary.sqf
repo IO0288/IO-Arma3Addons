@@ -214,11 +214,7 @@ SLT_fnc_enableScript = {
 				false
 			};
 			private _watercraft = [_aircraft] call FLRY_fnc_getAttachedBoat;
-			private _distance = if (_aircraft isKindOf "Plane") then {
-				15
-			} else {
-				10
-			};
+			private _distance = [15, 10] select (_aircraft isKindOf "Plane");
 			private _newPos = (_aircraft getPos [_distance, (getDir _aircraft)+180]);
 			_newPos set [2, (getPosASL _aircraft) select 2];
 			detach _watercraft;
