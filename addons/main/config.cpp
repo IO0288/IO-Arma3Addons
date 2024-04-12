@@ -9,6 +9,7 @@ class CfgPatches
 		requiredVersion = 2.10;// 所需Arma3版本
 		requiredAddons[] =
 			{
+				"A3_Data_F",
 				"bwa3_loadorder",
 				"bwa3_comp_ace",
 				"rhsusf_c_weapons",
