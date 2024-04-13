@@ -3,7 +3,7 @@ class CfgPatches
 {
 	class eg_init
 	{
-		name = "Main - IO0288";
+		name = "eg_init - IO0288";
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 2.10;
@@ -17,5 +17,5 @@ class CfgPatches
 
 class Extended_PostInit_EventHandlers
 {
-	IO_eg_init_Post_Init = "IO_eg_init_Post_Init_Var = [] execVM ""\IO_eg_init\init.sqf""";
+	IO_eg_init_Post_Init = "IO_eg_init_Post_Init_Var = [] execVM ""\ioaa3_def_eg_init\init.sqf""";
 };
