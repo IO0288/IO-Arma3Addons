@@ -30,6 +30,7 @@ class CfgFunctions
 			class randomTP {};
 			class tell {};
 			class randomBomb {};
+			class setFlag {};
 
 			class tvLaunch {};
 		};

@@ -1,0 +1,12 @@
+
+"workshopitem"
+{
+	"appid"             "107410"            //这里是游戏的APPID，具体查询方法可以在Steam的游戏商店上方看到或者在SteamDB获取到               
+    "contentfolder"     "D:\\EXE\\Steam\\steamapps\\common\\Arma 3\\!Workshop\\@@@ODST - Main"                 //这里是指向你的MOD成品文件夹，根据你自己的实际情况更改为你自己的paks文件位置
+    "previewfile"       "C:\\Users\\zhang\\OneDrive\\文档\\Arma 3 - Other Profiles\\mod\\IO-Arma3Addons\\aa3Workshop.jpg"     //这里是指向你的主图预览图的位置，精确到图片名以及后缀
+    "visibility"        "3"                 //可见度一般默认
+    "title"             "@@ODST - Main"                  //MOD标题
+    "description"       "Main   ver.ODST240414"                  //MOD描述
+    "changenote"        "greenmag sign&fix"   //版本号，可以默认也可以自行改成V1，V2，V0.1等等
+    "publishedfileid"   "2958947663"                  //留空，等你自己上传后会自动生成
+}

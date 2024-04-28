@@ -3,7 +3,7 @@
 
 class CfgPatches
 {
-	class wb_bw_main
+	class bw_balance
 	{
 		name = "Weapons Balance - BWMod";
 		units[] = {};
