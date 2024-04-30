@@ -4,3 +4,6 @@ hemtt
 hemtt.exe
 *.biprivatekey
 *.zip
+*.png
+*.jpg
+*.ogv
