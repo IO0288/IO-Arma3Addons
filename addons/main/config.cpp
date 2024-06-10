@@ -15,3 +15,12 @@ class CfgPatches
 		versionAr[] = {MAJOR, MINOR, PATCH, BUILD};
 	};
 };
+class CfgFactionClasses{
+    class CIV_F;
+    class CIV_ODST : CIV_F{
+        displayName = "ODST后勤仓库";
+        flag = "\ioaa3_def_function\src\flag.jpg";
+        icon = "\ioaa3_def_function\src\odst_2.paa";
+        priority = 1;
+    };
+};

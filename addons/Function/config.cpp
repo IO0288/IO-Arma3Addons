@@ -33,6 +33,7 @@ class CfgFunctions
 			class setFlag {};
 
 			class tvLaunch {};
+			class stringReplace {};
 		};
 		class Other
 		{

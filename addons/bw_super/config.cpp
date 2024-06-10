@@ -11,7 +11,12 @@ class CfgPatches
 		requiredVersion = 2.04;
 		requiredAddons[] =
 			{
-				"bw_balance"
+				"bwa3_loadorder",
+				"bwa3_comp_ace",
+				"rhsusf_c_weapons",
+				"bwa3_rgw90",
+				"bwa3_pzf3",
+				"bwa3_carlgustav"
 			};
 		author = "IO0288";
 		authors[] =
