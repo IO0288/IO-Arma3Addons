@@ -13,8 +13,10 @@ if (redisTrue && isServer) then {
 		_str call BIS_fnc_log;
 		[str _str] remoteExec ["systemChat", -2];
 		Rre = _re#0;
-		private _ret = _re#0 trim ["'", 0];
-		private _loadout = parseSimpleArray _ret;
+		if (!isArray _re) then {
+			_re = _re#0 trim ["'", 0];
+			private _loadout = parseSimpleArray _re;
+		};
 		// _p setUnitLoadout _loadout;
 		// "200";
 		_loadout;
