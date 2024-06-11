@@ -10,12 +10,12 @@ if (redisTrue && isServer) then {
 	if (_re#0 == "success") then {
 		private _str = format ["[Redis]: %1 (云端缓存)装备保存成功", dataArr#0];
 		_str call BIS_fnc_log;
-		systemChat str _str;
+		[str _str] remoteExec ["systemChat", -2];
 		"200";
 	}else {
 		private _str = format ["[Redis]: %1 (云端缓存)装备保存出现错误", dataArr#0];
 		_str call BIS_fnc_log;
-		systemChat str _str;
+		[str _str] remoteExec ["systemChat", -2];
 		"404";
 	};
 };
