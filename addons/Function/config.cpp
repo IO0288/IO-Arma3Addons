@@ -31,6 +31,8 @@ class CfgFunctions
 			class tell {};
 			class randomBomb {};
 			class setFlag {};
+			class redisSendMsg {};
+			class redisGetMsg {};
 
 			class tvLaunch {};
 			class stringReplace {};
