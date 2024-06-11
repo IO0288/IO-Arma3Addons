@@ -7,9 +7,9 @@
 params["_dataArr"];
 
 if (redisTrue && isServer) then {
-	private _re = "ArmaMapsExt" callExtension ["getMsg",dataArr];
+	private _re = "ArmaMapsExt" callExtension ["getMsg", _dataArr];
 	if (_re#0 != "") then {
-		private _str = format ["[Redis]: %1 (云端缓存)装备读取成功", dataArr#0];
+		private _str = format ["[Redis]: %1 (云端缓存)装备读取成功", _dataArr#0];
 		_str call BIS_fnc_log;
 		[str _str] remoteExec ["systemChat", -2];
 		Rre = _re#0;
@@ -19,7 +19,7 @@ if (redisTrue && isServer) then {
 		// "200";
 		_loadout;
 	}else {
-		private _str = format ["[Redis]: %1 (云端缓存)装备读取出现错误", dataArr#0];
+		private _str = format ["[Redis]: %1 (云端缓存)装备读取出现错误", _dataArr#0];
 		_str call BIS_fnc_log;
 		[str _str] remoteExec ["systemChat", -2];
 		"404";
@@ -35,20 +35,20 @@ if (redisTrue && isServer) then {
 // 		_loadout = getUnitLoadout [_p, true];
 // 		_loadout = format ["'%1'",_loadout];
 // 		_loadout = [_loadout, '"', "'"] call IO_fnc_stringReplace;
-// 		RDataArr = [_str, _loadout, str (60*60*4)];
-// 		publicVariable "RDataArr";
-// 		[RDataArr] remoteExec ["IO_fnc_redisSendMsg", 2];
+// 		R_dataArr = [_str, _loadout, str (60*60*4)];
+// 		publicVariable "R_dataArr";
+// 		[R_dataArr] remoteExec ["IO_fnc_redisSendMsg", 2];
 // 	};
 // }, nil, 2];
 // ammo_atm addAction ["加载装备(云端缓存)", {
 // 	if (!isServer) then {
 // 		_p = player;
 // 		_str = "aa3:playerLoadout:uid" + getPlayerUID _p;
-// 		RDataArr = [_str];
-// 		publicVariable "RDataArr";
+// 		R_dataArr = [_str];
+// 		publicVariable "R_dataArr";
 // 		[[_p],{
 // 			params ["_p"];
-// 			[RDataArr] remoteExec ["IO_fnc_redisGetMsg", 2];
+// 			[R_dataArr] remoteExec ["IO_fnc_redisGetMsg", 2];
 // 			private _ret = Rre trim ["'", 0];
 // 			private _loadout = parseSimpleArray _ret;
 // 			_p setUnitLoadout _loadout;
