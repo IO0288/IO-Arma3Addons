@@ -9,6 +9,7 @@ include = [
     "meta.cpp",     # They do not need to be added to your list
     "LICENSE",
     "logo.paa",
+#    "*.dll",
     "keys/*",
     "README.md"
 ]
