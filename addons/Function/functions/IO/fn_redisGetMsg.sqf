@@ -1,7 +1,7 @@
 /*
 	 *fn_redisGetMsg
 	 *redis读取键
-	 *[_dataArr] call "IO_fnc_redisGetMsg";
+	 *[*_dataArr] call "IO_fnc_redisGetMsg";
  */
 params["_dataArr"]; 
 
