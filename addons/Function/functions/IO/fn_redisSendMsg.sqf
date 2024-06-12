@@ -6,14 +6,14 @@
 params["_dataArr"];
 
 if (redisTrue && isServer) then {
-	private _re = "ArmaMapsExt" callExtension ["sendMsg", _dataArr];
+	_re = "ArmaMapsExt" callExtension ["sendMsg", _dataArr];
 	if (_re#0 == "success") then {
-		private _str = format ["[Redis]: %1 (云端缓存)装备保存成功", _dataArr#0];
+		_str = format ["[Redis]: %1 (云端缓存)保存成功", _dataArr#0];
 		_str call BIS_fnc_log;
 		[str _str] remoteExec ["systemChat", -2];
 		"200";
 	}else {
-		private _str = format ["[Redis]: %1 (云端缓存)装备保存出现错误", _dataArr#0];
+		_str = format ["[Redis]: %1 (云端缓存)保存错误", _dataArr#0];
 		_str call BIS_fnc_log;
 		[str _str] remoteExec ["systemChat", -2];
 		"404";
@@ -43,8 +43,8 @@ if (redisTrue && isServer) then {
 // 		[[_p],{
 // 			params ["_p"];
 // 			[RDataArr] remoteExec ["IO_fnc_redisGetMsg", 2];
-// 			private _ret = Rre trim ["'", 0];
-// 			private _loadout = parseSimpleArray _ret;
+// 			_ret = Rre trim ["'", 0];
+// 			_loadout = parseSimpleArray _ret;
 // 			_p setUnitLoadout _loadout;
 // 		}] remoteExec ["call", 2];
 // 	};

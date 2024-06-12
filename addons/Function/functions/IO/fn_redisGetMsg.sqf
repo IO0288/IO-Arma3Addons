@@ -3,25 +3,20 @@
 	 *redis读取键
 	 *[_dataArr] call "IO_fnc_redisGetMsg";
  */
-// params["_dataArr", "_p"];
-params["_dataArr"];
+params["_dataArr"]; 
 
 if (redisTrue && isServer) then {
-	private _re = "ArmaMapsExt" callExtension ["getMsg", _dataArr];
+	_re = "ArmaMapsExt" callExtension ["getMsg", _dataArr];
 	if (_re#0 != "") then {
-		private _str = format ["[Redis]: %1 (云端缓存)装备读取成功", _dataArr#0];
+		_str = format ["[Redis]: %1 (云端缓存)读取成功", _dataArr#0];
 		_str call BIS_fnc_log;
 		[str _str] remoteExec ["systemChat", -2];
 		Rre = _re#0;
-		if (!isArray _re) then {
-			_re = _re#0 trim ["'", 0];
-			private _loadout = parseSimpleArray _re;
-		};
-		// _p setUnitLoadout _loadout;
-		// "200";
-		_loadout;
+		_res = _re#0 trim ["'", 0];
+		_value = parseSimpleArray _res;
+		_value;
 	}else {
-		private _str = format ["[Redis]: %1 (云端缓存)装备读取出现错误", _dataArr#0];
+		_str = format ["[Redis]: %1 (云端缓存)读取错误", _dataArr#0];
 		_str call BIS_fnc_log;
 		[str _str] remoteExec ["systemChat", -2];
 		"404";
@@ -51,8 +46,8 @@ if (redisTrue && isServer) then {
 // 		[[_p],{
 // 			params ["_p"];
 // 			[R_dataArr] remoteExec ["IO_fnc_redisGetMsg", 2];
-// 			private _ret = Rre trim ["'", 0];
-// 			private _loadout = parseSimpleArray _ret;
+// 			_ret = Rre trim ["'", 0];
+// 			_loadout = parseSimpleArray _ret;
 // 			_p setUnitLoadout _loadout;
 // 		}] remoteExec ["call", 2];
 // 	};
