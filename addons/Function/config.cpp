@@ -33,6 +33,7 @@ class CfgFunctions
 			class setFlag {};
 			class redisSendMsg {};
 			class redisGetMsg {};
+			class redisInitLoadout{};
 
 			class tvLaunch {};
 			class stringReplace {};
