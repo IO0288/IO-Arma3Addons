@@ -1,6 +1,6 @@
 /*
 	 *IO_Batch_BScreen.sqf
-	 *黑屏过度
+	 *黑屏过渡
 	 *[_time1, _time2, _time3] execVM "IO_Batch_BScreen.sqf";
  */
 
