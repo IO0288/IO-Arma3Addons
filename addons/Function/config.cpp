@@ -32,6 +32,7 @@ class CfgFunctions
 			class tell {};//对某人说话
 			class randomBomb {};//批量随机创建爆炸
 			class setFlag {};//设置旗帜图案
+			class redisInit {};//redis初始连接判断
 			class redisGet {};//redis读取键
 			class redisSet {};//redis设置键
 			class addRedisLoadout{};//添加redis装备缓存行为到某物
