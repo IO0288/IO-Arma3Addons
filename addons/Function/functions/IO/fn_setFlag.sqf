@@ -6,9 +6,6 @@
 
 params ["_u"];
 // params ["_u", "_f"];
-
-if (isNil "_f") then {
-	_f = "\ioaa3_def_src\src\flag.jpg";
-};
-
+_f = "\ioaa3_def_src\src\flag.jpg";
 _u setFlagTexture _f;
+
