@@ -20,7 +20,7 @@ if (!isNil "_units") exitWith {
 				_dataArr = [_k, _v, str (60*60*4)];
 				[[_dataArr],{
 					params ["_dataArr"];
-					[_dataArr] remoteExec ["IO_fnc_redisSetMsg", 2];
+					[_dataArr] call IO_fnc_redisSet;
 				}] remoteExec ["call", 2];
 			};
 		}, nil, 2];
@@ -31,7 +31,7 @@ if (!isNil "_units") exitWith {
 				_dataArr = [_k];
 				[[_p, _dataArr],{
 					params ["_p", "_dataArr"];
-					_res = [_dataArr] call IO_fnc_redisGetMsg;
+					_res = [_dataArr] call IO_fnc_redisGet;
 					_p setUnitLoadout _res;
 				}] remoteExec ["call", 2];
 			};

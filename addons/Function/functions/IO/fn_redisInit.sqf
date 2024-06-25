@@ -1,9 +1,8 @@
 /*
 	 *fn_redisInit
 	 *redis初始连接判断
-	 *[*_dataArr] call "IO_fnc_redisInit";
+	 *[] call "IO_fnc_redisInit";
  */
-params["_dataArr"]; 
 
 if (isServer) then {
 	_re = "ArmaMapsExt" callExtension ["connectRedis",["io0288.cn","6379"]];
