@@ -7482,7 +7482,7 @@
             <Polish>Przestań monitorować</Polish>
             <Spanish>Retirar monitoreo</Spanish>
             <Chinese>移除監控</Chinese>
-            <Chinesesimp>移除监控</Chinesesimp>
+            <Chinesesimp>移除监护仪</Chinesesimp>
             <Czech>Odstranit monitorování</Czech>
             <Korean>환자감시장치 해제</Korean>
             <French>Retirer le moniteur</French>
@@ -7495,6 +7495,7 @@
         </Key>
         <Key ID="STR_KAT_Circulation_AEDX_Action_EnableAudio">
             <English>Vitals Monitor Audio ON</English>
+            <Chinesesimp>监护仪音频 开启</Chinesesimp>
             <Japanese>モニター音声オン</Japanese>
             <French>Activer le son des signes vitaux de l'AED-X</French>
             <Korean>환자감시장치 소리 켜기</Korean>
@@ -7506,6 +7507,7 @@
         </Key>
         <Key ID="STR_KAT_Circulation_AEDX_Action_DisableAudio">
             <English>Vitals Monitor Audio OFF</English>
+            <Chinesesimp>监护仪音频 关闭</Chinesesimp>
             <Japanese>モニター音声オフ</Japanese>
             <French>Désactiver le son des signes vitaux de l'AED-X</French>
             <Korean>환자감시장치 소리 끄기</Korean>

@@ -9,7 +9,16 @@ class CfgPatches
 		magazines[]={};
 		requiredAddons[]=
 		{
-			"kat_gui"
+			"kat_airway",
+			"kat_breathing",
+			"kat_chemical",
+			"kat_circulation",
+			"kat_gui",
+			"kat_main",
+			"kat_misc",
+			"kat_pharma",
+			"kat_surgery",
+			"kat_zeus"
 		};
 		author="IO0288";
 		authors[]=
