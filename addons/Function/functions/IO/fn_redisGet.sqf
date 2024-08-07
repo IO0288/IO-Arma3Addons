@@ -2,6 +2,7 @@
 	 *fn_redisGetMsg
 	 *redis读取键
 	 *[*_dataArr] call "IO_fnc_redisGetMsg";
+	 *Redis使用范例 - 见fn_addRedisLoadout.sqf
  */
 params["_dataArr"]; 
 
@@ -23,7 +24,7 @@ if (redisTrue && isServer) then {
 	};
 };
 
-// Redis使用范例 - 见fn_addRedisLoadout.sqf
+
 
 
 			

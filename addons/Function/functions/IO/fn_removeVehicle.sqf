@@ -12,7 +12,6 @@ if (_arrN > -1) then {
 	for "_i" from 0 to _arrN do{
 		_p = _arr select _i;
 		if (!isPlayer _p) then {
-			// 判断是否玩家
 			deleteVehicle _p;
 		};
 	};

@@ -3,8 +3,6 @@ missionNamespace setVariable ["show_enermy", false];
 showPlayerOnHUD = {
 	addMissionEventHandler ["Draw3D", {
 		_size =getResolution#5;
-		// _ICON = getMissionPath "\ddbj.jpg";
-		// _ICON = getMissionPath "\IO_Function\fn_ddbj.jpg";
 		_ICON = "\ioaa3_def_function\functions\ddbj.paa";
 		_POS="";
 		_NAME="";
@@ -17,7 +15,6 @@ showPlayerOnHUD = {
 				_COLOR=[1, 1, 1, 0];
 			} else {
 				_COLOR=[1, 1, 1, 0.7];
-				// _COLOR=[1, 0, 0, 0.7];
 				_NAME = _NAME +"已倒地需要帮助";
 			};
 			_x modelToWorldVisual [0, 0, 2] params ["_xpos", "_ypos", "_zpos"];

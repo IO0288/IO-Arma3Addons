@@ -2,6 +2,7 @@
 	 *fn_redisSendMsg
 	 *redis设置键
 	 *[_dataArr] call "IO_fnc_redisSendMsg";
+	 *Redis使用范例 - 见fn_addRedisLoadout.sqf
  */
 params["_dataArr"];
 

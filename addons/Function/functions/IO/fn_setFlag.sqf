@@ -5,7 +5,6 @@
  */
 
 params ["_u"];
-// params ["_u", "_f"];
 _f = "\ioaa3_def_src\src\flag.jpg";
 _u setFlagTexture _f;
 

@@ -6,7 +6,6 @@
 
 params ["_targer", "_n", "_s", "_x", "_y"];
 _param = [_targer, _n, _s, _x, _y];
-// * _arr = allUnits inAreaArray loop1_area_end/thisList// 触发器适用
 hint format["%1 %2 %3 %4 %5 %6", _targer, _n, _s, _x, _y, count _param];
 _rbomb_n = 3;
 _rbomb_s = 3;

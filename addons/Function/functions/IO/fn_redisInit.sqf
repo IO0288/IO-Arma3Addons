@@ -2,6 +2,7 @@
 	 *fn_redisInit
 	 *redis初始连接判断
 	 *[] call "IO_fnc_redisInit";
+	 *Redis使用范例 - 见fn_addRedisLoadout.sqf
  */
 
 if (isServer) then {
@@ -16,8 +17,6 @@ if (isServer) then {
 };
 
 redisTrue;
-// Redis使用范例 - 见fn_addRedisLoadout.sqf
-
 
 			
 
