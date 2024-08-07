@@ -39,6 +39,12 @@ class CfgFunctions
 
 			class tvLaunch {};//添加TV制导飞弹行为到某物
 			class stringReplace {};//字符串替换
+			
+			// 2408
+			class disable2035 {};
+			class logistics {};
+			class noob_loadout {};
+			class NOS {};
 		};
 		class Other
 		{
