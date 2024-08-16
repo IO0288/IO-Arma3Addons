@@ -106,7 +106,6 @@ class CfgMagazines {
         mass = 20;
     };
 
-    class RPG32_F;
     class BWA3_PzF3_Tandem: RPG32_F {
         author = "$STR_BWA3_Author";
         displayName = "$STR_BWA3_PzF3MagName";
