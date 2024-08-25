@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="BWMod">
+    <Package name="Units">
+        <Key ID="STR_BWA3_Component_Units">
+            <English>Bundeswehr - Characters and Clothing</English>
+            <German>Bundeswehr - Charaktere und Bekleidungen</German>
+            <Japanese>ドイツ連邦軍 - キャラクターと被服</Japanese>
+            <Chinesesimp>德意志联邦军-角色和服装</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_RiflemanName">
+            <English>Rifleman</English>
+            <German>Schütze</German>
+            <Japanese>小銃手</Japanese>
+            <Chinesesimp>步枪手</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_RiflemanLiteName">
+            <English>Rifleman (Light)</English>
+            <German>Schütze (leicht)</German>
+            <Japanese>小銃手 (軽装備)</Japanese>
+            <Chinesesimp>步枪手 (轻装)</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_RiflemanUnarmedName">
+            <English>Rifleman (Unarmed)</English>
+            <German>Schütze (unbewaffnet)</German>
+            <Japanese>小銃手 (非武装)</Japanese>
+            <Chinesesimp>步枪手 (无武装)</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_RiflemanG27Name">
+            <English>Rifleman (G27)</English>
+            <German>Schütze (G27)</German>
+            <Japanese>小銃手 (G27)</Japanese>
+            <Chinesesimp>步枪手 (G27)</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_GrenadierName">
+            <English>Grenadier</English>
+            <German>Grenadier</German>
+            <Japanese>てき弾手</Japanese>
+            <Chinesesimp>掷弹兵</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_GrenadierG27Name">
+            <English>Grenadier (G27)</English>
+            <German>Grenadier (G27)</German>
+            <Japanese>てき弾手 (G27)</Japanese>
+            <Chinesesimp>掷弹兵 (G27)</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_MachineGunnerMG3Name">
+            <English>Machine Gunner (MG3)</English>
+            <German>MG-Schütze (MG3)</German>
+            <Japanese>自動小銃手 (MG3)</Japanese>
+            <Chinesesimp>机枪手 (MG3)</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_MachineGunnerMG4Name">
+            <English>Machine Gunner (MG4)</English>
+            <German>MG-Schütze (MG4)</German>
+            <Japanese>自動小銃手 (MG4)</Japanese>
+            <Chinesesimp>机枪手 (MG4)</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_MachineGunnerMG5Name">
+            <English>Machine Gunner (MG5)</English>
+            <German>MG-Schütze (MG5)</German>
+            <Japanese>自動小銃手 (MG5)</Japanese>
+            <Chinesesimp>机枪手 (MG5)</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_MachineGunnerName">
+            <English>Machine Gunner</English>
+            <German>Maschinengewehrschütze</German>
+            <Japanese>機関銃手</Japanese>
+            <Chinesesimp>机枪手</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_MedicName">
+            <English>Combat Life Saver</English>
+            <German>Gefechtssanitäter</German>
+            <Japanese>衛生兵</Japanese>
+            <Chinesesimp>战斗救生员</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_MarksmanName">
+            <English>Marksman</English>
+            <German>Gruppenscharfschütze</German>
+            <Japanese>選抜射手</Japanese>
+            <Chinesesimp>神枪手</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_RiflemanG28Name">
+            <English>Rifleman (G28)</English>
+            <German>Schütze (G28)</German>
+            <Japanese>小銃手 (G28)</Japanese>
+            <Chinesesimp>步枪兵 (G28)</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_SniperG82Name">
+            <English>Sniper (G82)</English>
+            <German>Scharfschütze (G82)</German>
+            <Japanese>狙撃手 (G82)</Japanese>
+            <Chinesesimp>狙击手 (G82)</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_SniperG29Name">
+            <English>Sniper (G29)</English>
+            <German>Scharfschütze (G29)</German>
+            <Japanese>狙撃手 (G29)</Japanese>
+            <Chinesesimp>狙击手 (G29)</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_SpotterName">
+            <English>Spotter</English>
+            <German>Spotter</German>
+            <Japanese>観測手</Japanese>
+            <Chinesesimp>观测员</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_RiflemanATRGW90Name">
+            <English>Rifleman (AT) (RGW 90)</English>
+            <German>Panzerabwehrschütze (RGW 90)</German>
+            <Japanese>小銃手 (対戦車) (RGW 90)</Japanese>
+            <Chinesesimp>步枪手 (AT) (RGW 90)</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_RiflemanATPzF3Name">
+            <English>Rifleman (AT) (PzF 3)</English>
+            <German>Panzerabwehrschütze (PzF 3)</German>
+            <Japanese>小銃手 (対戦車) (PzF 3)</Japanese>
+            <Chinesesimp>步枪手 (AT) (PzF 3)</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_RiflemanATCGName">
+            <English>Rifleman (Illumination)</English>
+            <German>Panzerabwehrschütze (Beleuchtung)</German>
+            <Japanese>小銃手 (照明装置)</Japanese>
+            <Chinesesimp>步枪兵 (照明)</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_RiflemanAAFliegerfaustName">
+            <English>Rifleman (AA)</English>
+            <German>Flugabwehrschütze</German>
+            <Japanese>小銃手 (対空)</Japanese>
+            <Chinesesimp>步枪兵 (AA)</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_EngineerName">
+            <English>Engineer</English>
+            <German>Pionier</German>
+            <Japanese>工兵</Japanese>
+            <Chinesesimp>工程师</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_TLName">
+            <English>Team Leader</English>
+            <German>Truppführer</German>
+            <Japanese>班長</Japanese>
+            <Chinesesimp>团队负责人</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_SLName">
+            <English>Squad Leader</English>
+            <German>Gruppenführer</German>
+            <Japanese>分隊長</Japanese>
+            <Chinesesimp>班长</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_CrewName">
+            <English>Crewman</English>
+            <German>Besatzung</German>
+            <Japanese>乗員</Japanese>
+            <Chinesesimp>乘员</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_TankCommanderName">
+            <English>Tank Commander</English>
+            <German>Panzerkommandant</German>
+            <Japanese>戦車長</Japanese>
+            <Chinesesimp>车长</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_HelipilotName">
+            <English>Helicopter Pilot</English>
+            <German>Helikopterpilot</German>
+            <Japanese>ヘリ操縦士</Japanese>
+            <Chinesesimp>直升机飞行员</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_HelipilotNH90Name">
+            <English>Helicopter Pilot (NH90)</English>
+            <German>Helikopterpilot (NH90)</German>
+            <Japanese>ヘリ操縦士 (NH90)</Japanese>
+            <Chinesesimp>直升机飞行员 (NH90)</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_HelicrewName">
+            <English>Helicopter Crew</English>
+            <German>Helikopter Bordschütze</German>
+            <Chinesesimp>直升机机组人员</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_OfficerName">
+            <English>Officer</English>
+            <German>Offizier</German>
+            <Japanese>士官</Japanese>
+            <Chinesesimp>士官</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_AMachineGunnerName">
+            <English>Asst. Machine Gunner</English>
+            <German>Zweiter MG-Schütze</German>
+            <Japanese>補助自動小銃手</Japanese>
+            <Chinesesimp>机枪助手</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_AMachineGunnerMG5Name">
+            <English>Asst. Machine Gunner (MG5)</English>
+            <German>Zweiter MG-Schütze (MG5)</German>
+            <Japanese>補助自動小銃手 (MG5)</Japanese>
+            <Chinesesimp>机枪助手 (MG5)</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_RiflemanAAAName">
+            <English>Asst. Rifleman (AA)</English>
+            <German>Zweiter Flugabwehrschütze</German>
+            <Japanese>小銃弾薬手 (対空)</Japanese>
+            <Chinesesimp>助手步枪兵 (AA)</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_ReconName">
+            <English>Fernspäher Scout</English>
+            <German>Fernspäher Aufklärer</German>
+            <Japanese>フランシュペア 斥候</Japanese>
+            <Chinesesimp>Fernspäher侦察</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_Recon_LATName">
+            <English>Fernspäher Recon (RGW90)</English>
+            <German>Fernspäher Aufklärer (RGW90)</German>
+            <Japanese>フランシュペア 偵察 (RGW90)</Japanese>
+            <Chinesesimp>Fernspäher侦察 (RGW90)</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_Recon_EXPName">
+            <English>Fernspäher Pioneer</English>
+            <German>Fernspäher Pionier</German>
+            <Japanese>フランシュペア 工兵</Japanese>
+            <Chinesesimp>Fernspäher工兵</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_Recon_TLName">
+            <English>Fernspäher Team Leader</English>
+            <German>Fernspäher Teamleader</German>
+            <Japanese>フランシュペア 班長</Japanese>
+            <Chinesesimp>Fernspäher队长</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_Recon_MedicName">
+            <English>Fernspäher Combat Life Saver</English>
+            <German>Fernspäher Sanitäter</German>
+            <Japanese>フランシュペア 衛生兵</Japanese>
+            <Chinesesimp>Fernspäher医疗</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_Recon_MarksmanName">
+            <English>Fernspäher Marksman</English>
+            <German>Fernspäher Scharfschütze</German>
+            <Japanese>フランシュペア 選抜射手</Japanese>
+            <Chinesesimp>Fernspäher精射</Chinesesimp>
+        </Key>
+        <Key ID="STR_BWA3_Recon_RadiomanName">
+            <English>Fernspäher Radioman</English>
+            <German>Fernspäher Funker</German>
+            <Japanese>フランシュペア 無線手</Japanese>
+            <Chinesesimp>Fernspäher长台</Chinesesimp>
+        </Key>
+    </Package>
+</Project>
