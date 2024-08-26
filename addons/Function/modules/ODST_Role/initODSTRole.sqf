@@ -65,4 +65,17 @@ params ["_synced"];
 			}] remoteExec ["call", 2];
 		};
 	},"",0.03,false,false];
+	_x addAction["<t color=""#ff9d00"">- - 保存装备(云端缓存) - -</t>",
+	{
+		if (!isServer) then {
+			_p = player;
+			_str = "aa3:playerLoadout:uid" + getPlayerUID _p;
+			_loadout = getUnitLoadout [_p, true];
+			_loadout = format ["'%1'",_loadout];
+			_loadout = [_loadout, '"', "'"] call IO_fnc_stringReplace;
+			R_dataArr = [_str, _loadout, str (60*60*4)];
+			publicVariable "R_dataArr";
+			[R_dataArr] remoteExec ["IO_fnc_redisSendMsg", 2];
+		};
+	},"",0.03,false,false];
 }foreach _synced;
