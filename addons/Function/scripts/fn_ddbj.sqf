@@ -3,7 +3,7 @@ missionNamespace setVariable ["show_enermy", false];
 showPlayerOnHUD = {
 	addMissionEventHandler ["Draw3D", {
 		_size =getResolution#5;
-		_ICON = "\ioaa3_def_function\functions\ddbj.paa";
+		_ICON = "\ioaa3_def_function\scripts\ddbj.paa";
 		_POS="";
 		_NAME="";
 		_COLOR="";
@@ -61,7 +61,4 @@ showPlayerOnHUD = {
 	}];
 };
 
-IO_fnc_ddbj = {
-	[] spawn showPlayerOnHUD;
-	[] call showPlayerOnHUD;
-};
+[] spawn showPlayerOnHUD;

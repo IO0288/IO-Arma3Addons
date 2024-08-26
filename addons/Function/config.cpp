@@ -4,7 +4,7 @@ class CfgPatches
 	class IOAA3_Function
 	{
 		name = "IOAA3_Function - IO0288";
-		units[] = {};
+		units[] = {"IOAA3_ModuleODSTrole"};
 		weapons[] = {};
 		requiredVersion = 2.10;// 所需Arma3版本
 		requiredAddons[] = {"A3_Data_F"};
@@ -45,12 +45,16 @@ class CfgFunctions
 			class logistics {};
 			class noob_loadout {};
 			class NOS {};
+			class initLoadout {};
+		};
+		class Modules
+		{
+			file = "\ioaa3_def_function\functions\modules";			
+			class moduleODSTRole {};
 		};
 		class Other
 		{
-			file = "\ioaa3_def_function\functions";			
-			class ddbj {};
-			
+			file = "\ioaa3_def_function\functions\other";						
 			class simpleCivilianPresence {};
 			class simpleFloatary {};
 			class simpleSpotSystem {};
@@ -61,3 +65,15 @@ class CfgFunctions
 		};
 	};
 };
+class CfgFactionClasses
+{
+	class NO_CATEGORY;
+	class IOAA3modules : NO_CATEGORY
+		{
+			displayName = "ODST后勤仓库";
+			flag = "\ioaa3_def_src\src\flag.jpg";
+			icon = "\ioaa3_def_src\src\odst_2.paa";
+			priority = 1;
+		};
+};
+#include "cfgVehicles.hpp"

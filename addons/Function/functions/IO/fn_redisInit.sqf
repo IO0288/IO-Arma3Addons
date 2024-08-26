@@ -14,6 +14,7 @@ if (isServer) then {
 		"[Redis]: Connect Fail" call BIS_fnc_log;
 		redisTrue = false;
 	};
+	publicVariable "redisTrue";
 };
 
 redisTrue;

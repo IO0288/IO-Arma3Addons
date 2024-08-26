@@ -23,4 +23,18 @@ class CfgFactionClasses{
         icon = "\ioaa3_def_src\src\odst_2.paa";
         priority = 1;
     };
+	class BLU_F;
+	class BLU_ODST : BLU_F{
+        displayName = "ODST后勤仓库";
+        flag = "\ioaa3_def_src\src\flag.jpg";
+        icon = "\ioaa3_def_src\src\odst_2.paa";
+        priority = 1;
+    };
+	class OPF_F;
+	class OPF_ODST : OPF_F{
+        displayName = "ODST后勤仓库";
+        flag = "\ioaa3_def_src\src\flag.jpg";
+        icon = "\ioaa3_def_src\src\odst_2.paa";
+        priority = 1;
+    };
 };
