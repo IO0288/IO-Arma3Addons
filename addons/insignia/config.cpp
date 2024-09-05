@@ -7,6 +7,11 @@ class CfgUnitInsignia {
 		texture = "\ioaa3_def_insignia\data\odst\houq.paa";
 		author = "IO0288";
 	};
+	class odst_ecy{
+		displayName = "[ODST] 二次元";
+		texture = "\ioaa3_def_insignia\data\odst\odst_ecy_bz.paa";
+		author = "ODST";
+	};
 };
 
 class UniformSlotInfo {
