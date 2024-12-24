@@ -48,8 +48,8 @@ SLT_fnc_enableScript = {
 				alive player
 			};
 			if (player in (call BIS_fnc_listCuratorPlayers)) exitWith {};
-			  //  hint parseText ("Press "+"<t color='#ffb300'>"+(actionKeysNamesarray ["revealTarget", 1, "Keyboard"] select 0)+"</t>"+" while looking at a target to spot them!"); 
-			hint parseText ("使用 "+"<t color='#ffb300'>"+(actionKeysNamesarray ["revealTarget", 1, "Keyboard"] select 0)+"</t>"+" 来标记敌人!");
+			  //  hint parseText ("Press "+"<t color='#ffb300'>"+(actionKeysNamesArray ["revealTarget", 1, "Keyboard"] select 0)+"</t>"+" while looking at a target to spot them!"); 
+			hint parseText ("使用 "+"<t color='#ffb300'>"+(actionKeysNamesArray ["revealTarget", 1, "Keyboard"] select 0)+"</t>"+" 来标记敌人!");
 		};
 
 		if (!isNil "isSpotSystemAllowed") exitWith {};
@@ -244,7 +244,7 @@ SLT_fnc_enableScript = {
 				_distance = (player) distance (_position);
 				_file = "\a3\ui_f\data\gui\rsc\RscDisplayEGSpectator\UnitIcon_ca.paa";
 				_textSize = 0.02825;
-				_text = getText(configfile >> "CfgVehicles" >> typeOf _x >> "displayName");
+				_text = getText(configFile >> "CfgVehicles" >> typeOf _x >> "displayName");
 				if ((side _unit isEqualTo civilian) && (_unit isKindOf "Man")) then {
 					_text = name _unit;
 				};
@@ -327,10 +327,10 @@ SLT_fnc_enableScript = {
 
 				comment "check if man";
 				if (_x isKindOf "Man") then {
-					if (vehicle _x != _x) exitWith {};
+					if (!isNull objectParent _x) exitWith {};
 
 					comment "text";
-					_text = getText(configfile >> "CfgVehicles" >> typeOf _x >> "displayName");
+					_text = getText(configFile >> "CfgVehicles" >> typeOf _x >> "displayName");
 					if ((_dist > SpotMaxCursorRangeUnitMarker)) then {
 						_text = "";
 					};
@@ -377,10 +377,10 @@ SLT_fnc_enableScript = {
 
 					comment "file";
 					_className = (typeOf _x);
-					_file = getText (configfile >> "CfgVehicles" >> _className >> "icon");
+					_file = getText (configFile >> "CfgVehicles" >> _className >> "icon");
 
 					comment "text";
-					_vehName = getText (configfile >> "CfgVehicles" >> _className >> "displayName");
+					_vehName = getText (configFile >> "CfgVehicles" >> _className >> "displayName");
 					_text = _vehName;
 
 					if ((_dist > SpotMaxCursorRangeUnitMarker)) then {

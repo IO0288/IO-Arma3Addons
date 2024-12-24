@@ -26,7 +26,7 @@
 
 _unit = _this select 0;  // Bomber unit, set randomly by trigger.
 _unit2 = _this select 1;  // Bomber unit, set randomly by trigger.
-_side = if (count _this > 2) then {_this select 2} else {WEST};  // Side to attack, default West.
+_side = if (count _this > 2) then {_this select 2} else {west};  // Side to attack, default West.
 _prob = if (count _this > 3) then {_this select 3} else {10};  // Probilitiy of attack once a target is found, Number 1 - 10, higher = more chance.  Default 3 (30% chance or so);
 _range = if (count _this > 4) then {_this select 4} else {3000};  // Range to look for targets in, default 20m.
 _warn = if (count _this > 5) then {_this select 5} else {false};  // Option to warn the attacked group, all group members will target the bomber, AI won't shoot civs though.  Default true.
@@ -123,16 +123,16 @@ if (isServer) then {
 	_sum = 5;//13 missile Fir
 	_index = 0;
 
-	_unit2 setvehicleammo 1;
+	_unit2 setVehicleAmmo 1;
 	if ((_demo or _anno) and alive _unit2) then {
 		[_unit, format ["这里是前观，请求打击坐标%1,高爆弹，?连发，等待回应。", getPosASL _target ]] remoteExec ["globalChat"];
 		sleep (random 10);
 		[_unit2, format ["炮兵收到，打击坐标%1,炮弹射出！", getPosASL _target ]] remoteExec ["globalChat"];
 	};
-	While{_sum > _index} do {
+	while{_sum > _index} do {
 		if(alive _unit2) then {
-			// _unit2 doArtilleryFire [[(getpos _Target select 0)+((random 5)*5)-((random 5)*5),(getpos _Target select 1)+((random 5)*5)-((random 5)*5),(getpos _Target select 2)+(random 0) ], "8Rnd_82mm_Mo_shells", 1];
-			_unit2 doArtilleryFire [[(getpos _Target select 0)+((random 5)*5)-((random 5)*5),(getpos _Target select 1)+((random 5)*5)-((random 5)*5),(getpos _Target select 2)+(random 0) ], "rhs_mag_3vo18_10", 5];
+			// _unit2 doArtilleryFire [[(getPos _Target select 0)+((random 5)*5)-((random 5)*5),(getPos _Target select 1)+((random 5)*5)-((random 5)*5),(getPos _Target select 2)+(random 0) ], "8Rnd_82mm_Mo_shells", 1];
+			_unit2 doArtilleryFire [[(getPos _Target select 0)+((random 5)*5)-((random 5)*5),(getPos _Target select 1)+((random 5)*5)-((random 5)*5),(getPos _Target select 2)+(random 0) ], "rhs_mag_3vo18_10", 5];
 			_index=_index+1;
 			sleep 2;
 		}else{

@@ -9,7 +9,7 @@ _param = [_units, _content];
 
 if (!isNil "_units") exitWith {
 	if (isNil "_content") then {
-		_content == true;
+		_content = true;
 	};
 	if (!_content) exitWith {
 		{
@@ -17,10 +17,10 @@ if (!isNil "_units") exitWith {
 				[player, player, false] call ace_arsenal_fnc_openBox;
 			}, nil, 2];
 			_x addAction ["保存装备（重生后加载）", {
-				[player, [missionNameSpace, "VirtualInventory"]] call BIS_fnc_saveInventory;
+				[player, [missionNamespace, "VirtualInventory"]] call BIS_fnc_saveInventory;
 			}, nil, 2];
 			_x addAction ["加载装备", {
-				[player, [missionNameSpace, "VirtualInventory"]] call BIS_fnc_loadInventory;
+				[player, [missionNamespace, "VirtualInventory"]] call BIS_fnc_loadInventory;
 			}, nil, 2];
 		} forEach _units;
 	};
@@ -32,10 +32,10 @@ if (!isNil "_units") exitWith {
 			[player, player, true] call ace_arsenal_fnc_openBox;
 		}, nil, 2];
 		_x addAction ["保存装备（重生后加载）", {
-			[player, [missionNameSpace, "VirtualInventory"]] call BIS_fnc_saveInventory;
+			[player, [missionNamespace, "VirtualInventory"]] call BIS_fnc_saveInventory;
 		}, nil, 2];
 		_x addAction ["加载装备", {
-			[player, [missionNameSpace, "VirtualInventory"]] call BIS_fnc_loadInventory;
+			[player, [missionNamespace, "VirtualInventory"]] call BIS_fnc_loadInventory;
 		}, nil, 2];
 	} forEach _units;
 };

@@ -1,7 +1,7 @@
 /*
-	 *fn_addRedisLoadout
+	 *fn_redisAddLoadoutAction
 	 *添加redis装备缓存行为到某物
-	 *[*unit] call "IO_fnc_addRedisLoadout";
+	 *[*unit] call "IO_fnc_redisAddLoadoutAction";
  */
 
 params ["_unit"];

@@ -78,4 +78,4 @@ params ["_synced"];
 			[R_dataArr] remoteExec ["IO_fnc_redisSendMsg", 2];
 		};
 	},"",0.03,false,false];
-}foreach _synced;
+}forEach _synced;

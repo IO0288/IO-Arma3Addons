@@ -174,44 +174,44 @@ SLT_fnc_enableScript = {
 						_veh = vehicle _x;
 						_vehlist = _vehlist + [_veh];
 
-						if (_veh iskindof "car") then {
+						if (_veh isKindOf "car") then {
 							_cars = _cars + 1
 						};
-						if (_veh iskindof "tank") then {
+						if (_veh isKindOf "tank") then {
 							_tanks = _tanks + 1;
 						};
-						if (getnumber(configfile >> "cfgvehicles" >> typeof _veh >> "artilleryScanner") > 0) then {
+						if (getNumber(configFile >> "cfgvehicles" >> typeOf _veh >> "artilleryScanner") > 0) then {
 							_artys = _artys + 1;
 						};
-						if (_veh iskindof "Wheeled_APC_F" || _veh iskindof "APC_Tracked_01_base_F"
-						|| _veh iskindof "APC_Tracked_02_base_F" || _veh iskindof "APC_Tracked_03_base_F") then {
+						if (_veh isKindOf "Wheeled_APC_F" || _veh isKindOf "APC_Tracked_01_base_F"
+						|| _veh isKindOf "APC_Tracked_02_base_F" || _veh isKindOf "APC_Tracked_03_base_F") then {
 							_apcs = _apcs + 1
 						};
-						if (getnumber(configfile >> "cfgvehicles" >> typeof _veh >> "radarType") > 0) then {
+						if (getNumber(configFile >> "cfgvehicles" >> typeOf _veh >> "radarType") > 0) then {
 							_aa = _aa + 1
 						};
-						if (_veh iskindof "helicopter") then {
+						if (_veh isKindOf "helicopter") then {
 							_helis = _helis + 1
 						};
-						if (_veh iskindof "plane") then {
+						if (_veh isKindOf "plane") then {
 							_planes = _planes + 1;
 						};
 						if (_veh in allUnitsUAV) then {
 							_uavs = _uavs + 1;
 						};
-						if (_veh iskindof "staticcanon") then {
+						if (_veh isKindOf "staticcanon") then {
 							_artys = _artys + 1
 						};
-						if (_veh iskindof "staticmortar") then {
+						if (_veh isKindOf "staticmortar") then {
 							_mortars = _mortars + 1
 						};
-						if (_veh iskindof "ship") then {
+						if (_veh isKindOf "ship") then {
 							_boats = _boats + 1
 						};
-						_canHeal = getnumber (configfile >> "cfgvehicles" >> typeof _veh >> "attendant") > 0;
-						_canReammo = getnumber (configfile >> "cfgvehicles" >> typeof _veh >> "transportAmmo") > 0;
-						_canRefuel = getnumber (configfile >> "cfgvehicles" >> typeof _veh >> "transportFuel") > 0;
-						_canRepair = getnumber (configfile >> "cfgvehicles" >> typeof _veh >> "transportRepair") > 0;
+						_canHeal = getNumber (configFile >> "cfgvehicles" >> typeOf _veh >> "attendant") > 0;
+						_canReammo = getNumber (configFile >> "cfgvehicles" >> typeOf _veh >> "transportAmmo") > 0;
+						_canRefuel = getNumber (configFile >> "cfgvehicles" >> typeOf _veh >> "transportFuel") > 0;
+						_canRepair = getNumber (configFile >> "cfgvehicles" >> typeOf _veh >> "transportRepair") > 0;
 						if (_canHeal) then {
 							_support_medic = _support_medic + 1
 						};
@@ -354,14 +354,14 @@ SLT_fnc_enableScript = {
 
 						if (_footCount > 0 && (vehicle _unit isEqualTo _unit)) then {
 							_iconName = getText (configFile >> "CfgVehicles" >> typeOf _unit >> "icon");
-							_iconPath = getText(configfile >> "CfgVehicleIcons" >> _iconName);
+							_iconPath = getText(configFile >> "CfgVehicleIcons" >> _iconName);
 							_footText=(_footText+"<img image='"+_iconPath+"' shadow='0' size='1.2' valign='middle'></img>");
 						};
 
 						if (_vehicleCount > 0 && !(vehicle _unit isEqualTo _unit) && !(vehicle _unit in _vehs)) then {
 							_vehs pushBack vehicle _unit;
 
-							_vehicleText=(_vehicleText+"<img image='"+(getText (configfile >> 'CfgVehicles' >> typeOf vehicle _unit >> 'picture'))+"' shadow='0' size='1.33' valign='middle'></img>");
+							_vehicleText=(_vehicleText+"<img image='"+(getText (configFile >> 'CfgVehicles' >> typeOf vehicle _unit >> 'picture'))+"' shadow='0' size='1.33' valign='middle'></img>");
 						};
 					} forEach units _group;
 
@@ -507,7 +507,7 @@ SLT_fnc_enableScript = {
 			{
 				private _group = _this select 1;
 				private _mkrType = [_group] call RKAG_fnc_getGroupNATOMarkerType;
-				private _text = (getText(configfile >> "CfgMarkers" >> _mkrType >> "name"));
+				private _text = (getText(configFile >> "CfgMarkers" >> _mkrType >> "name"));
 				private _vehCount = 0;
 				private _footCount = 0;
 				private _vehName = '';

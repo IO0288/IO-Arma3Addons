@@ -492,8 +492,8 @@ SLT_fnc_enableScript = {
 							comment "DEBUG";
 							if (_debug) then {
 								_mkr = createMarker["DebugMarker_"+str count allMapMarkers, getPos _agent];
-								_mkr setMarkerType "mil_box";
-								_mkr setMarkerSize [0.5, 0.5];
+								_mkr setMarkerTypeLocal "mil_box";
+								_mkr setMarkerSizeLocal [0.5, 0.5];
 								_mkr setMarkerColor "colorCivilian";
 								[_mkr, _agent] spawn {
 									while { isPedestriansAllowed && isPopulateWorldAllowed && alive (_this select 1) } do {
@@ -611,9 +611,9 @@ SLT_fnc_enableScript = {
 							comment "DEBUG";
 							if (_debug) then {
 								_mkr = createMarker["DebugMarker_"+str count allMapMarkers, getPos _agent];
-								_mkr setMarkerType "mil_box";
-								_mkr setMarkerSize [0.5, 0.5];
-								_mkr setMarkerColor "colorCivilian";
+								_mkr setMarkerTypeLocal "mil_box";
+								_mkr setMarkerSizeLocal [0.5, 0.5];
+								_mkr setMarkerColor "colorCivilian";//last marker update, should remain global
 								[_mkr, _agent] spawn {
 									while { isPedestriansAllowed && isPopulateWorldAllowed && alive (_this select 1) } do {
 										sleep 0.1;

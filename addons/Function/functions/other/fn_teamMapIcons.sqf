@@ -225,7 +225,7 @@ SLT_fnc_enableScript = {
 							_dist = _pos2D distance2D _posCursor2D;
 							_scale = ctrlMapScale (_this select 0);
 
-							if (vehicle _x == _x) then {
+							if (isNull objectParent _x) then {
 								if ((_scale > (uiNamespace getVariable "TMIMinMapZoomUnitMarker")) && (_dist > (uiNamespace getVariable "TMIMaxCursorRangeUnitMarker"))) then {
 									_text = "";
 								};
@@ -267,9 +267,9 @@ SLT_fnc_enableScript = {
 									_dir = getDir vehicle _x;
 
 									_className = (typeOf vehicle _x);
-									_iconFile = getText (configfile >> "CfgVehicles" >> _className >> "icon");
+									_iconFile = getText (configFile >> "CfgVehicles" >> _className >> "icon");
 
-									_vehName = getText (configfile >> "CfgVehicles" >> _className >> "displayName");
+									_vehName = getText (configFile >> "CfgVehicles" >> _className >> "displayName");
 									_text = _vehName;
 
 									_text2 = "";

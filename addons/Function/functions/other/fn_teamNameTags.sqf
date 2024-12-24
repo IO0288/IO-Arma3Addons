@@ -174,14 +174,14 @@ SLT_fnc_enableScript = {
 								_position = (vehicle _x) modelToWorldVisual [0, 0, 2];
 
 								_className = (typeOf vehicle _x);
-								_file = getText (configfile >> "CfgVehicles" >> _className >> "icon");
+								_file = getText (configFile >> "CfgVehicles" >> _className >> "icon");
 								_rankPath = _file;
 
 								if (_driver isEqualTo objNull) then {
 									_driver = _x;
 								};
 
-								_vehName = getText (configfile >> "CfgVehicles" >> _className >> "displayName");
+								_vehName = getText (configFile >> "CfgVehicles" >> _className >> "displayName");
 								_text = _vehName;
 
 								_count = count crew vehicle _x;
