@@ -15,7 +15,7 @@ if (!isNil "_unit") exitWith {
 			_loadout = getUnitLoadout [_p, true];
 			_v = format ["'%1'",_loadout];
 			_v = [_v, '"', "'"] call IO_fnc_stringReplace;
-			_t = parsingNamespace getVariable ["redisTime", 60*60*4];
+			_t = parsingNamespace getVariable ["redisTime", 60*60*24];
 			_dataArr = [_k, _v, str (_t)];
 			[[_dataArr],{
 				params ["_dataArr"];
