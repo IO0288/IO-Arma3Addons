@@ -14,7 +14,7 @@ class IOAA3_ModuleODSTrole: Module_F
 
 	class ModuleDescription: ModuleDescription
 	{
-		description = "兵种选择，可以同步多个对象";
+		description = "兵种(预设装备&ACE兵种)选择器，可以同步到多个对象";
 		sync[] = {"LocationArea_F", "AnyBrain", "AnyStaticObject", "AnyVehicle", "AnyPerson"};
 
 		class LocationArea_F
