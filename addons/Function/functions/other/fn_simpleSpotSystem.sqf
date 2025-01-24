@@ -49,7 +49,7 @@ SLT_fnc_enableScript = {
 			};
 			if (player in (call BIS_fnc_listCuratorPlayers)) exitWith {};
 			  //  hint parseText ("Press "+"<t color='#ffb300'>"+(actionKeysNamesArray ["revealTarget", 1, "Keyboard"] select 0)+"</t>"+" while looking at a target to spot them!"); 
-			hint parseText ("使用 "+"<t color='#ffb300'>"+(actionKeysNamesArray ["revealTarget", 1, "Keyboard"] select 0)+"</t>"+" 来标记敌人!");
+			hint parseText ("使用 <t color='#ffb300'>"+(actionKeysNamesArray ["revealTarget", 1, "Keyboard"] select 0)+"</t> 来标记敌人!");
 		};
 
 		if (!isNil "isSpotSystemAllowed") exitWith {};

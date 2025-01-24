@@ -11,7 +11,7 @@ showPlayerOnHUD = {
 			_distance =_x distance player;
 			_distance =_distance toFixed 0;
 			_NAME = "["+name _x+"], 距离:"+_distance+"米";
-			if !(lifeState _x == "INCAPACITATED") then {
+			if (lifeState _x != "INCAPACITATED") then {
 				_COLOR=[1, 1, 1, 0];
 			} else {
 				_COLOR=[1, 1, 1, 0.7];

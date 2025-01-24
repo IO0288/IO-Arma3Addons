@@ -164,7 +164,7 @@ SLT_fnc_enableScript = {
 							_rankPath = _micIcon;
 						};
 
-						if (vehicle _x != _x) then {
+						if (!isNull objectParent _x) then {
 							if !((vehicle _x) in _vehicleList) then
 							{
 								_vehicleList pushBack vehicle _x;
