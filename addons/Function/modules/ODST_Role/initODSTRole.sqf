@@ -3,6 +3,7 @@ params ["_synced"];
 call IO_fnc_initLoadout;
 
 {
+	[[_x],false] call IO_fnc_addArsenal;
 	_x addAction ["<t color=""#20d6d6"">- - 基础 - -</t>", 
 	{
 		[player, loadout_lizi_base] call CBA_fnc_setLoadout;
