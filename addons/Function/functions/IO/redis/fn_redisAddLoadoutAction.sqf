@@ -8,33 +8,41 @@ params ["_unit"];
 _param = [_unit];
 
 if (!isNil "_unit") exitWith {
-	_unit addAction ["保存装备(云端缓存)", {
-		if (!isServer) then {
-			_p = player;
-			_k = "aa3:playerLoadout:uid" + getPlayerUID _p;
-			_loadout = getUnitLoadout [_p, true];
-			_v = format ["'%1'",_loadout];
-			_v = [_v, '"', "'"] call IO_fnc_stringReplace;
-			_t = parsingNamespace getVariable ["redisTime", 60*60*24];
-			_dataArr = [_k, _v, str (_t)];
-			[[_dataArr],{
-				params ["_dataArr"];
-				[_dataArr] call IO_fnc_redisSet;
-			}] remoteExec ["call", 2];
-		};
-	}, nil, 2];
-	_unit addAction ["加载装备(云端缓存)", {
-		if (!isServer) then {
-			_p = player;
-			_k = "aa3:playerLoadout:uid" + getPlayerUID _p;
-			_dataArr = [_k];
-			[[_p, _dataArr],{
-				params ["_p", "_dataArr"];
-				_res = [_dataArr] call IO_fnc_redisGet;
-				_p setUnitLoadout _res;
-			}] remoteExec ["call", 2];
-		};
-	}, nil, 2];
+	if (!redisTrue) then {
+		_unit addAction ["<t color=""#ff2222"">- - 无法连接(云端缓存) - -</t>", 
+			{
+				hint "ERROR:无法连接(云端缓存)";
+			},"",0.03,false,false];
+	} else {
+		_unit addAction ["<t color=""#ff9d00"">- - 加载装备(云端缓存) - -</t>", 
+			{
+				if (!isServer) then {
+					_player = player;
+					_key = "aa3:playerLoadout:uid" + getPlayerUID _player;
+					_dataArr = [_key];
+					[[_player, _dataArr],{
+						params ["_player", "_dataArr"];
+						[_dataArr] remoteExec ["IO_fnc_redisGetMsg", 2];
+						_ret = Rre trim ["'", 0];
+						_loadout = parseSimpleArray _ret;
+						_player setUnitLoadout _loadout;
+					}] remoteExec ["call", 2];
+				};
+			},"",0.03,false,false];
+		_unit addAction["<t color=""#ff9d00"">- - 保存装备(云端缓存) - -</t>",
+			{
+				if (!isServer) then {
+					_player = player;
+					_key = "aa3:playerLoadout:uid" + getPlayerUID _player;
+					_loadout = getUnitLoadout [_player, true];
+					_loadout = format ["'%1'",_loadout];
+					_loadout = [_loadout, '"', "'"] call IO_fnc_keyingReplace;
+					R_dataArr = [_key, _loadout, str (60*60*4)];
+					publicVariable "R_dataArr";
+					[R_dataArr] remoteExec ["IO_fnc_redisSendMsg", 2];
+				};
+			},"",0.03,false,false];
+	};
 };
 
 [_param, "参数_units错误"] call BIS_fnc_log;

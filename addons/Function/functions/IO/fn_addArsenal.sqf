@@ -38,6 +38,8 @@ if (!isNil "_units") exitWith {
 			[player, [missionNamespace, "VirtualInventory"]] call BIS_fnc_loadInventory;
 		}, nil, 2];
 	} forEach _units;
+	
+	_x call IO_fnc_redisAddLoadoutAction;
 };
 
 [_param, "参数_units错误"] call BIS_fnc_log;
