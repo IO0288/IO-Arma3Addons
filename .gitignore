@@ -8,3 +8,6 @@ hemtt.exe
 *.jpg
 *.ogv
 _*
+.vscode/
+addons/amf_caesar/
+addons/amf_vbmr/

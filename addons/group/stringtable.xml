@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="IOAA3">
+    <Package name="Group">
+        <Key ID="STR_IOAA3_Group_Author">
+            <English>IO0288</English>
+            <Chinesesimp>IO0288</Chinesesimp>
+        </Key>
+        <Key ID="STR_IOAA3_Group_CrewName">
+            <English>车组/机组</English>
+            <Chinesesimp>车组/机组</Chinesesimp>
+        </Key>
+        <Key ID="STR_IOAA3_Group_EngineerName">
+            <English>工兵</English>
+            <Chinesesimp>工兵</Chinesesimp>
+        </Key>
+        <Key ID="STR_IOAA3_Group_GrenadierNameName">
+            <English>掷弹</English>
+            <Chinesesimp>掷弹</Chinesesimp>
+        </Key>
+        <Key ID="STR_IOAA3_Group_GroupName">
+            <English>栗子新兵装ver.240703</English>
+            <Chinesesimp>栗子新兵装ver.240703</Chinesesimp>
+        </Key>
+        <Key ID="STR_IOAA3_Group_MachineGunnerMG4Name">
+            <English>机枪</English>
+            <Chinesesimp>机枪</Chinesesimp>
+        </Key>
+        <Key ID="STR_IOAA3_Group_MarksmanName">
+            <English>精射</English>
+            <Chinesesimp>精射</Chinesesimp>
+        </Key>
+        <Key ID="STR_IOAA3_Group_MedicName">
+            <English>医疗</English>
+            <Chinesesimp>医疗</Chinesesimp>
+        </Key>
+        <Key ID="STR_IOAA3_Group_OfficerName">
+            <English>后勤</English>
+            <Chinesesimp>后勤</Chinesesimp>
+        </Key>
+        <Key ID="STR_IOAA3_Group_RiflemanATName">
+            <English>AT</English>
+            <Chinesesimp>AT</Chinesesimp>
+        </Key>
+        <Key ID="STR_IOAA3_Group_RiflemanName">
+            <English>基础</English>
+            <Chinesesimp>基础</Chinesesimp>
+        </Key>
+        <Key ID="STR_IOAA3_Group_SLName">
+            <English>班长</English>
+            <Chinesesimp>班长</Chinesesimp>
+        </Key>
+    </Package>
+</Project>
